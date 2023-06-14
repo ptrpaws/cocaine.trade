@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Unifont";
+  src: local("Unifont"), url(unifont-13.0.06.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: Unifont, monospace;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;  /* Vertically center the content */
+  min-height: min-content;
+  padding: 20px;  /* Add some space around the content */
+}
+
+h2, h3 {
+  color: #cb2027;
+  font-size: 1.5em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 8px;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #111;
+}
+
+a {
+  color: #cb2027;
+  text-decoration: none;
+}
+
+.back-button {
+  color: #cb2027;
+  text-decoration: none;
+}
+
+.back-button:hover {
+  color: #a71a20;
+}
+
+
+.sortable {
+  cursor: pointer;
+}
+
+.author-notice {
+  font-size: 14px;
+  color: #cb2027;
+}
+
+.link-red {
+  color: #cb2027;
+}
+
+.link-blue {
+  color: #4b3b97;
+}
+
+.link-gold {
+  color: #ffd700;
+}
+
+.link-white {
+  color: #ffffff;
+}
