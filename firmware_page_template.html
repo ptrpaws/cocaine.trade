@@ -1,0 +1,24 @@
+<h2>{model} Firmware Updates</h2>
+<div>
+    <label><input type="checkbox" class="hide-column" data-column="2"> Show Runtime Version</label>
+    <label><input type="checkbox" class="hide-column" data-column="3"> Show Build Date</label>
+    <label><input type="checkbox" class="hide-column" data-column="4"> Show Fingerprint</label>
+</div>
+<div class='table-container'>
+    <table id="firmwareTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable()"><span class="sortable">Incremental <span id="ascArrow">&#x25B2;</span><span id="descArrow" style="display: none;">&#x25BC;</span></span></th>
+                <th>Version</th>
+                <th>Runtime Version</th>
+                <th>Build Date</th>
+                <th>Fingerprint</th>
+            </tr>
+        </thead>
+        <tbody>
+            {table_rows}
+        </tbody>
+    </table>
+</div>
+<a class="back-button" href='/'>[Back to main]</a>
+<script src="table_management.js"></script>
