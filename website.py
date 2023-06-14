@@ -1,22 +1,6 @@
 import yaml
 from urllib.parse import quote
 
-HTML_PAGE_TEMPLATE = """
-<!DOCTYPE html>
-<html>
-<head>
-    <title>{title}</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-    <div id="main">
-        {body}
-    </div>
-    {sorting_script}
-</body>
-</html>
-"""
-
 SORTING_SCRIPT = """
 <script>
 function sortTable() {
@@ -68,25 +52,41 @@ function sortTable() {
 </script>
 """
 
-def generate_table_rows(firmwares, model):
-    rows = ""
-    for fw in firmwares:
-        download_link = f"https://aquavmcorp-my.sharepoint.com/personal/basti_aqualabs_xyz/_layouts/15/download.aspx?SourceUrl=/personal/basti_aqualabs_xyz/Documents/firmware/{quote(model)}/PTC/{fw['name']}.zip"
-        rows += f"<tr><td><a href='{download_link}'>{fw['Incremental']}</a></td><td>{fw['SystemUX_Version']}</td><td>{fw['VrShell_Version']}</td><td>{fw['Fingerprint']}</td></tr>\n"
-    return rows
+HTML_PAGE_TEMPLATE = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{title}</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="main">
+        {body}
+    </div>
+    {sorting_script}
+</body>
+</html>
+"""
 
 def generate_firmware_page(model, firmwares):
     body = f"""
         <h2>{model} Firmware Updates</h2>
-        <table id="firmwareTable">
-            <tr>
-                <th onclick="sortTable()"><span class="sortable">Incremental <span id="ascArrow">&#x25B2;</span><span id="descArrow" style="display: none;">&#x25BC;</span></span></th>
-                <th>Version</th>
-                <th>Runtime Version</th>
-                <th>Fingerprint</th>
-            </tr>
-            {generate_table_rows(firmwares, model)}
-        </table>
+        <div class='table-container'>
+            <table id="firmwareTable">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable()"><span class="sortable">Incremental <span id="ascArrow">&#x25B2;</span><span id="descArrow" style="display: none;">&#x25BC;</span></span></th>
+                        <th>Version</th>
+                        <th>Runtime Version</th>
+                        <th>Fingerprint</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {generate_table_rows(firmwares, model)}
+                </tbody>
+            </table>
+        </div>
         <a class="back-button" href='/'>[Back to main]</a>
     """
     return HTML_PAGE_TEMPLATE.format(title=f"{model} Firmware Updates", body=body, sorting_script=SORTING_SCRIPT)
@@ -102,6 +102,13 @@ def generate_main_page(models):
         <a href='https://blahaj.life' class='link link-white'>Blahaj Life</a>
     """
     return HTML_PAGE_TEMPLATE.format(title="Cocaine Trade", body=body, sorting_script="")
+
+def generate_table_rows(firmwares, model):
+    rows = ""
+    for fw in firmwares:
+        download_link = f"https://aquavmcorp-my.sharepoint.com/personal/basti_aqualabs_xyz/_layouts/15/download.aspx?SourceUrl=/personal/basti_aqualabs_xyz/Documents/firmware/{quote(model)}/PTC/{fw['name']}.zip"
+        rows += f"<tr><td><a href='{download_link}'>{fw['Incremental']}</a></td><td>{fw['SystemUX_Version']}</td><td>{fw['VrShell_Version']}</td><td>{fw['Fingerprint']}</td></tr>\n"
+    return rows
 
 def generate_site(firmware_file):
     try:

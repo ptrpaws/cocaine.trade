@@ -27,14 +27,20 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto;  /* Vertically center the content */
+  margin: auto;
   min-height: min-content;
-  padding: 20px;  /* Add some space around the content */
+  padding: 20px;
+  width: 95%;  /* Set max width for the content */
 }
 
 h2, h3 {
   color: #cb2027;
   font-size: 1.5em;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
 }
 
 table {
@@ -61,19 +67,19 @@ a {
 .back-button {
   color: #cb2027;
   text-decoration: none;
+  margin-top: 1em; /* Add some space on top of the back button */
 }
 
 .back-button:hover {
   color: #a71a20;
 }
 
-
 .sortable {
   cursor: pointer;
 }
 
 .author-notice {
-  font-size: 14px;
+  font-size: 1em; /* Increase author notice font size */
   color: #cb2027;
 }
 
