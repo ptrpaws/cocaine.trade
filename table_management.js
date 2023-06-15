@@ -8,12 +8,11 @@ function sortTable() {
         let rows = table.rows;
 
         for (let i = 1; i < (rows.length - 1); i++) {
-            let x = rows[i].getElementsByTagName("TD")[0],
-                y = rows[i + 1].getElementsByTagName("TD")[0];
-            if (!x || !y) continue;
+            let x = parseInt(rows[i].getElementsByTagName("TD")[0].querySelector('.fw-link').innerHTML),
+                y = parseInt(rows[i + 1].getElementsByTagName("TD")[0].querySelector('.fw-link').innerHTML);
 
-            if ((dir === "asc" && x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) ||
-                (dir === "desc" && x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase())) {
+            if ((dir === "asc" && x > y) ||
+                (dir === "desc" && x < y)) {
                 rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
                 switching = true;
                 switchcount++;

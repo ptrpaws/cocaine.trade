@@ -19,7 +19,7 @@ def generate_firmware_page(model, firmwares):
 
 def generate_table_rows(firmwares, model):
     return "\n".join(
-        f"<tr><td><a href='{build_download_link(model, fw['name'])}'>{fw['Incremental']}</a></td><td>{fw['SystemUX_Version']}</td><td>{fw['VrShell_Version']}</td><td>{fw['Build_Date']}</td><td>{fw['Fingerprint']}</td></tr>"
+        f"<tr><td><a href='{fw['url']}' class='fw-link'>{fw['Incremental']}</a></td><td>{fw['SystemUX_Version']}</td><td>{fw['VrShell_Version']}</td><td>{fw['Build_Date']}</td><td>{fw['Fingerprint']}</td></tr>"
         for fw in firmwares)
 
 def generate_site(firmware_file):
