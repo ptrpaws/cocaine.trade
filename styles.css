@@ -21,6 +21,7 @@ html, body {
   background-color: black;
   text-align: center;
   font-family: Unifont, monospace;
+  font-size: 1.2em;
 }
 
 #main {
@@ -30,12 +31,16 @@ html, body {
   margin: auto;
   min-height: min-content;
   padding: 20px;
-  width: 95%;  /* Set max width for the content */
+  width: 95%;
 }
 
 h2, h3 {
   color: #cb2027;
   font-size: 1.5em;
+}
+
+h2 {
+  margin-bottom: 20px;
 }
 
 .table-container {
@@ -67,7 +72,7 @@ a {
 .back-button {
   color: #cb2027;
   text-decoration: none;
-  margin-top: 1em; /* Add some space on top of the back button */
+  margin-top: 1em;
 }
 
 .back-button:hover {
@@ -79,7 +84,7 @@ a {
 }
 
 .author-notice {
-  font-size: 1em; /* Increase author notice font size */
+  font-size: 1em;
   color: #cb2027;
 }
 
