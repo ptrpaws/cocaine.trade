@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quest Firmware Updates</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="main">
+        <h2>Quest Firmware Updates</h2>
+<div>
+    <label><input type="checkbox" class="hide-column" data-column="2"> Show Runtime Version</label>
+    <label><input type="checkbox" class="hide-column" data-column="3"> Show Build Date</label>
+    <label><input type="checkbox" class="hide-column" data-column="4"> Show Fingerprint</label>
+</div>
+<div class='table-container'>
+    <table id="firmwareTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable('firmwareTable', 0)"><span class="sortable">Incremental <span id="ascArrow">&#x25B2;</span><span id="descArrow" style="display: none;">&#x25BC;</span></span></th>
+                <th>Version</th>
+                <th>Runtime Version</th>
+                <th>Build Date</th>
+                <th>Fingerprint</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td><a href='https://aquavmcorp-my.sharepoint.com/:u:/g/personal/basti_aqualabs_xyz/EdL-EY-p001BvTj7Q3gYMMgB3kRyWMHUes-Bzun8Oi1wog' class='fw-link'>47421700667500000</a></td><td>46.0.0.226.0.406523063</td><td>46.0.0.226.0.406523266</td><td>Thu Oct  6 19:38:25 PDT 2022</td><td>oculus/vr_monterey/monterey:10/QQ3A.200805.001/47421700667500000:user/release-keys</td></tr>
+<tr><td><a href='https://aquavmcorp-my.sharepoint.com/:u:/g/personal/basti_aqualabs_xyz/EbYT-zxPum5GnkteNVSATdoBokZLCLW4sMX16lKHk9hdrw' class='fw-link'>49713390192800400</a></td><td>49.0.0.187.357.440318559</td><td>49.0.0.187.358.440319198</td><td>Mon Jan 23 04:44:20 PST 2023</td><td>oculus/vr_monterey/monterey:10/QQ3A.200805.001/49713390192800400:user/release-keys</td></tr>
+<tr><td><a href='https://aquavmcorp-my.sharepoint.com/:u:/g/personal/basti_aqualabs_xyz/Eb3cjHZxDrtAhHHaYQ6BYA8BpWTRJaVaPYhjZG9e-iiqNw' class='fw-link'>49845030259200400</a></td><td>50.0.0.195.257.454885341</td><td>50.0.0.195.257.454883482</td><td>Fri Mar 10 08:45:59 PST 2023</td><td>oculus/vr_monterey/monterey:10/QQ3A.200805.001/49845030259200400:user/release-keys</td></tr>
+        </tbody>
+    </table>
+</div>
+<a class="back-button" href='/'>[Back to main]</a>
+<script src="table_management.js"></script>
+    </div>
+</body>
+</html>
