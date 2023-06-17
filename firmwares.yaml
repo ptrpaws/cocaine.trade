@@ -1,3 +1,14 @@
+- Build_Date: Fri Jun 14 19:01:58 PDT 2019
+  Build_Date_UTC: '1560564118'
+  Codename: monterey
+  Fingerprint: oculus/vr_monterey/monterey:7.1.1/NGI77B/256550.6810.0:user/release-keys
+  Incremental: '2565500068100000'
+  Model: Quest
+  OS_Version: user-256550.6810.0
+  SystemUtilities_Version: 3.60.71.150513939
+  VrShell_Version: 3.13.88.151557608
+  name: q1_2565500068100000
+  url: https://aquavmcorp-my.sharepoint.com/:u:/g/personal/basti_aqualabs_xyz/EZXL1lYnhGVEnJDGXlha2v0Bd0QXw_rM_g3s7LVR9fpZSg
 - Build_Date: Fri Jul 19 18:54:21 PDT 2019
   Build_Date_UTC: '1563587661'
   Codename: monterey
