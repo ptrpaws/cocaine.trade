@@ -19,8 +19,18 @@ def generate_firmware_page(model, firmwares):
 
 def generate_table_rows(firmwares, model):
     return "\n".join(
-        f"<tr><td><a href='{fw['url']}' class='fw-link'>{fw['Incremental']}</a></td><td>{fw['SystemUX_Version']}</td><td>{fw['VrShell_Version']}</td><td>{fw['Build_Date']}</td><td>{fw['Fingerprint']}</td></tr>"
+        f"<tr><td><a href='{fw['url']}' class='fw-link'>{fw['Incremental']}</a></td><td>{get_version(fw)}</td><td>{fw['VrShell_Version']}</td><td>{fw['Build_Date']}</td><td>{fw['Fingerprint']}</td></tr>"
         for fw in firmwares)
+
+def get_version(fw):
+    incremental = int(fw['Incremental'])
+    if incremental <= 15280600195700000:
+        version = fw.get('SystemUtilities_Version')
+    elif incremental >= 15849800124700000:
+        version = fw.get('SystemUX_Version')
+    else:
+        raise ValueError(f"Unexpected version number: {incremental}")
+    return version
 
 def generate_site(firmware_file):
     try:
@@ -29,7 +39,10 @@ def generate_site(firmware_file):
         print(exc)
         return
 
-    models = {fw['Model'] for fw in firmwares}
+    models = list(set(fw['Model'] for fw in firmwares))
+
+    model_order = ['Quest', 'Quest 2', 'Quest Pro']
+    models.sort(key=lambda model: model_order.index(model) if model in model_order else len(model_order))
 
     for model in models:
         model_firmwares = [fw for fw in firmwares if fw['Model'] == model]
