@@ -8,6 +8,16 @@ def read_file(filename):
 HTML_PAGE_TEMPLATE = read_file("html_page_template.html")
 FIRMWARE_PAGE_TEMPLATE = read_file("firmware_page_template.html")
 
+def generate_404_page():
+    body = """
+    <h2 class="monospace"><span class="link-red">404 ERROR:</span> <span class='link-white'>PAGE NOT FOUND</span></h2>
+    <p class="monospace link-white">The document you are trying to access is highly classified.</p>
+    <p class="monospace link-white">Access to this document requires special clearance.</p>
+    <p class="monospace link-white">Please contact the site administrator for further instructions.</p>
+    <a href="/" class='link link-gold monospace'>[RETURN TO HOMEPAGE]</a>
+    """
+    return HTML_PAGE_TEMPLATE.format(title="404 - Page Not Found", body=body)
+
 def generate_main_page(models):
     model_links = "\n".join(f"<a href='{model.replace(' ', '_')}_firmware.html' class='link link-white'>{model}</a>" for model in models)
     return HTML_PAGE_TEMPLATE.format(title="Cocaine Trade", body=build_body(model_links))
@@ -32,6 +42,19 @@ def get_version(fw):
         raise ValueError(f"Unexpected version number: {incremental}")
     return version
 
+def build_body(model_links):
+    return f"""
+        <h2 class="monospace"><span class="link-white">Welcome to </span><span class='link-red'>Cocaine</span><span class='link-blue'>.Trade</span></h2>
+        <p class="author-notice monospace"><span class="link-white">by </span><a href="https://twitter.com/basti564" class='link link-gold'>basti564</a></p>
+        <h3 class="monospace">Firmware</h3>
+        {model_links}
+        <h3 class="monospace">Blog</h3>
+        <a href='https://blahaj.life' class='link link-white'>Blahaj Life</a>
+    """
+
+def build_download_link(model, firmware_name):
+    return f"https://aquavmcorp-my.sharepoint.com/personal/basti_aqualabs_xyz/_layouts/15/download.aspx?SourceUrl=/personal/basti_aqualabs_xyz/Documents/firmware/{quote(model)}/PTC/{firmware_name}.zip"
+
 def generate_site(firmware_file):
     try:
         firmwares = yaml.safe_load(Path(firmware_file).read_text())
@@ -49,18 +72,6 @@ def generate_site(firmware_file):
         Path(f"{model.replace(' ', '_')}_firmware.html").write_text(generate_firmware_page(model, model_firmwares))
 
     Path("index.html").write_text(generate_main_page(models))
-
-def build_body(model_links):
-    return f"""
-        <h2 class="monospace"><span class="link-white">Welcome to </span><span class='link-red'>Cocaine</span><span class='link-blue'>.Trade</span></h2>
-        <p class="author-notice monospace"><span class="link-white">by </span><a href="https://twitter.com/basti564" class='link link-gold'>basti564</a></p>
-        <h3 class="monospace">Firmware</h3>
-        {model_links}
-        <h3 class="monospace">Blog</h3>
-        <a href='https://blahaj.life' class='link link-white'>Blahaj Life</a>
-    """
-
-def build_download_link(model, firmware_name):
-    return f"https://aquavmcorp-my.sharepoint.com/personal/basti_aqualabs_xyz/_layouts/15/download.aspx?SourceUrl=/personal/basti_aqualabs_xyz/Documents/firmware/{quote(model)}/PTC/{firmware_name}.zip"
+    Path("404.html").write_text(generate_404_page())
 
 generate_site('firmwares.yaml')
