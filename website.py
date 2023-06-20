@@ -31,7 +31,7 @@ def generate_firmware_page(model, firmwares):
 
     table_rows = generate_table_rows()
     body = FIRMWARE_PAGE_TEMPLATE.format(model=model, table_rows=table_rows)
-    return HTML_PAGE_TEMPLATE.format(title=f"{model} Firmware Updates", body=body)
+    return HTML_PAGE_TEMPLATE.format(title=f"{model} Firmware Archive", body=body)
 
 def get_version(fw):
     incremental = int(fw['Incremental'])
