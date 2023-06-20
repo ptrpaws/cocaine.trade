@@ -69,12 +69,6 @@ a {
   text-decoration: none;
 }
 
-.back-button {
-  color: #cb2027;
-  text-decoration: none;
-  margin-top: 1em;
-}
-
 .back-button:hover {
   color: #a71a20;
 }
