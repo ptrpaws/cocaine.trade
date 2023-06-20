@@ -1,3 +1,4 @@
+'use strict';
 function sortTable() {
     const table = document.getElementById("firmwareTable");
     if (!table) return;
