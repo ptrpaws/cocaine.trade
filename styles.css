@@ -58,6 +58,7 @@ td, th {
   text-align: left;
   padding: 8px;
   color: #fff;
+  white-space: nowrap;
 }
 
 tr:nth-child(even) {
