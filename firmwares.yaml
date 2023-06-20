@@ -1341,6 +1341,18 @@
   VrShell_Version: 47.0.0.263.341.423839014
   name: q2_ptc_49068160357400150
   url: https://aquavmcorp-my.sharepoint.com/:u:/g/personal/basti_aqualabs_xyz/EezNUeDxbRlHsNZIiUz2TjQBgVj5KqMZtisczd2Z8mkHFA
+- Build_Date: Tue Dec  6 16:56:24 PST 2022
+  Build_Date_UTC: '1670374584'
+  Codename: monterey
+  Fingerprint: oculus/vr_monterey/monterey:10/QQ3A.200805.001/49068160374000400:user/release-keys
+  Incremental: '49068160374000400'
+  Model: Quest
+  OS_Version: user-49068160374000400
+  SystemUX_Version: 47.0.0.274.341.426536122
+  SystemUtilities_Version: 47.0.0.274.341.426536105
+  VrShell_Version: 47.0.0.274.341.426536477
+  name: q1_49068160374000400
+  url: https://aquavmcorp-my.sharepoint.com/:u:/g/personal/basti_aqualabs_xyz/Ec7D9PxsdmNMp5nwEhiR7ZsBmXHbuWhmoC8yAfDk5SWlhw
 - Build_Date: Tue Dec  6 16:54:41 PST 2022
   Build_Date_UTC: '1670374481'
   Codename: hollywood
