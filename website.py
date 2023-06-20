@@ -17,7 +17,7 @@ def generate_404_page():
 
 def generate_main_page(models):
     model_links = "\n".join(
-        f"<a href='{model.replace(' ', '_')}_firmware.html' class='link link-white'>{model}</a>"
+        f"<a href='{model.replace(' ', '_')}_firmware' class='link link-white'>{model}</a>"
         for model in models
     )
     return HTML_PAGE_TEMPLATE.format(title="Cocaine.Trade", body=build_body(model_links))
