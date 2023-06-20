@@ -1,51 +1,46 @@
 from PIL import Image, ImageDraw, ImageFont
-import numpy as np
 
-# Create a blank image
-img = Image.new('RGB', (500, 300), color=(255, 255, 255))  # white background
+SCALE_FACTOR = 8
+IMAGE_WIDTH = 1200
+IMAGE_HEIGHT = 630
 
-# Set the fonts (you might need to change the path depending on where the font file is)
-font_large = ImageFont.truetype("Arial.ttf", 40)
-font_small = ImageFont.truetype("Arial.ttf", 25)
+def calculate_text_size(draw, text, font):
+    bbox = draw.textbbox((0, 0), text, font=font)
+    return bbox[2] - bbox[0], bbox[3] - bbox[1]
 
-# Create a draw object
-draw = ImageDraw.Draw(img)
+def calculate_text_position(img, text_width, text_height):
+    return (img.width - text_width) // 2, (img.height - text_height) // 2
 
-# Define the "Cocaine" and ".Trade" parts of the title
-cocaine_text = "Cocaine"
-trade_text = ".Trade"
+def get_fonts():
+    font_large = ImageFont.truetype("unifont-13.0.06.ttf", 110 * SCALE_FACTOR)
+    font_small = ImageFont.truetype("unifont-13.0.06.ttf", 44 * SCALE_FACTOR)
+    return font_large, font_small
 
-# Calculate width and height of each part of the title
-cocaine_w, cocaine_h = font_large.getsize(cocaine_text)
-trade_w, trade_h = font_large.getsize(trade_text)
+def main():
+    img = Image.new('RGB', (IMAGE_WIDTH * SCALE_FACTOR, IMAGE_HEIGHT * SCALE_FACTOR), color=(0, 0, 0))
+    font_large, font_small = get_fonts()
+    draw = ImageDraw.Draw(img)
 
-# Calculate the total width and height of the title
-title_w = cocaine_w + trade_w
-title_h = max(cocaine_h, trade_h)
+    cocaine_text = "Cocaine"
+    trade_text = ".Trade"
+    desc_text = "Firmware archive for Quest VR headsets"
 
-# Calculate the position of the title
-title_x = (img.width - title_w) / 2
-title_y = (img.height - title_h) / 2
+    # Calculate the total height of the title and the description
+    title_size = calculate_text_size(draw, cocaine_text + trade_text, font_large)
+    desc_size = calculate_text_size(draw, desc_text, font_small)
+    total_height = title_size[1] + 20 * SCALE_FACTOR + desc_size[1]
 
-# Draw the "Cocaine" part of the title in red
-draw.text((title_x, title_y), cocaine_text, font=font_large, fill=(203, 32, 39))  # red text
+    # Calculate the position of the title so that the entire text block is centered
+    title_position = ((img.width - title_size[0]) // 2, (img.height - total_height) // 2)
 
-# Draw the ".Trade" part of the title in blue
-draw.text((title_x + cocaine_w, title_y), trade_text, font=font_large, fill=(75, 59, 151))  # blue text
+    draw.text(title_position, cocaine_text, font=font_large, fill=(203, 32, 39))  # red text
+    draw.text((title_position[0] + calculate_text_size(draw, cocaine_text, font_large)[0], title_position[1]), trade_text, font=font_large, fill=(75, 59, 151))  # blue text
 
-# Draw the description in white
-desc_text = "Latest firmware updates for Quest VR headsets"
-desc_w, desc_h = font_small.getsize(desc_text)
-desc_x = (img.width - desc_w) / 2
-desc_y = title_y + title_h + 20
-draw.text((desc_x, desc_y), desc_text, font=font_small, fill=(255, 255, 255))  # white text
+    desc_position = (calculate_text_position(img, *desc_size)[0], title_position[1] + title_size[1] + 20 * SCALE_FACTOR)
+    draw.text(desc_position, desc_text, font=font_small, fill=(255, 255, 255))  # white text
 
-# Create a background gradient
-gradient = np.linspace(0, 1, img.height).reshape(-1, 1)  # vertical gradient from top to bottom
-gradient = np.repeat(gradient, img.width, axis=1)
-gradient = (gradient * 255).astype(np.uint8)
-gradient_img = Image.fromarray(gradient)
-img = Image.blend(img, gradient_img, alpha=0.3)
+    img = img.resize((img.width // SCALE_FACTOR, img.height // SCALE_FACTOR), Image.NEAREST)
+    img.save('preview.png')
 
-# Save the image
-img.save('preview.png')
+if __name__ == "__main__":
+    main()
