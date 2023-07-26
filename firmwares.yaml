@@ -1617,6 +1617,18 @@
   VrShell_Version: 56.0.0.81.656.492899852
   name: QPro_50065460021200330
   url: https://aquavmcorp-my.sharepoint.com/:u:/g/personal/basti_aqualabs_xyz/EZ2RxlSCHQZEufI1HyEShaEB9G_jSRlVokj82Asn4ZkLug
+- Build_Date: Wed Jul 19 06:29:47 PDT 2023
+  Build_Date_UTC: '1689773387'
+  Codename: seacliff
+  Fingerprint: oculus/seacliff/seacliff:12/SQ3A.220605.009.A1/50065460029300330:user/release-keys
+  Incremental: '50065460029300330'
+  Model: Quest Pro
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 56.0.0.114.656.496198211
+  SystemUtilities_Version: 56.0.0.114.690.496199643
+  VrShell_Version: 56.0.0.114.656.496198184
+  name: QPro_50065460029300330
+  url: https://aquavmcorp-my.sharepoint.com/:u:/g/personal/basti_aqualabs_xyz/EcPxEYb7gbxJumWs6u1fjwYBSrn_mEe4_G1ZzlERTvjCJw
 - Build_Date: Wed Feb  8 08:37:11 PST 2023
   Build_Date_UTC: '1675874231'
   Codename: hollywood
@@ -1821,3 +1833,15 @@
   VrShell_Version: 56.0.0.81.656.492899852
   name: q2_ptc_50600670021400150
   url: https://aquavmcorp-my.sharepoint.com/:u:/g/personal/basti_aqualabs_xyz/EUVJM3Q3bZ9KpcGZR0AtrW0Byy42Ot7j5qCa7rsO7X1NWA
+- Build_Date: Wed Jul 19 07:07:02 PDT 2023
+  Build_Date_UTC: '1689775622'
+  Codename: hollywood
+  Fingerprint: oculus/hollywood/hollywood:12/SQ3A.220605.009.A1/50600670029600150:user/release-keys
+  Incremental: '50600670029600150'
+  Model: Quest 2
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 56.0.0.115.656.496249877
+  SystemUtilities_Version: 56.0.0.115.690.496250082
+  VrShell_Version: 56.0.0.115.656.496249705
+  name: q2_ptc_50600670029600150
+  url: https://aquavmcorp-my.sharepoint.com/:u:/g/personal/basti_aqualabs_xyz/EZIQZ4IBwR5EkGALvppUlwIBPQxtpw8r8gGoYgyC9GetrA
