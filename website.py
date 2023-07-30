@@ -74,8 +74,8 @@ def generate_site(firmware_file):
 
     # Generate robots.txt content
     def generate_robots_txt():
-        return "User-agent: *\nDisallow: /\nAllow: /index.html\n" + "\n".join(
-            f"Allow: /{model.replace(' ', '_')}_firmware.html" for model in models
+        return "User-agent: *\nDisallow: /\nAllow: /$\n" + "\n".join(
+            f"Allow: /{model.replace(' ', '_')}_firmware" for model in models
         )
 
     # Generate robots.txt and write to file
