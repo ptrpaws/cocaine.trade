@@ -20,7 +20,7 @@ def generate_main_page(models):
         f"<a href='{model.replace(' ', '_')}_firmware' class='link link-white'>{model}</a>"
         for model in models
     )
-    return HTML_PAGE_TEMPLATE.format(title="Cocaine.Trade", body=build_body(model_links))
+    return HTML_PAGE_TEMPLATE.format(title="Meta .zip Firmware Update Archive", body=build_body(model_links))
 
 def generate_firmware_page(model, firmwares):
     def generate_table_rows():
@@ -31,7 +31,7 @@ def generate_firmware_page(model, firmwares):
 
     table_rows = generate_table_rows()
     body = FIRMWARE_PAGE_TEMPLATE.format(model=model, table_rows=table_rows)
-    return HTML_PAGE_TEMPLATE.format(title=f"{model} Firmware Archive", body=body)
+    return HTML_PAGE_TEMPLATE.format(title=f"{model} .zip Firmware Update Archive", body=body)
 
 def get_version(fw):
     incremental = int(fw['Incremental'])
@@ -45,11 +45,11 @@ def get_version(fw):
 
 def build_body(model_links):
     return f"""
-        <h2 class="monospace"><span class="link-white">Welcome to </span><span class='link-red'>Cocaine</span><span class='link-blue'>.Trade</span></h2>
+        <h1 class="monospace"><span class="link-white">Welcome to </span><span class='link-red'>Cocaine</span><span class='link-blue'>.Trade</span></h1>
         <p class="author-notice monospace"><span class="link-white">by </span><a href="https://twitter.com/basti564" class='link link-gold'>basti564</a></p>
-        <h3 class="monospace">Firmware</h3>
+        <h3 class="monospace">Firmware Download</h3>
         {model_links}
-        <h3 class="monospace">Blog</h3>
+        <h3 class="monospace">Personal Blog</h3>
         <a href='https://blahaj.life' class='link link-white'>Blahaj Life</a>
     """
 
