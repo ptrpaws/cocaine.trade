@@ -72,4 +72,13 @@ def generate_site(firmware_file):
     Path("index.html").write_text(minify_html(generate_main_page(models)))
     Path("404.html").write_text(minify_html(generate_404_page()))
 
+    # Generate robots.txt content
+    def generate_robots_txt():
+        return "User-agent: *\nDisallow: /\nAllow: /index.html\n" + "\n".join(
+            f"Allow: /{model.replace(' ', '_')}_firmware.html" for model in models
+        )
+
+    # Generate robots.txt and write to file
+    Path("robots.txt").write_text(generate_robots_txt())
+
 generate_site('firmwares.yaml')
