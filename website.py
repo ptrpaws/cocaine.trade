@@ -22,10 +22,23 @@ def generate_main_page(models):
     )
     return HTML_PAGE_TEMPLATE.format(title="Meta .zip Firmware Update Archive", body=build_body(model_links))
 
+"""
 def generate_firmware_page(model, firmwares):
     def generate_table_rows():
         return "\n".join(
             f"<tr><td><a href='{fw['url']}' class='fw-link'>{fw['Incremental']}</a></td><td>{get_version(fw)}</td><td>{fw['VrShell_Version']}</td><td>{fw['Build_Date']}</td><td>{fw['Fingerprint']}</td></tr>"
+            for fw in firmwares
+        )
+
+    table_rows = generate_table_rows()
+    body = FIRMWARE_PAGE_TEMPLATE.format(model=model, table_rows=table_rows)
+    return HTML_PAGE_TEMPLATE.format(title=f"{model} .zip Firmware Update Archive", body=body)
+"""
+
+def generate_firmware_page(model, firmwares):
+    def generate_table_rows():
+        return "\n".join(
+            f"<tr><td><a href='https://files.cocaine.trade/firmware/{fw['Model']}/{fw['name']}.zip' class='fw-link'>{fw['Incremental']}</a></td><td>{get_version(fw)}</td><td>{fw['VrShell_Version']}</td><td>{fw['Build_Date']}</td><td>{fw['Fingerprint']}</td></tr>"
             for fw in firmwares
         )
 
