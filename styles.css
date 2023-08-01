@@ -3,6 +3,8 @@
   src: url('subset-UnifontMedium.woff2') format('woff2'),url('subset-UnifontMedium.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  -webkit-font-smoothing: none;
+  font-smoothing: none;
 }
 
 * {
