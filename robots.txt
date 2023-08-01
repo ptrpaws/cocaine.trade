@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /
-Allow: /$
-Allow: /Quest_firmware
-Allow: /Quest_2_firmware
-Allow: /Quest_Pro_firmware

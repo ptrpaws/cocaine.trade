@@ -1,9 +1,22 @@
 import yaml
+import shutil
 from pathlib import Path
 from htmlmin import minify as minify_html
 
 HTML_PAGE_TEMPLATE = Path("html_page_template.html").read_text()
 FIRMWARE_PAGE_TEMPLATE = Path("firmware_page_template.html").read_text()
+
+def clean_build_directory():
+    build_dir = Path("build")
+    if build_dir.exists():
+        shutil.rmtree(build_dir)
+    build_dir.mkdir()
+
+def copy_static_files():
+    static_dir = Path("static")
+    build_dir = Path("build")
+    for file_path in static_dir.iterdir():
+        shutil.copy(file_path, build_dir)
 
 def generate_404_page():
     body = """
@@ -21,19 +34,6 @@ def generate_main_page(models):
         for model in models
     )
     return HTML_PAGE_TEMPLATE.format(title="Meta .zip Firmware Update Archive", body=build_body(model_links))
-
-"""
-def generate_firmware_page(model, firmwares):
-    def generate_table_rows():
-        return "\n".join(
-            f"<tr><td><a href='{fw['url']}' class='fw-link'>{fw['Incremental']}</a></td><td>{get_version(fw)}</td><td>{fw['VrShell_Version']}</td><td>{fw['Build_Date']}</td><td>{fw['Fingerprint']}</td></tr>"
-            for fw in firmwares
-        )
-
-    table_rows = generate_table_rows()
-    body = FIRMWARE_PAGE_TEMPLATE.format(model=model, table_rows=table_rows)
-    return HTML_PAGE_TEMPLATE.format(title=f"{model} .zip Firmware Update Archive", body=body)
-"""
 
 def generate_firmware_page(model, firmwares):
     def generate_table_rows():
@@ -80,18 +80,23 @@ def generate_site(firmware_file):
 
     for model in models:
         model_firmwares = [fw for fw in firmwares if fw['Model'] == model]
-        Path(f"{model.replace(' ', '_')}_firmware.html").write_text(minify_html(generate_firmware_page(model, model_firmwares)))
+        file_path = Path("build") / f"{model.replace(' ', '_')}_firmware.html"
+        file_path.write_text(minify_html(generate_firmware_page(model, model_firmwares)))
 
-    Path("index.html").write_text(minify_html(generate_main_page(models)))
-    Path("404.html").write_text(minify_html(generate_404_page()))
+    main_page_path = Path("build") / "index.html"
+    main_page_path.write_text(minify_html(generate_main_page(models)))
 
-    # Generate robots.txt content
-    def generate_robots_txt():
-        return "User-agent: *\nDisallow: /\nAllow: /$\n" + "\n".join(
-            f"Allow: /{model.replace(' ', '_')}_firmware" for model in models
-        )
+    error_page_path = Path("build") / "404.html"
+    error_page_path.write_text(minify_html(generate_404_page()))
 
-    # Generate robots.txt and write to file
-    Path("robots.txt").write_text(generate_robots_txt())
+    robots_txt_path = Path("build") / "robots.txt"
+    robots_txt_path.write_text(generate_robots_txt(models))
 
+def generate_robots_txt(models):
+    return "User-agent: *\nDisallow: /\nAllow: /$\n" + "\n".join(
+        f"Allow: /{model.replace(' ', '_')}_firmware" for model in models
+    )
+
+clean_build_directory()
+copy_static_files()
 generate_site('firmwares.yaml')
