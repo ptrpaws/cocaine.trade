@@ -26,10 +26,10 @@ jobs:
         run: python website.py
 
       - name: Upload to SFTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          server: ${{ secrets.SFTP_SERVER }}
+          host: ${{ secrets.SFTP_SERVER }}
           username: ${{ secrets.SFTP_USERNAME }}
           password: ${{ secrets.SFTP_PASSWORD }}
-          local-dir: build/
-          server-dir: ${{ secrets.SFTP_FOLDER }}
+          local_path: build/
+          remote_path: ${{ secrets.SFTP_FOLDER }}
