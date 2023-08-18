@@ -1790,6 +1790,28 @@
   SystemUtilities_Version: 56.0.0.143.690.499815089
   VrShell_Version: 56.0.0.143.656.499814937
   name: q2_50600670038800150
+- Build_Date: Sun Aug 13 19:27:09 PDT 2023
+  Build_Date_UTC: '1691980029'
+  Codename: hollywood
+  Fingerprint: oculus/hollywood/hollywood:12/SQ3A.220605.009.A1/50600670049500150:user/release-keys
+  Incremental: '50600670049500150'
+  Model: Quest 2
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 56.0.0.165.656.504692793
+  SystemUtilities_Version: 56.0.0.165.690.504692909
+  VrShell_Version: 56.0.0.165.656.504692714
+  name: q2_50600670049500150
+- Build_Date: Wed Aug 16 01:21:44 PDT 2023
+  Build_Date_UTC: '1692174104'
+  Codename: hollywood
+  Fingerprint: oculus/hollywood/hollywood:12/SQ3A.220605.009.A1/50600670051200150:user/release-keys
+  Incremental: '50600670051200150'
+  Model: Quest 2
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 56.0.0.168.656.505695389
+  SystemUtilities_Version: 56.0.0.169.690.505732564
+  VrShell_Version: 56.0.0.168.656.505695549
+  name: q2_50600670051200150
 - Build_Date: Wed Aug 16 23:18:00 PDT 2023
   Build_Date_UTC: '1692253080'
   Codename: hollywood
