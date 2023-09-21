@@ -30,7 +30,7 @@ jobs:
         with:
           server: ${{ secrets.SFTP_SERVER }}
           username: ${{ secrets.SFTP_USERNAME }}
-          password: ${{ secrets.SFTP_PASSWORD }}
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
           local_path: build/*
           remote_path: ${{ secrets.SFTP_FOLDER }}
           sftp_only: true
