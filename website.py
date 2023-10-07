@@ -75,7 +75,7 @@ def generate_site(firmware_file):
 
     models = list(set(fw['Model'] for fw in firmwares))
 
-    model_order = ['Quest', 'Quest 2', 'Quest Pro']
+    model_order = ['Quest', 'Quest 2', 'Quest Pro', 'Quest 3']
     models.sort(key=lambda model: model_order.index(model) if model in model_order else len(model_order))
 
     for model in models:
