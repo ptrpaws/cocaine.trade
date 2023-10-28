@@ -1987,15 +1987,4 @@
   SystemUX_Version: 57.0.0.297.669.526537896
   SystemUtilities_Version: 57.0.0.295.669.526237846
   VrShell_Version: 57.0.0.295.669.526236543
-  name: Q2_50623410078100150
-- Build_Date: Fri Oct 13 17:06:05 PDT 2023
-  Build_Date_UTC: '1697241965'
-  Codename: hollywood
-  Fingerprint: oculus/hollywood/hollywood:12/SQ3A.220605.009.A1/50623410078100150:user/release-keys
-  Incremental: '50623410078100150'
-  Model: Quest 2
-  OS_Version: SQ3A.220605.009.A1
-  SystemUX_Version: 57.0.0.297.669.526537896
-  SystemUtilities_Version: 57.0.0.295.669.526237846
-  VrShell_Version: 57.0.0.295.669.526236543
   name: q2_50623410078100150
