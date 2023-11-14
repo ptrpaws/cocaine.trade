@@ -1306,6 +1306,17 @@
   SystemUtilities_Version: 49.0.0.187.357.440318572
   VrShell_Version: 49.0.0.187.358.440319198
   name: q1_49713390192800400
+- Build_Date: Wed Nov  8 21:50:22 PST 2023
+  Build_Date_UTC: '1699509022'
+  Codename: eureka
+  Fingerprint: oculus/eureka/eureka:12/SQ3A.220605.009.A1/49743630046900510:user/release-keys
+  Incremental: '49743630046900510'
+  Model: Quest 3
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 59.0.0.172.706.535429038
+  SystemUtilities_Version: 59.0.0.170.706.535429113
+  VrShell_Version: 59.0.0.171.706.535429024
+  name: q3_49743630046900510
 - Build_Date: Thu Mar  9 21:47:53 PST 2023
   Build_Date_UTC: '1678427273'
   Codename: seacliff
