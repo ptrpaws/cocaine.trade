@@ -1724,6 +1724,17 @@
   SystemUtilities_Version: 59.0.0.170.706.535429113
   VrShell_Version: 59.0.0.171.706.535429024
   name: QPro_50117930047800330
+- Build_Date: Thu Nov 23 13:07:35 PST 2023
+  Build_Date_UTC: '1700773655'
+  Codename: seacliff
+  Fingerprint: oculus/seacliff/seacliff:12/SQ3A.220605.009.A1/50134520039000330:user/release-keys
+  Incremental: '50134520039000330'
+  Model: Quest Pro
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 60.0.0.145.366.539895471
+  SystemUtilities_Version: 60.0.0.146.364.539896317
+  VrShell_Version: 60.0.0.145.366.539895433
+  name: QPro_50134520039000330
 - Build_Date: Wed Feb  8 08:37:11 PST 2023
   Build_Date_UTC: '1675874231'
   Codename: hollywood
@@ -2131,3 +2142,14 @@
   SystemUtilities_Version: 59.0.0.171.706.535796258
   VrShell_Version: 59.0.0.172.706.535797236
   name: q2_50670960048600150
+- Build_Date: Thu Nov 23 16:08:48 PST 2023
+  Build_Date_UTC: '1700784528'
+  Codename: hollywood
+  Fingerprint: oculus/hollywood/hollywood:12/SQ3A.220605.009.A1/50686620039000150:user/release-keys
+  Incremental: '50686620039000150'
+  Model: Quest 2
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 60.0.0.145.366.539895471
+  SystemUtilities_Version: 60.0.0.146.364.539896317
+  VrShell_Version: 60.0.0.145.366.539895433
+  name: q2_50686620039000150
