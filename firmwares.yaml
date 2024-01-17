@@ -1350,6 +1350,17 @@
   SystemUtilities_Version: 60.0.0.165.364.543295776
   VrShell_Version: 60.0.0.167.366.543664170
   name: q3_49777350047300510
+- Build_Date: Sat Jan  6 01:31:09 PST 2024
+  Build_Date_UTC: '1704533469'
+  Codename: eureka
+  Fingerprint: oculus/eureka/eureka:12/SQ3A.220605.009.A1/49777350068800510:user/release-keys
+  Incremental: '49777350068800510'
+  Model: Quest 3
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 60.0.0.214.366.553497759
+  SystemUtilities_Version: 60.0.0.214.364.553462727
+  VrShell_Version: 60.0.0.216.366.553497793
+  name: q3_49777350068800510
 - Build_Date: Thu Mar  9 21:47:53 PST 2023
   Build_Date_UTC: '1678427273'
   Codename: seacliff
@@ -1372,6 +1383,17 @@
   SystemUtilities_Version: 50.0.0.195.257.454885331
   VrShell_Version: 50.0.0.195.257.454883482
   name: q1_49845030259200400
+- Build_Date: Wed Dec  6 02:07:37 PST 2023
+  Build_Date_UTC: '1701857257'
+  Codename: monterey
+  Fingerprint: oculus/vr_monterey/monterey:10/QQ3A.200805.001/49845030369000410:user/release-keys
+  Incremental: '49845030369000410'
+  Model: Quest
+  OS_Version: user-49845030369000410
+  SystemUX_Version: 50.0.0.198.257.455910822
+  SystemUtilities_Version: 50.0.0.198.257.455910804
+  VrShell_Version: 50.0.0.198.257.455911078
+  name: q1_49845030369000410
 - Build_Date: Wed Jan  4 15:06:11 PST 2023
   Build_Date_UTC: '1672873571'
   Codename: hollywood
