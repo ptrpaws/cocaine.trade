@@ -38,7 +38,7 @@ def generate_main_page(models):
 def generate_firmware_page(model, firmwares):
     def generate_table_rows():
         return "\n".join(
-            f"<tr><td><a href='https://files.cocaine.trade/firmware/meta/{fw['Model']}/{fw['name']}.zip' class='fw-link'>{fw['Incremental']}</a></td><td>{get_version(fw)}</td><td>{fw['VrShell_Version']}</td><td>{fw['Build_Date']}</td><td>{fw['Fingerprint']}</td><td>{fw['sha256']}</td></tr>"
+            f"<tr><td><a href='https://files.cocaine.trade/firmware/meta/{fw['Model']}/{fw['name']}.zip' class='fw-link'>{fw['Incremental']}</a></td><td>{get_version(fw)}</td><td>{fw['VrShell_Version']}</td><td>{fw['Build_Date']}</td><td>{fw['Fingerprint']}</td><td>{fw.get('sha256', 'N/A')}</td></tr>"
             for fw in firmwares
         )
 
