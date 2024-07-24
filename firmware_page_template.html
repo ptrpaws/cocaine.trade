@@ -6,10 +6,11 @@
     <label><input type="checkbox" class="hide-column" data-column="5"> Show SHA-256</label>
 </div>
 <div class='table-container'>
+    <input type=checkbox style="display: none" id=reverse-table></input>
     <table id="firmwareTable">
         <thead>
             <tr>
-                <th onclick="sortTable('firmwareTable', 0)"><span class="sortable">Incremental <span id="ascArrow">&#x25B2;</span><span id="descArrow" style="display: none;">&#x25BC;</span></span></th>
+                <th><label for=reverse-table><span class=sortable>Incremental <span id=ascArrow>&#x25B2;</span></span></label></th>
                 <th>Version</th>
                 <th>Runtime Version</th>
                 <th>Build Date</th>

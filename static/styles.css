@@ -100,3 +100,20 @@ a {
 .link-white {
   color: #ffffff;
 }
+
+#reverse-table:checked + table tbody {
+  transform: scaleY(-1);
+}
+
+#reverse-table:checked + table tbody tr {
+  transform: scaleY(-1);
+}
+
+#reverse-table:checked + #ascArrow {
+  display: inline-block;
+}
+
+#reverse-table:checked + table #ascArrow {
+  transform: scaleY(-1);
+  display: inline-block;
+}
