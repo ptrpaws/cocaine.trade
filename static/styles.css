@@ -117,3 +117,7 @@ a {
   transform: scaleY(-1);
   display: inline-block;
 }
+
+details {
+  display: flex;
+}
