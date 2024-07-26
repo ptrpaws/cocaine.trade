@@ -85,7 +85,7 @@ def generate_kindle_firmware_page(model, firmwares):
 
     table_rows = generate_table_rows()
     body = KINDLE_FIRMWARE_PAGE_TEMPLATE.format(model=model, table_rows=table_rows)
-    return HTML_PAGE_TEMPLATE.format(title=f"{model} .zip Firmware Update Archive", body=body)
+    return HTML_PAGE_TEMPLATE.format(title=f"{model} .bin Firmware Update Archive", body=body)
 
 def get_kindle_version(fw):
     name = fw['name']
