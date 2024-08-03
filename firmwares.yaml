@@ -2492,6 +2492,30 @@
   VrShell_Version: 68.0.0.461.365.626312488
   name: QPro_50413040050600330
   sha256: 253777a2d0550a402d5399de440b4a458f534761d94887370525eed6168bd273
+- Build_Date: Sun Jul 28 19:01:21 PDT 2024
+  Build_Date_UTC: '1722218481'
+  Codename: seacliff
+  Fingerprint: oculus/seacliff/seacliff:12/SQ3A.220605.009.A1/50413040054100330:user/release-keys
+  Incremental: '50413040054100330'
+  Model: Quest Pro
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 68.0.0.480.364.627251955
+  SystemUtilities_Version: 68.0.0.491.363.627252914
+  VrShell_Version: 68.0.0.480.365.627251742
+  name: QPro_50413040054100330
+  sha256: 421d8a288edc696973a1dd20d00eb8f7c3814d2269e2bf6da7849a93ff8a6a29
+- Build_Date: Thu Aug  1 00:53:18 PDT 2024
+  Build_Date_UTC: '1722498798'
+  Codename: seacliff
+  Fingerprint: oculus/seacliff/seacliff:12/SQ3A.220605.009.A1/50413040057700330:user/release-keys
+  Incremental: '50413040057700330'
+  Model: Quest Pro
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 68.0.0.507.364.628356416
+  SystemUtilities_Version: 68.0.0.518.363.628350451
+  VrShell_Version: 68.0.0.507.365.628356250
+  name: QPro_50413040057700330
+  sha256: 4f6560009134302457d5d690060c99cfce8abd137062d1ec189c57ec88d0d0be
 - Build_Date: Mon Apr 17 23:14:28 PDT 2023
   Build_Date_UTC: '1681798468'
   Codename: hollywood
@@ -3140,3 +3164,27 @@
   VrShell_Version: 68.0.0.461.365.626312488
   name: q2_51062580050400150
   sha256: ec1f322b2665cc8df975ae3d59b552d143cca06d2124a069fa1e5fa78845bbf1
+- Build_Date: Sun Jul 28 18:07:46 PDT 2024
+  Build_Date_UTC: '1722215266'
+  Codename: hollywood
+  Fingerprint: oculus/hollywood/hollywood:12/SQ3A.220605.009.A1/51062580053900150:user/release-keys
+  Incremental: '51062580053900150'
+  Model: Quest 2
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 68.0.0.480.364.627251955
+  SystemUtilities_Version: 68.0.0.491.363.627252914
+  VrShell_Version: 68.0.0.480.365.627251742
+  name: q2_51062580053900150
+  sha256: 2f1b34597347ff9f70ad8bff1a2dd2d8174ee70d34b225f18bbfe2cb4bae6314
+- Build_Date: Thu Aug  1 00:03:46 PDT 2024
+  Build_Date_UTC: '1722495826'
+  Codename: hollywood
+  Fingerprint: oculus/hollywood/hollywood:12/SQ3A.220605.009.A1/51062580057600150:user/release-keys
+  Incremental: '51062580057600150'
+  Model: Quest 2
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 68.0.0.507.364.628356416
+  SystemUtilities_Version: 68.0.0.518.363.628350451
+  VrShell_Version: 68.0.0.507.365.628356250
+  name: q2_51062580057600150
+  sha256: 5b7aaea7fbd3cd154c618c27be5145ffe187cdab23268d6e1936e1619ae8b6f7
