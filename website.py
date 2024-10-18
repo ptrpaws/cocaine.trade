@@ -113,9 +113,9 @@ def generate_site(firmware_file, kindle_firmware_file):
     models = list(set(fw['Model'] for fw in firmwares))
     kindle_models = list(set(fw['Model'] for fw in kindle_firmwares))
 
-    model_order = ['Quest', 'Quest 2', 'Quest Pro', 'Quest 3']
+    model_order = ['Quest', 'Quest 2', 'Quest Pro', 'Quest 3', 'Quest 3S']
     models.sort(key=lambda model: model_order.index(model) if model in model_order else len(model_order))
-    kindle_model_order = ['Quest', 'Quest 2', 'Quest Pro', 'Quest 3']
+    kindle_model_order = ['Quest', 'Quest 2', 'Quest Pro', 'Quest 3', 'Quest 3S']
     kindle_models.sort(key=lambda model: kindle_model_order.index(model) if model in kindle_model_order else len(kindle_model_order))
 
 
@@ -123,7 +123,7 @@ def generate_site(firmware_file, kindle_firmware_file):
         model_firmwares = [fw for fw in firmwares if fw['Model'] == model]
         file_path = Path("build") / f"{model.replace(' ', '_')}_firmware.html"
         file_path.write_text(minify_html(generate_firmware_page(model, model_firmwares)))
-    
+
     for model in kindle_models:
         model_firmwares = [fw for fw in kindle_firmwares if fw['Model'] == model]
         file_path = Path("build") / f"{model.replace(' ', '_')}_firmware.html"
