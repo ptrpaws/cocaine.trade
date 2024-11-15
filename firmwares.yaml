@@ -2516,6 +2516,18 @@
   VrShell_Version: 71.0.0.484.529.659957764
   name: q3_50352750092000510
   sha256: a8c7df4a778b9f0a67d705cb78ef3c4647caba408912978520c2c6e88d7cd16a
+- Build_Date: Mon Nov 11 15:08:06 PST 2024
+  Build_Date_UTC: '1731366486'
+  Codename: eureka
+  Fingerprint: oculus/eureka/eureka:12/SQ3A.220605.009.A1/50352750100800510:user/release-keys
+  Incremental: '50352750100800510'
+  Model: Quest 3
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 71.0.0.527.522.662446962
+  SystemUtilities_Version: 71.0.0.528.527.662424387
+  VrShell_Version: 71.0.0.534.529.662446976
+  name: q3_50352750100800510
+  sha256: 852a3e3eee3f49593d17e9a2c1c0a0252fe52cbec4855c10592f1822ab277b54
 - Build_Date: Sun Jun 16 20:40:33 PDT 2024
   Build_Date_UTC: '1718595633'
   Codename: seacliff
@@ -2768,6 +2780,18 @@
   VrShell_Version: 71.0.0.484.529.659957764
   name: QPro_50498930072300330
   sha256: 2ad6c44d6104cac499683de400e556894447cf86839e3c56daabbbbbfb8b7cae
+- Build_Date: Mon Nov 11 15:56:57 PST 2024
+  Build_Date_UTC: '1731369417'
+  Codename: seacliff
+  Fingerprint: oculus/seacliff/seacliff:12/SQ3A.220605.009.A1/50498930080600330:user/release-keys
+  Incremental: '50498930080600330'
+  Model: Quest Pro
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 71.0.0.527.522.662446962
+  SystemUtilities_Version: 71.0.0.528.527.662424387
+  VrShell_Version: 71.0.0.534.529.662446976
+  name: QPro_50498930080600330
+  sha256: 4a4cf0ad5a523417181ef4e67fdd500f0557175c7fa8f54eb984fc983b1bb9fe
 - Build_Date: Mon Apr 17 23:14:28 PDT 2023
   Build_Date_UTC: '1681798468'
   Codename: hollywood
@@ -3596,3 +3620,15 @@
   VrShell_Version: 71.0.0.484.529.659957764
   name: q2_51203760097500150
   sha256: 9f957c2a7d1a97a6ff645838479f78b6f5024a50764b87109092a8c9079d256d
+- Build_Date: Mon Nov 11 17:20:32 PST 2024
+  Build_Date_UTC: '1731374432'
+  Codename: hollywood
+  Fingerprint: oculus/hollywood/hollywood:12/SQ3A.220605.009.A1/51203760105800150:user/release-keys
+  Incremental: '51203760105800150'
+  Model: Quest 2
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 71.0.0.527.522.662446962
+  SystemUtilities_Version: 71.0.0.529.527.662446745
+  VrShell_Version: 71.0.0.534.529.662446976
+  name: q2_51203760105800150
+  sha256: c35a0f5a30c9c5a613e31977629475c80155c86ee649b3a1610865fcc3008da9
