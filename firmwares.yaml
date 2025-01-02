@@ -34,6 +34,30 @@
   VrShell_Version: 71.0.0.612.529.665334779
   name: q3s_393100085900610
   sha256: 433b5ac0e183b3983af6f58fad8c79b65174c710bf9bde6fc8e1424ce743a0e9
+- Build_Date: Fri Dec 13 21:25:58 PST 2024
+  Build_Date_UTC: '1734153958'
+  Codename: panther
+  Fingerprint: oculus/panther/panther:12/SQ3A.220605.009.A1/464020081200610:user/release-keys
+  Incremental: '464020081200610'
+  Model: Quest 3S
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 72.0.0.628.347.674089160
+  SystemUtilities_Version: 72.0.0.618.353.674088201
+  VrShell_Version: 72.0.0.632.346.674088334
+  name: q3s_464020081200610
+  sha256: f47fc95762492885119e6e34f7545a18b03d0369383bb145dfdc0970ee2cc649
+- Build_Date: Wed Dec 18 21:20:46 PST 2024
+  Build_Date_UTC: '1734585646'
+  Codename: panther
+  Fingerprint: oculus/panther/panther:12/SQ3A.220605.009.A1/464020087800610:user/release-keys
+  Incremental: '464020087800610'
+  Model: Quest 3S
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 72.0.0.685.347.675583179
+  SystemUtilities_Version: 72.0.0.675.353.675583414
+  VrShell_Version: 72.0.0.691.346.675583262
+  name: q3s_464020087800610
+  sha256: 775ca73d5a6a94c1a9d1dc0059cb13f56f234ce828f6e1dba32c2307aba514a6
 - Build_Date: Fri Jun 14 19:01:58 PDT 2019
   Build_Date_UTC: '1560564118'
   Codename: monterey
@@ -2839,6 +2863,18 @@
   SystemUtilities_Version: 72.0.0.618.353.674088201
   VrShell_Version: 72.0.0.632.346.674088334
   name: q3_50473320121600510
+- Build_Date: Wed Dec 18 21:15:19 PST 2024
+  Build_Date_UTC: '1734585319'
+  Codename: eureka
+  Fingerprint: oculus/eureka/eureka:12/SQ3A.220605.009.A1/50473320127600510:user/release-keys
+  Incremental: '50473320127600510'
+  Model: Quest 3
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 72.0.0.685.347.675583179
+  SystemUtilities_Version: 72.0.0.675.353.675583414
+  VrShell_Version: 72.0.0.691.346.675583262
+  name: q3_50473320127600510
+  sha256: 242e8eccf634bc78c9dc141615e9edbfe37e652186edfd9449b55762b39823cb
 - Build_Date: Sun Oct  6 18:01:36 PDT 2024
   Build_Date_UTC: '1728262896'
   Codename: seacliff
@@ -3054,6 +3090,18 @@
   SystemUtilities_Version: 72.0.0.618.353.674088201
   VrShell_Version: 72.0.0.632.346.674088334
   name: QPro_50545280085300330
+- Build_Date: Thu Dec 19 00:25:47 PST 2024
+  Build_Date_UTC: '1734596747'
+  Codename: seacliff
+  Fingerprint: oculus/seacliff/seacliff:12/SQ3A.220605.009.A1/50545280091600330:user/release-keys
+  Incremental: '50545280091600330'
+  Model: Quest Pro
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 72.0.0.686.347.675618679
+  SystemUtilities_Version: 72.0.0.676.353.675618998
+  VrShell_Version: 72.0.0.692.346.675618541
+  name: QPro_50545280091600330
+  sha256: b99c8cef9f9eaf93c3e7b03d033a08cdcffb7a238ece32050423f16a9d09f44c
 - Build_Date: Wed Jun  7 19:05:26 PDT 2023
   Build_Date_UTC: '1686189926'
   Codename: hollywood
@@ -3857,3 +3905,15 @@
   SystemUtilities_Version: 72.0.0.605.353.673778007
   VrShell_Version: 72.0.0.619.346.673777650
   name: q2_51272100083900150
+- Build_Date: Wed Dec 18 21:08:52 PST 2024
+  Build_Date_UTC: '1734584932'
+  Codename: hollywood
+  Fingerprint: oculus/hollywood/hollywood:12/SQ3A.220605.009.A1/51272100091300150:user/release-keys
+  Incremental: '51272100091300150'
+  Model: Quest 2
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 72.0.0.685.347.675583179
+  SystemUtilities_Version: 72.0.0.675.353.675583414
+  VrShell_Version: 72.0.0.691.346.675583262
+  name: q2_51272100091300150
+  sha256: d0247fd8edbc4564fb823ec63b0cc6c610c84445c104bdb10583b0482598493c
