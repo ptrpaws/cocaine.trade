@@ -2828,6 +2828,17 @@
   VrShell_Version: 72.0.0.531.346.670816581
   name: q3_50473320109900510
   sha256: f4e6f26a123b9ade8c56daeaaa0f78f34f346d29e4c5a9b41643e1206b13da76
+- Build_Date: Fri Dec 13 21:23:13 PST 2024
+  Build_Date_UTC: '1734153793'
+  Codename: eureka
+  Fingerprint: oculus/eureka/eureka:12/SQ3A.220605.009.A1/50473320121600510:user/release-keys
+  Incremental: '50473320121600510'
+  Model: Quest 3
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 72.0.0.628.347.674089160
+  SystemUtilities_Version: 72.0.0.618.353.674088201
+  VrShell_Version: 72.0.0.632.346.674088334
+  name: q3_50473320121600510
 - Build_Date: Sun Oct  6 18:01:36 PDT 2024
   Build_Date_UTC: '1728262896'
   Codename: seacliff
@@ -3032,6 +3043,17 @@
   VrShell_Version: 72.0.0.531.346.670816581
   name: QPro_50545280074700330
   sha256: f1125212df6230f2588008fc50aac448787c67a6c4e2d3c0c6903526f558afd6
+- Build_Date: Fri Dec 13 21:53:01 PST 2024
+  Build_Date_UTC: '1734155581'
+  Codename: seacliff
+  Fingerprint: oculus/seacliff/seacliff:12/SQ3A.220605.009.A1/50545280085300330:user/release-keys
+  Incremental: '50545280085300330'
+  Model: Quest Pro
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 72.0.0.628.347.674089160
+  SystemUtilities_Version: 72.0.0.618.353.674088201
+  VrShell_Version: 72.0.0.632.346.674088334
+  name: QPro_50545280085300330
 - Build_Date: Wed Jun  7 19:05:26 PDT 2023
   Build_Date_UTC: '1686189926'
   Codename: hollywood
@@ -3824,3 +3846,14 @@
   VrShell_Version: 72.0.0.531.346.670816581
   name: q2_51272100074500150
   sha256: d51981328ec1b494fd60890dc22f4169c138af974183c5b83488ef302e7f3c20
+- Build_Date: Thu Dec 12 18:28:06 PST 2024
+  Build_Date_UTC: '1734056886'
+  Codename: hollywood
+  Fingerprint: oculus/hollywood/hollywood:12/SQ3A.220605.009.A1/51272100083900150:user/release-keys
+  Incremental: '51272100083900150'
+  Model: Quest 2
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 72.0.0.615.347.673777483
+  SystemUtilities_Version: 72.0.0.605.353.673778007
+  VrShell_Version: 72.0.0.619.346.673777650
+  name: q2_51272100083900150
