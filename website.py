@@ -139,11 +139,12 @@ def generate_site(firmware_file, kindle_firmware_file):
     error_page_path.write_text(minify_html(generate_404_page()))
 
     robots_txt_path = Path("build") / "robots.txt"
-    robots_txt_path.write_text(generate_robots_txt(models)) #TODO: add kindle models
+    robots_txt_path.write_text(generate_robots_txt(models, kindle_models))
 
-def generate_robots_txt(models):
+def generate_robots_txt(models, kindle_models):
+    all_models = models + kindle_models
     return "User-agent: *\nDisallow: /\nAllow: /$\n" + "\n".join(
-        f"Allow: /{model.replace(' ', '_')}_firmware" for model in models
+        f"Allow: /{model.replace(' ', '_')}_firmware" for model in all_models
     )
 
 clean_build_directory()
