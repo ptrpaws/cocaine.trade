@@ -70,6 +70,18 @@
   VrShell_Version: 72.0.0.966.346.685407396
   SystemUtilities_Version: 72.0.0.948.353.685407313
   sha256: c7f1b71aef807cf1a99f6c69f4e5d4520f331244a3d0f64f99e3069ca9e5c6a5
+- name: q3s_627280171100610
+  Codename: panther
+  Model: Quest 3S
+  Build_Date: Wed Mar 12 21:05:56 PDT 2025
+  Build_Date_UTC: '1741838756'
+  Fingerprint: oculus/panther/panther:12/SQ3A.220605.009.A1/627280171100610:user/release-keys
+  Incremental: '627280171100610'
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 74.0.0.773.346.707944109
+  VrShell_Version: 74.0.0.783.498.707983072
+  SystemUtilities_Version: 74.0.0.771.346.707954090
+  sha256: 76752ee0341fdd4e3512da5acff03bdbfc2f4b24de6b9aad542dce402c2c6797
 - Build_Date: Fri Jun 14 19:01:58 PDT 2019
   Build_Date_UTC: '1560564118'
   Codename: monterey
@@ -3440,6 +3452,30 @@
   VrShell_Version: 74.0.0.682.498.701266150
   SystemUtilities_Version: 74.0.0.678.346.701267660
   sha256: 0004123e478fe3b7dfff8707068b5fe0daae5d0082dc79ab7cec6a0cfedb9ea4
+- name: QPro_50658080120200330
+  Codename: seacliff
+  Model: Quest Pro
+  Build_Date: Thu Mar  6 20:56:24 PST 2025
+  Build_Date_UTC: '1741323384'
+  Fingerprint: oculus/seacliff/seacliff:12/SQ3A.220605.009.A1/50658080120200330:user/release-keys
+  Incremental: '50658080120200330'
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 74.0.0.732.346.705581478
+  VrShell_Version: 74.0.0.736.498.705590791
+  SystemUtilities_Version: 74.0.0.729.346.705590888
+  sha256: 12a5c9face77cf02e87a81a829af3d0c3fd336028932c1d94a1ab802b0de42d4
+- name: QPro_50658080129300330
+  Codename: seacliff
+  Model: Quest Pro
+  Build_Date: Wed Mar 12 16:36:49 PDT 2025
+  Build_Date_UTC: '1741822609'
+  Fingerprint: oculus/seacliff/seacliff:12/SQ3A.220605.009.A1/50658080129300330:user/release-keys
+  Incremental: '50658080129300330'
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 74.0.0.771.346.707865791
+  VrShell_Version: 74.0.0.780.498.707927601
+  SystemUtilities_Version: 74.0.0.769.346.707827577
+  sha256: e03ab441edc8906d3cb598e0c5e54db9429b57c869a66c70c26ef4510a460e8c
 - Build_Date: Sun Oct 15 15:10:25 PDT 2023
   Build_Date_UTC: '1697407825'
   Codename: hollywood
@@ -3680,6 +3716,42 @@
   VrShell_Version: 74.0.0.682.498.701266150
   SystemUtilities_Version: 74.0.0.678.346.701267660
   sha256: c0d8aa22fbb0344d7221ea17b00d0c27548372146366ce75d63753506b6820ac
+- name: q3_50709660183300510
+  Codename: eureka
+  Model: Quest 3
+  Build_Date: Thu Mar  6 18:51:15 PST 2025
+  Build_Date_UTC: '1741315875'
+  Fingerprint: oculus/eureka/eureka:12/SQ3A.220605.009.A1/50709660183300510:user/release-keys
+  Incremental: '50709660183300510'
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 74.0.0.732.346.705581478
+  VrShell_Version: 74.0.0.736.498.705590791
+  SystemUtilities_Version: 74.0.0.729.346.705590888
+  sha256: 4402526ec39cf448a2f9f50045bd80f5a1f46c57868d1b6c23d6f4127b647cca
+- name: q3_50709660195100510
+  Codename: eureka
+  Model: Quest 3
+  Build_Date: Wed Mar 12 17:01:49 PDT 2025
+  Build_Date_UTC: '1741824109'
+  Fingerprint: oculus/eureka/eureka:12/SQ3A.220605.009.A1/50709660195100510:user/release-keys
+  Incremental: '50709660195100510'
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 74.0.0.771.346.707865791
+  VrShell_Version: 74.0.0.781.498.707927779
+  SystemUtilities_Version: 74.0.0.769.346.707827577
+  sha256: 737f7e8b985dc1918a93bbd91d673152785a52950bd61838586b2a6084e61640
+- name: QPro_50760980042800330
+  Codename: seacliff
+  Model: Quest Pro
+  Build_Date: Thu Mar 20 14:43:15 PDT 2025
+  Build_Date_UTC: '1742506995'
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/50760980042800330:user/release-keys
+  Incremental: '50760980042800330'
+  OS_Version: UP1A.231005.007.A1
+  SystemUX_Version: 76.0.0.273.314.711173506
+  VrShell_Version: 76.0.0.292.458.711210841
+  SystemUtilities_Version: 76.0.0.292.315.711210980
+  sha256: bb5f1c1e15edfd0f04393924f89db69c5fcffcf1ef35032b65eb453b646e5259
 - Build_Date: Wed Jan 17 15:47:32 PST 2024
   Build_Date_UTC: '1705535252'
   Codename: hollywood
@@ -3812,6 +3884,18 @@
   VrShell_Version: 66.0.0.547.370.604713645
   name: q2_50875380052300150
   sha256: 1afb528cff0b75a0692fe4c108e92afb238949d4e5782f75979e17ea9580aaa8
+- name: q3_50912730042800510
+  Codename: eureka
+  Model: Quest 3
+  Build_Date: Thu Mar 20 19:08:44 PDT 2025
+  Build_Date_UTC: '1742522924'
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/50912730042800510:user/release-keys
+  Incremental: '50912730042800510'
+  OS_Version: UP1A.231005.007.A1
+  SystemUX_Version: 76.0.0.275.314.711332144
+  VrShell_Version: 76.0.0.295.458.711332667
+  SystemUtilities_Version: 76.0.0.295.315.711333515
+  sha256: d32b9fe8b6588f85bf2be07895301709977a67694cd1235d8b333fc5ebe02a76
 - Build_Date: Sun Jun 16 19:32:04 PDT 2024
   Build_Date_UTC: '1718591524'
   Codename: hollywood
@@ -4244,3 +4328,27 @@
   VrShell_Version: 74.0.0.681.498.701209302
   SystemUtilities_Version: 74.0.0.677.346.701209450
   sha256: 38ac00168f0c6b7d0da9ea7b24a896d7667f49247bd7fdc57da43fdad3289521
+- name: q2_51421800154100150
+  Codename: hollywood
+  Model: Quest 2
+  Build_Date: Thu Mar  6 18:49:24 PST 2025
+  Build_Date_UTC: '1741315764'
+  Fingerprint: oculus/hollywood/hollywood:12/SQ3A.220605.009.A1/51421800154100150:user/release-keys
+  Incremental: '51421800154100150'
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 74.0.0.732.346.705581478
+  VrShell_Version: 74.0.0.736.498.705590791
+  SystemUtilities_Version: 74.0.0.729.346.705590888
+  sha256: eac58d308cabaf591b79076a5c22b5174c5c5d2881041e15cd9e04e2f3ed3ea5
+- name: q2_51421800165500150
+  Codename: hollywood
+  Model: Quest 2
+  Build_Date: Wed Mar 12 14:58:32 PDT 2025
+  Build_Date_UTC: '1741816712'
+  Fingerprint: oculus/hollywood/hollywood:12/SQ3A.220605.009.A1/51421800165500150:user/release-keys
+  Incremental: '51421800165500150'
+  OS_Version: SQ3A.220605.009.A1
+  SystemUX_Version: 74.0.0.771.346.707865791
+  VrShell_Version: 74.0.0.780.498.707927601
+  SystemUtilities_Version: 74.0.0.769.346.707827577
+  sha256: 8f28dd5d91a3ef76ef5bf5643bea6e684e81a189d495f4836712bc62a9cf41c6
