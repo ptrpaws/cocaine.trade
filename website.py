@@ -79,7 +79,7 @@ def get_version(fw):
     return version
 
 def generate_kindle_firmware_page(model, firmwares):
-    sorted_firmwares = sorted(firmwares, key=lambda fw: fw['name'], reverse=True)
+    sorted_firmwares = sorted(firmwares, key=lambda fw: int(fw['Incremental']), reverse=True)
     def generate_table_rows():
         return "\n".join(
             f"<tr><td><a href='https://files.cocaine.trade/firmware/kindle/{fw['Model']}/{fw['name']}.bin' class='fw-link'>{fw['Incremental']}</a></td><td>{get_kindle_version(fw)}</td><td>{fw.get('sha256', 'N/A')}</td></tr>"
