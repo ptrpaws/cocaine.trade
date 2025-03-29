@@ -135,7 +135,7 @@ def generate_site(firmware_file, kindle_firmware_file):
         'PW3',
         'KV',
         'KT2',
-        'PW2'
+        'PW2',
         'Legacy'
     ]
     kindle_models.sort(key=lambda model: kindle_model_order.index(model) if model in kindle_model_order else len(kindle_model_order))
