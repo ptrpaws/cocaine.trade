@@ -118,9 +118,27 @@ def generate_site(firmware_file, kindle_firmware_file):
 
     model_order = ['Quest', 'Quest 2', 'Quest Pro', 'Quest 3', 'Quest 3S']
     models.sort(key=lambda model: model_order.index(model) if model in model_order else len(model_order))
-    kindle_model_order = ['Quest', 'Quest 2', 'Quest Pro', 'Quest 3', 'Quest 3S']
+    kindle_model_order = [
+        'KS2',
+        'KS',
+        'CS',
+        'PW6',
+        'KT6',
+        'KT5',
+        'PW5',
+        'KOA3',
+        'KT4',
+        'PW4',
+        'KOA2',
+        'KT3',
+        'KOA',
+        'PW3',
+        'KV',
+        'KT2',
+        'PW2'
+        'Legacy'
+    ]
     kindle_models.sort(key=lambda model: kindle_model_order.index(model) if model in kindle_model_order else len(kindle_model_order))
-
 
     for model in models:
         model_firmwares = [fw for fw in firmwares if fw['Model'] == model]
