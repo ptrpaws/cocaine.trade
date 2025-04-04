@@ -82,6 +82,18 @@
   VrShell_Version: 74.0.0.783.498.707983072
   SystemUtilities_Version: 74.0.0.771.346.707954090
   sha256: 76752ee0341fdd4e3512da5acff03bdbfc2f4b24de6b9aad542dce402c2c6797
+- name: q3s_878830057200610
+  Codename: panther
+  Model: Quest 3S
+  Build_Date: Wed Apr  2 21:17:19 PDT 2025
+  Build_Date_UTC: '1743653839'
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/878830057200610:user/release-keys
+  Incremental: '878830057200610'
+  OS_Version: UP1A.231005.007.A1
+  SystemUX_Version: 76.0.0.397.314.716820558
+  VrShell_Version: 76.0.0.426.458.716820523
+  SystemUtilities_Version: 76.0.0.425.315.716820587
+  sha256: 7b1fc7ada51a4de066b3a48767b4fc264fa0b3d0cee98e8a45a61c7deeae0ca5
 - Build_Date: Fri Jun 14 19:01:58 PDT 2019
   Build_Date_UTC: '1560564118'
   Codename: monterey
