@@ -3752,6 +3752,18 @@
   VrShell_Version: 76.0.0.292.458.711210841
   SystemUtilities_Version: 76.0.0.292.315.711210980
   sha256: bb5f1c1e15edfd0f04393924f89db69c5fcffcf1ef35032b65eb453b646e5259
+- name: QPro_50760980051300330
+  Codename: seacliff
+  Model: Quest Pro
+  Build_Date: Sun Mar 30 18:49:38 PDT 2025
+  Build_Date_UTC: '1743385778'
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/50760980051300330:user/release-keys
+  Incremental: '50760980051300330'
+  OS_Version: UP1A.231005.007.A1
+  SystemUX_Version: 76.0.0.371.314.715455752
+  VrShell_Version: 76.0.0.400.458.715455976
+  SystemUtilities_Version: 76.0.0.399.315.715456085
+  sha256: 41c3cb9e4c6c2db06073cc522f742be911c7cf15c9342ae0670455584fe54ff7
 - Build_Date: Wed Jan 17 15:47:32 PST 2024
   Build_Date_UTC: '1705535252'
   Codename: hollywood
