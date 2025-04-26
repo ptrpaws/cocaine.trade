@@ -4112,6 +4112,18 @@
   VrShell_Version: 76.0.0.576.458.724258575
   SystemUtilities_Version: 76.0.0.539.315.722767728
   sha256: ce35692d5bb12fbcd5fd8059b20747650acd655fdad2608c10529e1ba4f08e52
+- name: q3_50974260049300520
+  Codename: eureka
+  Model: Quest 3
+  Build_Date: Thu Apr 24 16:13:49 PDT 2025
+  Build_Date_UTC: '1745536429'
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/50974260049300520:user/release-keys
+  Incremental: '50974260049300520'
+  OS_Version: UP1A.231005.007.A1
+  SystemUX_Version: 77.0.0.404.345.725883371
+  VrShell_Version: 77.0.0.431.531.725917036
+  SystemUtilities_Version: 77.0.0.353.515.724737414
+  sha256: 5cfc354e60f6695d40f41941509da9642470a3a85b143e425e78efe4bb5e33cb
 - Build_Date: Sun Jun 16 19:32:04 PDT 2024
   Build_Date_UTC: '1718591524'
   Codename: hollywood
