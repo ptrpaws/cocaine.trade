@@ -98,7 +98,7 @@ def get_kindle_version(fw):
 def build_body(model_links):
     return f"""
         <h1 class="monospace"><span class="link-white">Welcome to </span><span class='link-red'>Cocaine</span><span class='link-blue'>.Trade</span></h1>
-        <p class="author-notice monospace"><span class="link-white">by </span><a href="https://twitter.com/basti564" class='link link-gold'>ellie :3</a></p>
+        <p class="author-notice monospace"><span class="link-white">by </span><a href="https://twitter.com/ptrpaws" class='link link-gold'>ellie :3</a></p>
         <h3 class="monospace">Firmware Download</h3>
         {model_links}
         <h3 class="monospace">Personal Blog</h3>
