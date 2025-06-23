@@ -5096,3 +5096,15 @@
   VrShell_Version: 78.0.0.884.439.748037327
   SystemUtilities_Version: 78.0.0.126.605.734522441
   sha256: b0b9b7a2643739b133471a904a0d0068ad3d82237b0ac7505a42f79968a45444
+- name: q2_51637650079200150
+  Codename: hollywood
+  Model: Quest 2
+  Build_Date: Tue Jun 17 03:01:49 PDT 2025
+  Build_Date_UTC: '1750154509'
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/51637650079200150:user/release-keys
+  Incremental: '51637650079200150'
+  OS_Version: UP1A.231005.007.A1
+  SystemUX_Version: 78.0.0.876.305.749889239
+  VrShell_Version: 78.0.0.943.439.749888964
+  SystemUtilities_Version: 78.0.0.126.605.734522441
+  sha256: 827401c991714ddf8a1717e14da7c5be9f44fc25344a6d784ebf57046af6d1e5
