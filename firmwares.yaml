@@ -1845,6 +1845,18 @@
   VrShell_Version: 50.0.0.198.257.455911078
   name: q1_49845030369000410
   sha256: cd3f5828cebee8da7a4e5dedebb62d0c769db007171c28067411218e33ff1701
+- name: q1_49845030443200410
+  Build_Date: Wed Jul 31 02:02:22 PDT 2024
+  Build_Date_UTC: '1722416542'
+  Fingerprint: oculus/vr_monterey/monterey:10/QQ3A.200805.001/49845030443200410:user/release-keys
+  Incremental: '49845030443200410'
+  Codename: monterey
+  Model: Quest
+  OS_Version: user-49845030443200410
+  SystemUX_Version: 50.0.0.198.257.455910822
+  VrShell_Version: 50.0.0.198.257.455911078
+  SystemUtilities_Version: 50.0.0.198.257.455910804
+  sha256: 7c1f75ecd807b59d5215a67ff69e8e8c6da4b966eb08464d48e00d2d5a8b6aaa
 - Build_Date: Wed Feb 14 15:25:15 PST 2024
   Build_Date_UTC: '1707953115'
   Codename: eureka
