@@ -107,11 +107,18 @@ def build_body(model_links):
 
 def generate_site(firmware_file, kindle_firmware_file):
     try:
-        firmwares = yaml.safe_load(Path(firmware_file).read_text())
-        kindle_firmwares = yaml.safe_load(Path(kindle_firmware_file).read_text())
-    except yaml.YAMLError as exc:
+        firmware_content = Path(firmware_file).read_text()
+        kindle_firmware_content = Path(kindle_firmware_file).read_text()
+        firmwares = yaml.safe_load(firmware_content)
+        kindle_firmwares = yaml.safe_load(kindle_firmware_content)
+    except (yaml.YAMLError, FileNotFoundError) as exc:
         print(exc)
         return
+
+    # This is the block that copied the files
+    build_dir = Path("build")
+    (build_dir / "firmwares.yaml").write_text(firmware_content)
+    (build_dir / "kindle_firmwares.yaml").write_text(kindle_firmware_content)
 
     models = list(set(fw['Model'] for fw in firmwares))
     kindle_models = list(set(fw['Model'] for fw in kindle_firmwares))
