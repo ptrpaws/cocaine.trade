@@ -1,0 +1,27 @@
+<h2>{{ model }} Firmware Archive</h2>
+<div>
+  <label><input type="checkbox" class="hide-column" data-column="2"> Show SHA-256</label>
+</div>
+<div class='table-container'>
+  <input type=checkbox style="display: none" id="reverse-table">
+  <table id="firmwareTable">
+    <thead>
+    <tr>
+      <th><label for="reverse-table"><span class=sortable>Incremental <span id=ascArrow>&#x25B2;</span></span></label></th>
+      <th>Version</th>
+      <th>SHA-256</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for fw in firmwares %}
+    <tr>
+      <td><a href='https://files.cocaine.trade/firmware/kindle/{{ fw.Model }}/{{ fw.name }}.bin' class='fw-link'>{{ fw.Incremental }}</a></td>
+      <td>{{ fw.Version }}</td>
+      <td>{{ fw.sha256 | default(value="N/A") }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+<a href="/" class='link link-gold monospace'>[RETURN TO HOMEPAGE]</a>
+<script src="table_management.js"></script>

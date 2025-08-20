@@ -1,4 +1,4 @@
-name: Run website.py and upload to SFTP
+name: Build and Deploy Website
 
 on:
   push:
@@ -12,21 +12,19 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.9
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Cache dependencies
+        uses: Swatinem/rust-cache@v2
 
-      - name: Run website.py
-        run: python website.py
+      - name: Build and run the application
+        run: cargo run --release --locked
 
       - name: Upload to SFTP
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
           server: ${{ secrets.SFTP_SERVER }}
           username: ${{ secrets.SFTP_USERNAME }}

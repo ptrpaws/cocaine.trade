@@ -1,4 +1,4 @@
-<h2>{model} Firmware Archive</h2>
+<h2>{{ model }} Firmware Archive</h2>
 <div>
   <label><input type="checkbox" class="hide-column" data-column="2"> Show Runtime Version</label>
   <label><input type="checkbox" class="hide-column" data-column="3"> Show Build Date</label>
@@ -19,7 +19,16 @@
     </tr>
     </thead>
     <tbody>
-    {table_rows}
+    {% for fw in firmwares %}
+    <tr>
+      <td><a href='https://files.cocaine.trade/firmware/meta/{{ fw.Model }}/{{ fw.name }}.zip' class='fw-link'>{{ fw.Incremental }}</a></td>
+      <td>{{ fw.Version }}</td>
+      <td>{{ fw.VrShell_Version }}</td>
+      <td>{{ fw.Build_Date }}</td>
+      <td>{{ fw.Fingerprint }}</td>
+      <td>{{ fw.sha256 | default(value="N/A") }}</td>
+    </tr>
+    {% endfor %}
     </tbody>
   </table>
 </div>

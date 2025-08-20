@@ -1,0 +1,11 @@
+[package]
+name = "cocaine-trade"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_yml = "0.0.12"
+tera = "1.20"
+simple-minify-html = "0.17.0"
+fs_extra = "1.3"

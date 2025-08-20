@@ -1,4 +1,12 @@
 from PIL import Image, ImageDraw, ImageFont
+from pathlib import Path
+
+SCRIPT_DIR = Path(__file__).parent
+
+PROJECT_ROOT = SCRIPT_DIR.parent
+
+FONT_PATH = SCRIPT_DIR / "unifont-13.0.06.ttf"
+OUTPUT_PATH = PROJECT_ROOT / "static" / "preview.png"
 
 SCALE_FACTOR = 8
 IMAGE_WIDTH = 1200
@@ -12,8 +20,9 @@ def calculate_text_position(img, text_width, text_height):
   return (img.width - text_width) // 2, (img.height - text_height) // 2
 
 def get_fonts():
-  font_large = ImageFont.truetype("unifont-13.0.06.ttf", 110 * SCALE_FACTOR)
-  font_small = ImageFont.truetype("unifont-13.0.06.ttf", 44 * SCALE_FACTOR)
+  # Use the new FONT_PATH variable.
+  font_large = ImageFont.truetype(str(FONT_PATH), 110 * SCALE_FACTOR)
+  font_small = ImageFont.truetype(str(FONT_PATH), 44 * SCALE_FACTOR)
   return font_large, font_small
 
 def main():
@@ -40,7 +49,10 @@ def main():
   draw.text(desc_position, desc_text, font=font_small, fill=(255, 255, 255))  # white text
 
   img = img.resize((img.width // SCALE_FACTOR, img.height // SCALE_FACTOR), Image.NEAREST)
-  img.save('preview.png')
+
+  img.save(OUTPUT_PATH)
+  print(f"Successfully generated preview image at: {OUTPUT_PATH}")
+
 
 if __name__ == "__main__":
   main()
