@@ -1,27 +1,27 @@
 <h2>{model} Firmware Archive</h2>
 <div>
-    <label><input type="checkbox" class="hide-column" data-column="2"> Show Runtime Version</label>
-    <label><input type="checkbox" class="hide-column" data-column="3"> Show Build Date</label>
-    <label><input type="checkbox" class="hide-column" data-column="4"> Show Fingerprint</label>
-    <label><input type="checkbox" class="hide-column" data-column="5"> Show SHA-256</label>
+  <label><input type="checkbox" class="hide-column" data-column="2"> Show Runtime Version</label>
+  <label><input type="checkbox" class="hide-column" data-column="3"> Show Build Date</label>
+  <label><input type="checkbox" class="hide-column" data-column="4"> Show Fingerprint</label>
+  <label><input type="checkbox" class="hide-column" data-column="5"> Show SHA-256</label>
 </div>
 <div class='table-container'>
-    <input type=checkbox style="display: none" id=reverse-table></input>
-    <table id="firmwareTable">
-        <thead>
-            <tr>
-                <th><label for=reverse-table><span class=sortable>Incremental <span id=ascArrow>&#x25B2;</span></span></label></th>
-                <th>Version</th>
-                <th>Runtime Version</th>
-                <th>Build Date</th>
-                <th>Fingerprint</th>
-                <th>SHA-256</th>
-            </tr>
-        </thead>
-        <tbody>
-            {table_rows}
-        </tbody>
-    </table>
+  <input type=checkbox style="display: none" id=reverse-table></input>
+  <table id="firmwareTable">
+    <thead>
+    <tr>
+      <th><label for=reverse-table><span class=sortable>Incremental <span id=ascArrow>&#x25B2;</span></span></label></th>
+      <th>Version</th>
+      <th>Runtime Version</th>
+      <th>Build Date</th>
+      <th>Fingerprint</th>
+      <th>SHA-256</th>
+    </tr>
+    </thead>
+    <tbody>
+    {table_rows}
+    </tbody>
+  </table>
 </div>
 <a href="/" class='link link-gold monospace'>[RETURN TO HOMEPAGE]</a>
 <script src="table_management.js"></script>
