@@ -4664,6 +4664,18 @@
   VrShell_Version: 79.0.0.1300.593.787427437
   SystemUtilities_Version: 83.0.0.148.335.737400971
   sha256: 17d14d9e098b7ffd9ffa8695509c3e09ebe04c78820a37d1c35cd36738a62612
+- name: QPro_50927360133600340
+  Codename: seacliff
+  Model: Quest Pro
+  Build_Date: Thu Sep 11 01:52:58 PDT 2025
+  Build_Date_UTC: '1757580778'
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/50927360133600340:user/release-keys
+  Incremental: '50927360133600340'
+  OS_Version: UP1A.231005.007.A1
+  SystemUX_Version: 79.0.0.1219.506.789996649
+  VrShell_Version: 79.0.0.1314.593.790272382
+  SystemUtilities_Version: 83.0.0.148.335.737400971
+  sha256: e9e2a4d29237c885fbec301fc42763a310c1616c126da837a736c224158948a7
 - name: q3_50974260049300520
   Codename: eureka
   Model: Quest 3
