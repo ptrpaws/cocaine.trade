@@ -43,10 +43,7 @@ h2,
 h3 {
   color: #cb2027;
   font-size: 1.5em;
-}
-
-h2 {
-  margin-bottom: 20px;
+  margin-bottom: 20px
 }
 
 .table-container {
