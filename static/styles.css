@@ -41,9 +41,12 @@ body {
 
 h2,
 h3 {
-  color: #cb2027;
   font-size: 1.5em;
-  margin-bottom: 20px
+}
+
+h3 {
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .table-container {
@@ -120,12 +123,15 @@ a {
   display: inline-block;
 }
 
-details {
-  display: block;
-  margin-bottom: 10px;
-}
-
 details summary {
   cursor: pointer;
-  margin-bottom: 10px;
+}
+
+details {
+  margin-bottom: 5px;
+}
+
+.column-toggle input[type="checkbox"] {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }

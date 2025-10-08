@@ -1,12 +1,12 @@
 <h2>{{ model }} Firmware Archive</h2>
-<div>
-  <label><input type="checkbox" class="hide-column" data-column="2"> Show Runtime Version</label>
-  <label><input type="checkbox" class="hide-column" data-column="3"> Show Build Date</label>
-  <label><input type="checkbox" class="hide-column" data-column="4"> Show Fingerprint</label>
-  <label><input type="checkbox" class="hide-column" data-column="5"> Show SHA-256</label>
+<div class="column-toggle">
+  <label><input type="checkbox" class="hide-column" data-column="2">Runtime Version</label>
+  <label><input type="checkbox" class="hide-column" data-column="3">Build Date</label>
+  <label><input type="checkbox" class="hide-column" data-column="4">Fingerprint</label>
+  <label><input type="checkbox" class="hide-column" data-column="5">SHA-256</label>
 </div>
 <div class='table-container'>
-  <input type=checkbox style="display: none" id=reverse-table></input>
+  <input type=checkbox style="display: none" id=reverse-table>
   <table id="firmwareTable">
     <thead>
     <tr>
@@ -32,5 +32,5 @@
     </tbody>
   </table>
 </div>
-<a href="/" class='link link-gold monospace'>[RETURN TO HOMEPAGE]</a>
+<a href="/" class='link link-gold'>[RETURN TO MAIN]</a>
 <script src="table_management.js"></script>

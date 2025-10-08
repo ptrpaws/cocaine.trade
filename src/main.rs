@@ -232,7 +232,7 @@ fn generate_core_pages(
   let minify_cfg = simple_minify_html::Cfg::default();
 
   let link_mapper = |m: &String| {
-    format!("<a href='{}_firmware.html' class='link link-white'>{}</a>", m.replace(' ', "_"), m)
+    format!("<a href='{}_firmware' class='link link-white'>{}</a>", m.replace(' ', "_"), m)
   };
   let meta_links: String = models.iter().map(link_mapper).collect::<Vec<_>>().join("\n");
   let kindle_links: String = kindle_models.iter().map(link_mapper).collect::<Vec<_>>().join("\n");
