@@ -6428,3 +6428,12 @@
   VrShell_Version: 83.0.0.254.439.814074371
   SystemUtilities_Version: 91.0.0.28.664.738201391
   sha256: dfc6385b42e1f621006cc0cb27bb15a992b2e8ed46f6ed09aa69ee1cdaf4e265
+- name: greatwhite_58568980465000080
+  Incremental: '58568980465000080'
+  Fingerprint: Meta/greatwhite/greatwhite:14/UKQ1.241029.001/58568980465000080:user/release-keys
+  Model: Ray-Ban Display
+  Codename: greatwhite
+  Build_Date: Thu Oct 16 01:22:04 PDT 2025
+  Build_Date_UTC: '1760602924'
+  OS_Version: '18.1'
+  sha256: 84696dedca34438154b0a2913c704ed54d41d985653ca5f962c94e6fa5c6711f
