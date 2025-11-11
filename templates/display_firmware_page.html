@@ -1,9 +1,8 @@
 <h2>{{ model }} Firmware Archive</h2>
 <div class="column-toggle">
-  <label><input type="checkbox" class="hide-column" data-column="2">Runtime Version</label>
-  <label><input type="checkbox" class="hide-column" data-column="3">Build Date</label>
-  <label><input type="checkbox" class="hide-column" data-column="4">Fingerprint</label>
-  <label><input type="checkbox" class="hide-column" data-column="5">SHA-256</label>
+  <label><input type="checkbox" class="hide-column" data-column="2">Build Date</label>
+  <label><input type="checkbox" class="hide-column" data-column="3">Fingerprint</label>
+  <label><input type="checkbox" class="hide-column" data-column="4">SHA-256</label>
 </div>
 <div class='table-container'>
   <input type=checkbox style="display: none" id=reverse-table>
@@ -12,7 +11,6 @@
     <tr>
       <th><label for=reverse-table><span class=sortable>Incremental <span id=ascArrow>&#x25B2;</span></span></label></th>
       <th>Version</th>
-      <th>Runtime Version</th>
       <th>Build Date</th>
       <th>Fingerprint</th>
       <th>SHA-256</th>
@@ -23,7 +21,6 @@
     <tr>
       <td><a href='https://files.cocaine.trade/firmware/meta/{{ fw.Model }}/{{ fw.name }}.zip' class='fw-link'>{{ fw.Incremental }}</a></td>
       <td>{{ fw.Version }}</td>
-      <td>{{ fw.VrShell_Version | default(value="N/A") }}</td>
       <td>{{ fw.Build_Date }}</td>
       <td>{{ fw.Fingerprint }}</td>
       <td>{{ fw.sha256 | default(value="N/A") }}</td>

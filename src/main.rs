@@ -13,7 +13,14 @@ const TEMPLATES_GLOB: &str = "templates/**/*.html";
 const FIRMWARES_FILE: &str = "firmwares.yaml";
 const KINDLE_FIRMWARES_FILE: &str = "kindle_firmwares.yaml";
 
-const MODEL_ORDER: &[&str] = &["Quest", "Quest 2", "Quest Pro", "Quest 3", "Quest 3S"];
+const MODEL_ORDER: &[&str] = &[
+    "Quest",
+    "Quest 2",
+    "Quest Pro",
+    "Quest 3",
+    "Quest 3S",
+    "Ray-Ban Display",
+];
 const KINDLE_MODEL_ORDER: &[&str] = &[
   "KS2", "KS", "CS", "PW6", "KT6", "KT5", "PW5", "KOA3", "KT4", "PW4", "KOA2", "KT3", "KOA",
   "PW3", "KV", "KT2", "PW2", "Legacy",
@@ -45,12 +52,12 @@ struct Firmware {
   #[serde(rename = "OS_Version")]
   #[serde(default)]
   os_version: String,
-  #[serde(rename = "SystemUX_Version", default = "default_string")]
-  system_ux_version: String,
-  #[serde(rename = "SystemUtilities_Version", default = "default_string")]
-  system_utilities_version: String,
+  #[serde(rename = "SystemUX_Version")]
+  system_ux_version: Option<String>,
+  #[serde(rename = "SystemUtilities_Version")]
+  system_utilities_version: Option<String>,
   #[serde(rename = "VrShell_Version")]
-  vr_shell_version: String,
+  vr_shell_version: Option<String>,
   #[serde(rename = "name")]
   name: String,
   #[serde(rename = "sha256", default = "default_string")]
@@ -157,14 +164,22 @@ fn load_firmwares_from_file<T: DeserializeOwned>(filename: &str) -> Result<Vec<T
 
 fn process_meta_versions(firmwares: &mut [Firmware]) -> Result<(), ParseIntError> {
   for fw in firmwares {
-    let incremental_val = fw.incremental_as_u64()?;
-    fw.version = if incremental_val <= 15280600195700000 {
-      fw.system_utilities_version.clone()
-    } else if incremental_val >= 15849800124700000 {
-      fw.system_ux_version.clone()
+    if fw.model == "Ray-Ban Display" {
+      fw.version = fw.os_version.clone();
     } else {
-      "Unknown".to_string()
-    };
+      let incremental_val = fw.incremental_as_u64()?;
+      fw.version = if incremental_val <= 15280600195700000 {
+        fw.system_utilities_version.clone().unwrap_or("Unknown".to_string())
+      } else if incremental_val >= 15849800124700000 {
+        fw.system_ux_version.clone().unwrap_or("Unknown".to_string())
+      } else {
+        "Unknown".to_string()
+      };
+    }
+
+    if fw.version.is_empty() {
+      fw.version = "Unknown".to_string();
+    }
   }
   Ok(())
 }
@@ -212,7 +227,13 @@ where
     context.insert("model", &model);
     context.insert("firmwares", &model_firmwares);
 
-    let rendered_page = tera.render(template_name, &context)?;
+    let template_to_render = if model == "Ray-Ban Display" {
+        "display_firmware_page.html"
+    } else {
+        template_name
+    };
+
+    let rendered_page = tera.render(template_to_render, &context)?;
     let title = format!("{} Firmware Update Archive", model);
     let final_html = render_template_with_base(tera, &title, &rendered_page)?;
 
