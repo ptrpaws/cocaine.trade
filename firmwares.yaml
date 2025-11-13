@@ -5492,6 +5492,18 @@
   VrShell_Version: 83.0.0.254.439.814074371
   SystemUtilities_Version: 91.0.0.28.664.738201391
   sha256: e844ffa166beef5d6225ae733fe6fa609c30d60b91bf3e53af15d67e95ef63a1
+- name: QPro_51184490067000340
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '51184490067000340'
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51184490067000340:user/release-keys
+  Model: Quest Pro
+  Codename: seacliff
+  Build_Date: Tue Nov 11 22:00:00 PST 2025
+  Build_Date_UTC: '1762927200'
+  SystemUX_Version: 83.0.0.272.1365.823541729
+  VrShell_Version: 83.0.0.414.439.823772211
+  SystemUtilities_Version: 92.0.0.20.676.738401399
+  sha256: dfd5ab958e94cfa4d6f799c1d5ca18b7c0ae264c174713a82f8ea6f73be0ab49
 - Build_Date: Sun Oct  6 15:41:31 PDT 2024
   Build_Date_UTC: '1728254491'
   Codename: hollywood
@@ -6428,15 +6440,18 @@
   VrShell_Version: 83.0.0.254.439.814074371
   SystemUtilities_Version: 91.0.0.28.664.738201391
   sha256: dfc6385b42e1f621006cc0cb27bb15a992b2e8ed46f6ed09aa69ee1cdaf4e265
-- name: greatwhite_58568980465000080
-  Incremental: '58568980465000080'
-  Fingerprint: Meta/greatwhite/greatwhite:14/UKQ1.241029.001/58568980465000080:user/release-keys
-  Model: Ray-Ban Display
-  Codename: greatwhite
-  Build_Date: Thu Oct 16 01:22:04 PDT 2025
-  Build_Date_UTC: '1760602924'
-  OS_Version: '18.1'
-  sha256: 84696dedca34438154b0a2913c704ed54d41d985653ca5f962c94e6fa5c6711f
+- name: q2_51978090066900150
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '51978090066900150'
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/51978090066900150:user/release-keys
+  Model: Quest 2
+  Codename: hollywood
+  Build_Date: Tue Nov 11 17:01:08 PST 2025
+  Build_Date_UTC: '1762909268'
+  SystemUX_Version: 83.0.0.272.1365.823541729
+  VrShell_Version: 83.0.0.412.439.823550612
+  SystemUtilities_Version: 92.0.0.20.676.738401399
+  sha256: 0eaa6fe224a18555d05e0dd90b6312d83c3601087a4113441c8942f53dead4d0
 - name: greatwhite_54940170441600080
   Incremental: '54940170441600080'
   Fingerprint: Meta/greatwhite/greatwhite:14/UKQ1.241029.001/54940170441600080:user/release-keys
@@ -6446,3 +6461,12 @@
   Build_Date_UTC: '1758448750'
   OS_Version: '18.0'
   sha256: f1ed80a43dba39220ee2b9d9203de78e5c30f290cf4a3c9191ff689ddfdcc13b
+- name: greatwhite_58568980465000080
+  Incremental: '58568980465000080'
+  Fingerprint: Meta/greatwhite/greatwhite:14/UKQ1.241029.001/58568980465000080:user/release-keys
+  Model: Ray-Ban Display
+  Codename: greatwhite
+  Build_Date: Thu Oct 16 01:22:04 PDT 2025
+  Build_Date_UTC: '1760602924'
+  OS_Version: '18.1'
+  sha256: 84696dedca34438154b0a2913c704ed54d41d985653ca5f962c94e6fa5c6711f
