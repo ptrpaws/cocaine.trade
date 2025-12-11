@@ -598,6 +598,18 @@
   VrShell_Version: 83.0.0.629.439.836515334
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 345dd0fd9ebcaf329d8250c158420a5d842ac95ad182be6be9b25f5e68853141
+- name: q3s_1871560095600610
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '1871560095600610'
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/1871560095600610:user/release-keys
+  Model: Quest 3S
+  Codename: panther
+  Build_Date: Thu Dec  4 01:09:19 PST 2025
+  Build_Date_UTC: '1764839359'
+  SystemUX_Version: 83.0.0.322.1365.837120061
+  VrShell_Version: 83.0.0.642.439.837381880
+  SystemUtilities_Version: 92.0.0.20.676.738401399
+  sha256: 99d915d2cea50e7f109be3cbe02f40b183737ad182339f9cf8ab154d7e20b5c8
 - Build_Date: Fri Jun 14 19:01:58 PDT 2019
   Build_Date_UTC: '1560564118'
   Codename: monterey
@@ -6596,6 +6608,18 @@
   VrShell_Version: 83.0.0.628.439.836421891
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: d4eaad849ac645e539105721c5262a0c329c90e16fb83a80c00da4a79f4db5c1
+- name: q2_51978090093900150
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '51978090093900150'
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/51978090093900150:user/release-keys
+  Model: Quest 2
+  Codename: hollywood
+  Build_Date: Thu Dec  4 01:00:06 PST 2025
+  Build_Date_UTC: '1764838806'
+  SystemUX_Version: 83.0.0.322.1365.837120061
+  VrShell_Version: 83.0.0.642.439.837381880
+  SystemUtilities_Version: 92.0.0.20.676.738401399
+  sha256: ec3012703ef50e9ce7eebfb9a2c1505479d304d00071de26cde3148ea527b551
 - name: q2_51978090098300150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51978090098300150'
