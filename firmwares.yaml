@@ -5600,6 +5600,18 @@
   VrShell_Version: 83.0.0.680.439.839598929
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 6c9a77ced6eeff5f85a1bbe5a58ead574727b47790a305e2e181c63fff6e4674
+- name: QPro_51184490102800340
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '51184490102800340'
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51184490102800340:user/release-keys
+  Model: Quest Pro
+  Codename: seacliff
+  Build_Date: Thu Dec 11 17:58:36 PST 2025
+  Build_Date_UTC: '1765504716'
+  SystemUX_Version: 83.0.0.338.1365.842048237
+  VrShell_Version: 83.0.0.721.439.842317616
+  SystemUtilities_Version: 92.0.0.20.676.738401399
+  sha256: 9e674597cf86ec11d3775b1b359c09f171692113677c22f8d67ed200772898af
 - Build_Date: Sun Oct  6 15:41:31 PDT 2024
   Build_Date_UTC: '1728254491'
   Codename: hollywood
@@ -6152,6 +6164,18 @@
   VrShell_Version: 83.0.0.681.439.839635310
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 0262c12adfaa6387b816bec4bbbf387aad295badbb5ff0507d34656e2c86dacc
+- name: q3_51563850141700520
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '51563850141700520'
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/51563850141700520:user/release-keys
+  Model: Quest 3
+  Codename: eureka
+  Build_Date: Thu Dec 11 16:45:45 PST 2025
+  Build_Date_UTC: '1765500345'
+  SystemUX_Version: 83.0.0.338.1365.842048237
+  VrShell_Version: 83.0.0.721.439.842317616
+  SystemUtilities_Version: 92.0.0.20.676.738401399
+  sha256: 0b581231e6ddd33505630acd00ee0013c2943afcb91d89d100b9a3cdf0ac967d
 - name: q2_51584880050400150
   Codename: hollywood
   Model: Quest 2
@@ -6644,6 +6668,18 @@
   VrShell_Version: 83.0.0.681.439.839635310
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 96fc8d39aa7d3a3cabe01afdffe9b3ab98979854dc3ee6f1389461078efbd7de
+- name: q2_51978090103000150
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '51978090103000150'
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/51978090103000150:user/release-keys
+  Model: Quest 2
+  Codename: hollywood
+  Build_Date: Thu Dec 11 16:46:38 PST 2025
+  Build_Date_UTC: '1765500398'
+  SystemUX_Version: 83.0.0.338.1365.842048237
+  VrShell_Version: 83.0.0.721.439.842317616
+  SystemUtilities_Version: 92.0.0.20.676.738401399
+  sha256: 5ac2ee710531334cd3e69baaf31db6e630fb2b76036df9082c35c45c1222e4b4
 - name: greatwhite_54940170441600080
   Incremental: '54940170441600080'
   Fingerprint: Meta/greatwhite/greatwhite:14/UKQ1.241029.001/54940170441600080:user/release-keys
