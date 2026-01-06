@@ -646,6 +646,18 @@
   VrShell_Version: 83.0.0.761.439.844718127
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: dfbf4b96576ba04c7e281eabf134dae6032f6e8f9ef4a1045123bae2f29fbc24
+- name: q3s_2434180063300610
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '2434180063300610'
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/16b9-d852-0004-0000.twshared31412.03.rva2.tw.fbinfra.net:user/release-keys
+  Model: Quest 3S
+  Codename: panther
+  Build_Date: Sun Jan  4 18:59:27 PST 2026
+  Build_Date_UTC: '1767581967'
+  SystemUX_Version: 85.0.0.154.1707.855645509
+  VrShell_Version: 85.0.0.575.555.855739086
+  SystemUtilities_Version: 94.0.0.44.570.738601234
+  sha256: 3b1b18944c1aeaf800aeadc71c06abc4e57d7adb0498ef87043ed4ea7e77a275
 - Build_Date: Fri Jun 14 19:01:58 PDT 2019
   Build_Date_UTC: '1560564118'
   Codename: monterey
@@ -5816,6 +5828,18 @@
   VrShell_Version: 72.0.0.966.346.685407396
   SystemUtilities_Version: 72.0.0.948.353.685407313
   sha256: 21263539989f1e5df19b38d8ad9c8378fe4b55a73f07284d61db26d6bdd5a1f7
+- name: QPro_51276530063500340
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '51276530063500340'
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/4a03-fbff-0004-0000.twshared68648.08.pnb2.tw.fbinfra.net:user/release-keys
+  Model: Quest Pro
+  Codename: seacliff
+  Build_Date: Sun Jan  4 17:47:43 PST 2026
+  Build_Date_UTC: '1767577663'
+  SystemUX_Version: 85.0.0.154.1707.855645509
+  VrShell_Version: 85.0.0.574.555.855696679
+  SystemUtilities_Version: 94.0.0.44.570.738601234
+  sha256: 22455d45d31afb5326aeb769b5c1815b66c41c16e3ccb1cee1c6084a80ed3bde
 - name: q3_51312300157900520
   Codename: eureka
   Model: Quest 3
