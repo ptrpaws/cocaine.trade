@@ -6782,3 +6782,12 @@
   Build_Date_UTC: '1760602924'
   OS_Version: '18.1'
   sha256: 84696dedca34438154b0a2913c704ed54d41d985653ca5f962c94e6fa5c6711f
+- name: greatwhite_59707770167000080
+  Incremental: '59707770167000080'
+  Fingerprint: Meta/greatwhite/greatwhite:14/UKQ1.250303.001/59707770167000080:user/release-keys
+  Model: Ray-Ban Display
+  Codename: greatwhite
+  Build_Date: Fri Jan  2 16:57:50 PST 2026
+  Build_Date_UTC: '1767401870'
+  OS_Version: '21'
+  sha256: 2ec968f0264ef3f8c17406eae7a629a3aecde02e97771df018f2d03c9e77f402
