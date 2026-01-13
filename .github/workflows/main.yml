@@ -23,6 +23,33 @@ jobs:
       - name: Build and run the application
         run: cargo run --release --locked
 
+      - name: Install and Start WireGuard
+        env:
+          WG_PRIVATE_KEY: ${{ secrets.WG_PRIVATE_KEY }}
+          WG_ADDRESS: ${{ secrets.WG_ADDRESS }}
+          WG_DNS: ${{ secrets.WG_DNS }}
+          WG_PEER_PUBLIC_KEY: ${{ secrets.WG_PEER_PUBLIC_KEY }}
+          WG_PEER_ALLOWED_IPS: ${{ secrets.WG_PEER_ALLOWED_IPS }}
+          WG_PEER_ENDPOINT: ${{ secrets.WG_PEER_ENDPOINT }}
+          WG_PEER_PRESHARED_KEY: ${{ secrets.WG_PEER_PRESHARED_KEY }}
+        run: |
+          sudo apt install -y wireguard-tools
+          cat <<EOF > wg0.conf
+          [Interface]
+          PrivateKey = $WG_PRIVATE_KEY
+          Address = $WG_ADDRESS
+          DNS = $WG_DNS
+
+          [Peer]
+          PublicKey = $WG_PEER_PUBLIC_KEY
+          AllowedIPs = $WG_PEER_ALLOWED_IPS
+          Endpoint = $WG_PEER_ENDPOINT
+          PresharedKey = $WG_PEER_PRESHARED_KEY
+          EOF
+          chmod 600 wg0.conf
+          sudo mv wg0.conf /etc/wireguard/wg0.conf
+          sudo wg-quick up wg0
+
       - name: Upload to SFTP
         uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
