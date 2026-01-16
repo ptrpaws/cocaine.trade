@@ -2238,7 +2238,3 @@
   Model: KOA3
   name: update_kindle_all_new_oasis_v2_5.18.2
   sha256: f1c6cd86e6f9236dd0a80831c882cf04a96e175697089b0f0d3ecad9933e0325
-- Incremental: 4097490002
-  Model: KT8
-  name: update_kindle_8th_5.16.2.1.1
-  sha256: 0d602094826d6a485b22d1ba054deaa2b3f60a9dc1451689d3733950b1eb1408
