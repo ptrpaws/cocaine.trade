@@ -2262,3 +2262,7 @@
   Model: PW5
   name: update_kindle_all_new_paperwhite_11th_5.19.2
   sha256: 64ddcbae52f0009b5d3f9974d93610db7f26a8787c895c55f413127af474b987
+- Incremental: 4670790040
+  Model: CS
+  name: update_kindle_colorsoft_5.19.2
+  sha256: 366063a36a79ba30036dbf73abee8f3db8a7d09e9ce0dca87b1b9a727e5923bb
