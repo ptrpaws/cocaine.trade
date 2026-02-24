@@ -6140,6 +6140,18 @@
   VrShell_Version: 201.0.0.352.547.885148712
   SystemUtilities_Version: 99.0.0.27.676.739101415
   sha256: 91084ee8469fea93702ecbf4fac5862c4f5d957fd4c6aea237fb192bc8b98026
+- name: QPro_51360500035000340
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '51360500035000340'
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/5b28-c659-0004-0000.twshared70948.16.atn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest Pro
+  Codename: seacliff
+  Build_Date: Sun Feb 22 13:55:48 PST 2026
+  Build_Date_UTC: '1771797348'
+  SystemUX_Version: 201.0.0.107.1679.889722487
+  VrShell_Version: 201.0.0.416.547.889860751
+  SystemUtilities_Version: 99.0.0.27.676.739101415
+  sha256: 8b239ab7f5fe95cf37e602d89b784b9dabc1899ec5fe3b6b497847e45e3731db
 - name: q2_51421800089400150
   Codename: hollywood
   Model: Quest 2
@@ -6896,6 +6908,18 @@
   VrShell_Version: 201.0.0.352.547.885148712
   SystemUtilities_Version: 99.0.0.27.676.739101415
   sha256: a020e12ea6d9f9c6025dc428cb2a16f9f24bde892ea293736e2a109c574ff561
+- name: q3_51943020048700520
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '51943020048700520'
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/f8f3-0693-0004-0000.twshared22453.03.hil3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest 3
+  Codename: eureka
+  Build_Date: Sun Feb 22 12:56:50 PST 2026
+  Build_Date_UTC: '1771793810'
+  SystemUX_Version: 201.0.0.107.1679.889722487
+  VrShell_Version: 201.0.0.416.547.889860751
+  SystemUtilities_Version: 99.0.0.27.676.739101415
+  sha256: b7db612fcabf4f08623c20638094ed255b83d2c7d1f5cf43c20656ff26e3d246
 - name: q2_51978090049700150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51978090049700150'
@@ -7064,6 +7088,18 @@
   VrShell_Version: 201.0.0.352.547.885148712
   SystemUtilities_Version: 99.0.0.27.676.739101415
   sha256: 326016ea54d252d609c0bc1440573e0b1ab7ddd383c8fb51238dac7794f21b99
+- name: q2_52106880035500150
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '52106880035500150'
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/d5a6-60f1-0004-0000.twshared28632.18.odn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest 2
+  Codename: hollywood
+  Build_Date: Sun Feb 22 13:05:32 PST 2026
+  Build_Date_UTC: '1771794332'
+  SystemUX_Version: 201.0.0.107.1679.889722487
+  VrShell_Version: 201.0.0.416.547.889860751
+  SystemUtilities_Version: 99.0.0.27.676.739101415
+  sha256: 1e39208786e2b7b5d5ef6d860d364cffaf9b370ae819b48689a4f21608c0c92a
 - name: greatwhite_54940170441600080
   Incremental: '54940170441600080'
   Fingerprint: Meta/greatwhite/greatwhite:14/UKQ1.241029.001/54940170441600080:user/release-keys
