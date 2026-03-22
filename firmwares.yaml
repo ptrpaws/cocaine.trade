@@ -7232,6 +7232,18 @@
   VrShell_Version: 201.0.0.517.547.898026220
   SystemUtilities_Version: 99.0.0.27.676.739101415
   sha256: 80e87c1a5c4cd12c121b650586f939732ff0718dba77e2d5aceab1f76fd6e9ab
+- name: q2_52106880041500150
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '52106880041500150'
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/5ae5-e51f-0004-0000.twshared59466.04.ldc5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest 2
+  Codename: hollywood
+  Build_Date: Wed Mar  4 09:04:05 PST 2026
+  Build_Date_UTC: '1772643845'
+  SystemUX_Version: 201.0.0.130.1679.898026116
+  VrShell_Version: 201.0.0.521.547.898370205
+  SystemUtilities_Version: 99.0.0.27.676.739101415
+  sha256: 59c27d7b542220fed20686dd62520e25b6ad4c5f408d5dafa032a92d49da36d8
 - name: greatwhite_54940170441600080
   Incremental: '54940170441600080'
   Fingerprint: Meta/greatwhite/greatwhite:14/UKQ1.241029.001/54940170441600080:user/release-keys
