@@ -6356,6 +6356,18 @@
   VrShell_Version: 203.0.0.353.432.939957161
   SystemUtilities_Version: 102.0.0.27.557.739401183
   sha256: a972b4265c830cce832e125dd0fe0f8b8f22260c297b510263b974619a980e5c
+- name: QPro_51412760034600340
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '51412760034600340'
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/4b3f-8bdf-0004-0000.twshared60620.05.prn6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest Pro
+  Codename: seacliff
+  Build_Date: Tue Apr 21 22:07:12 PDT 2026
+  Build_Date_UTC: '1776834432'
+  SystemUX_Version: 203.0.0.105.1295.949220618
+  VrShell_Version: 203.0.0.428.432.949708223
+  SystemUtilities_Version: 102.0.0.27.557.739401183
+  sha256: f384ef245687e173ac845a2d847d919cceb0530ae0eb96eec8da0701b41e7a5a
 - name: q2_51421800089400150
   Codename: hollywood
   Model: Quest 2
@@ -7484,6 +7496,30 @@
   VrShell_Version: 203.0.0.353.432.939957161
   SystemUtilities_Version: 102.0.0.27.557.739401183
   sha256: b7a4a0b0fd31c7d243a2ee2b8cd7c303ed99be0375b5f04049fea01d154ea666
+- name: q2_52150470034600150
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '52150470034600150'
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/66d7-25ab-0004-0000.twshared116381.14.frc2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest 2
+  Codename: hollywood
+  Build_Date: Tue Apr 21 21:14:11 PDT 2026
+  Build_Date_UTC: '1776831251'
+  SystemUX_Version: 203.0.0.105.1295.949220618
+  VrShell_Version: 203.0.0.428.432.949708223
+  SystemUtilities_Version: 102.0.0.27.557.739401183
+  sha256: 041738e88cfb1e30b066d152202a9f7f710f311e06b08fdd40258f30dd66ec89
+- name: q3_52168470033700520
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '52168470033700520'
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/fe16-39e0-0004-0000.twshared1705.05.mwg6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest 3
+  Codename: eureka
+  Build_Date: Sun May 17 09:19:22 PDT 2026
+  Build_Date_UTC: '1779034762'
+  SystemUX_Version: 204.0.0.123.1183.972486286
+  VrShell_Version: 204.0.0.396.431.972687724
+  SystemUtilities_Version: 105.0.0.27.1352.739702144
+  sha256: b0c370d63264e533a0a1c35018a2c97201fc29c13aaba33d612ad0186512fda5
 - name: greatwhite_54940170441600080
   Incremental: '54940170441600080'
   Fingerprint: Meta/greatwhite/greatwhite:14/UKQ1.241029.001/54940170441600080:user/release-keys
