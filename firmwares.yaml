@@ -6464,6 +6464,18 @@
   VrShell_Version: 74.0.0.780.498.707927601
   SystemUtilities_Version: 74.0.0.769.346.707827577
   sha256: 8f28dd5d91a3ef76ef5bf5643bea6e684e81a189d495f4836712bc62a9cf41c6
+- name: QPro_51436340028700340
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '51436340028700340'
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/f76c-9741-0004-0000.twshared107698.04.odn1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest Pro
+  Codename: seacliff
+  Build_Date: Wed May 27 09:45:57 PDT 2026
+  Build_Date_UTC: '1779900357'
+  SystemUX_Version: 204.0.0.148.1183.980959173
+  VrShell_Version: 204.0.0.507.431.981022292
+  SystemUtilities_Version: 105.0.0.27.1352.739702144
+  sha256: f4b6bdc5bcd8b2a4ab770e9c7d48dc9cea381cddd1f7b5bb343a77eefe18f6f9
 - name: q2_51540840049600150
   Codename: hollywood
   Model: Quest 2
@@ -7520,6 +7532,30 @@
   VrShell_Version: 204.0.0.396.431.972687724
   SystemUtilities_Version: 105.0.0.27.1352.739702144
   sha256: b0c370d63264e533a0a1c35018a2c97201fc29c13aaba33d612ad0186512fda5
+- name: q3_52168470040700520
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '52168470040700520'
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/3205-0de5-0004-0000.twshared38062.01.nha5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest 3
+  Codename: eureka
+  Build_Date: Wed May 27 17:08:09 PDT 2026
+  Build_Date_UTC: '1779926889'
+  SystemUX_Version: 204.0.0.148.1183.980959173
+  VrShell_Version: 204.0.0.510.431.981302813
+  SystemUtilities_Version: 105.0.0.27.1352.739702144
+  sha256: ea359286ba0f5702c176123ab2edb7fb2c3998eced83ba0128d5b37a4edb6e04
+- name: q2_52175280028600150
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '52175280028600150'
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/92cf-6250-0004-0000.twshared67874.01.nha6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest 2
+  Codename: hollywood
+  Build_Date: Wed May 27 17:06:36 PDT 2026
+  Build_Date_UTC: '1779926796'
+  SystemUX_Version: 204.0.0.148.1183.980959173
+  VrShell_Version: 204.0.0.510.431.981302813
+  SystemUtilities_Version: 105.0.0.27.1352.739702144
+  sha256: 56c3ed3ce172ce5802d928aa73d7284b48671e0714dbcb918f3bb25b0e410c86
 - name: greatwhite_54940170441600080
   Incremental: '54940170441600080'
   Fingerprint: Meta/greatwhite/greatwhite:14/UKQ1.241029.001/54940170441600080:user/release-keys
