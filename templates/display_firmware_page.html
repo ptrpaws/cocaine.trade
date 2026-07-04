@@ -23,7 +23,7 @@
       <td>{{ fw.Version }}</td>
       <td>{{ fw.Build_Date }}</td>
       <td>{{ fw.Fingerprint }}</td>
-      <td>{{ fw.sha256 | default(value="N/A") }}</td>
+      <td>{{ fw.sha256 | default(value="N/A") | safe }}</td>
     </tr>
     {% endfor %}
     </tbody>

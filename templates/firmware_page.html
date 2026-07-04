@@ -23,10 +23,10 @@
     <tr>
       <td><a href='https://files.cocaine.trade/firmware/meta/{{ fw.Model }}/{{ fw.name }}.zip' class='fw-link'>{{ fw.Incremental }}</a></td>
       <td>{{ fw.Version }}</td>
-      <td>{{ fw.VrShell_Version | default(value="N/A") }}</td>
+      <td>{{ fw.VrShell_Version | default(value="N/A") | safe }}</td>
       <td>{{ fw.Build_Date }}</td>
       <td>{{ fw.Fingerprint }}</td>
-      <td>{{ fw.sha256 | default(value="N/A") }}</td>
+      <td>{{ fw.sha256 | default(value="N/A") | safe }}</td>
     </tr>
     {% endfor %}
     </tbody>

@@ -17,7 +17,7 @@
     <tr>
       <td><a href='https://files.cocaine.trade/firmware/kindle/{{ fw.Model }}/{{ fw.name }}.bin' class='fw-link'>{{ fw.Incremental }}</a></td>
       <td>{{ fw.Version }}</td>
-      <td>{{ fw.sha256 | default(value="N/A") }}</td>
+      <td>{{ fw.sha256 | default(value="N/A") | safe }}</td>
     </tr>
     {% endfor %}
     </tbody>
