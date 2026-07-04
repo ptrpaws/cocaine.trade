@@ -6485,6 +6485,9 @@
   Build_Date: Mon Jun 15 21:38:32 PDT 2026
   Build_Date_UTC: '1781584712'
   sha256: 50bbfc7e1471256010b93794f27854599efe1d0e0b44829bdfbf887446286761
+  SystemUX_Version: 204.0.0.200.1183.996826085
+  VrShell_Version: 204.0.0.704.431.996826886
+  SystemUtilities_Version: 105.0.0.27.1352.739702144
 - name: q2_51540840049600150
   Codename: hollywood
   Model: Quest 2
@@ -7562,6 +7565,9 @@
   Build_Date: Mon Jun 15 20:47:36 PDT 2026
   Build_Date_UTC: '1781581656'
   sha256: beea2e092f6239ca21af98466d9b130c22b9ab8822f411b00baf74ebb866858e
+  SystemUX_Version: 204.0.0.200.1183.996826085
+  VrShell_Version: 204.0.0.704.431.996826886
+  SystemUtilities_Version: 105.0.0.27.1352.739702144
 - name: q2_52175280028600150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52175280028600150'
@@ -7583,6 +7589,9 @@
   Build_Date: Mon Jun 15 20:48:55 PDT 2026
   Build_Date_UTC: '1781581735'
   sha256: cd92e57a773c8cf7f94ac79b5dbcd89d97598243010331ef5b1a0e8b866ba9c5
+  SystemUX_Version: 204.0.0.200.1183.996826085
+  VrShell_Version: 204.0.0.704.431.996826886
+  SystemUtilities_Version: 105.0.0.27.1352.739702144
 - name: greatwhite_54940170441600080
   Incremental: '54940170441600080'
   Fingerprint: Meta/greatwhite/greatwhite:14/UKQ1.241029.001/54940170441600080:user/release-keys
