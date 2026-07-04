@@ -6476,6 +6476,15 @@
   VrShell_Version: 204.0.0.507.431.981022292
   SystemUtilities_Version: 105.0.0.27.1352.739702144
   sha256: f4b6bdc5bcd8b2a4ab770e9c7d48dc9cea381cddd1f7b5bb343a77eefe18f6f9
+- name: QPro_51436340040000340
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '51436340040000340'
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/1d37-f209-0004-0000.twshared3860.06.mwg6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest Pro
+  Codename: seacliff
+  Build_Date: Mon Jun 15 21:38:32 PDT 2026
+  Build_Date_UTC: '1781584712'
+  sha256: 50bbfc7e1471256010b93794f27854599efe1d0e0b44829bdfbf887446286761
 - name: q2_51540840049600150
   Codename: hollywood
   Model: Quest 2
@@ -7544,6 +7553,15 @@
   VrShell_Version: 204.0.0.510.431.981302813
   SystemUtilities_Version: 105.0.0.27.1352.739702144
   sha256: ea359286ba0f5702c176123ab2edb7fb2c3998eced83ba0128d5b37a4edb6e04
+- name: q3_52168470052900520
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '52168470052900520'
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/fdda-bd2e-0004-0000.twshared19185.01.kcm1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest 3
+  Codename: eureka
+  Build_Date: Mon Jun 15 20:47:36 PDT 2026
+  Build_Date_UTC: '1781581656'
+  sha256: beea2e092f6239ca21af98466d9b130c22b9ab8822f411b00baf74ebb866858e
 - name: q2_52175280028600150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52175280028600150'
@@ -7556,6 +7574,15 @@
   VrShell_Version: 204.0.0.510.431.981302813
   SystemUtilities_Version: 105.0.0.27.1352.739702144
   sha256: 56c3ed3ce172ce5802d928aa73d7284b48671e0714dbcb918f3bb25b0e410c86
+- name: q2_52175280039900150
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '52175280039900150'
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/531e-9a0e-0004-0000.twshared45449.01.rva6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest 2
+  Codename: hollywood
+  Build_Date: Mon Jun 15 20:48:55 PDT 2026
+  Build_Date_UTC: '1781581735'
+  sha256: cd92e57a773c8cf7f94ac79b5dbcd89d97598243010331ef5b1a0e8b866ba9c5
 - name: greatwhite_54940170441600080
   Incremental: '54940170441600080'
   Fingerprint: Meta/greatwhite/greatwhite:14/UKQ1.241029.001/54940170441600080:user/release-keys
