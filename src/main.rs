@@ -22,7 +22,7 @@ const MODEL_ORDER: &[&str] = &[
     "Ray-Ban Display",
 ];
 const KINDLE_MODEL_ORDER: &[&str] = &[
-  "KS2", "KS", "CS", "PW6", "KT6", "KT5", "PW5", "KOA3", "KT4", "PW4", "KOA2", "KT3", "KOA",
+  "KS3", "KSC", "KS2", "KS", "CS", "PW6", "KT6", "KT5", "PW5", "KOA3", "KT4", "PW4", "KOA2", "KT3", "KOA",
   "PW3", "KV", "KT2", "PW2", "Legacy",
 ];
 
