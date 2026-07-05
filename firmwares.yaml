@@ -453,6 +453,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 5772f16f9ed6e83b7659d7dfa2e6418efd80539e7dcbaa6c2349f6c4fc9040d8
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3s_1372720074900610
   Codename: panther
   Model: Quest 3S
@@ -466,6 +467,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 825e0a310698d2f9a716db128cabc370e9170fef4b432769dbadb619474c7b3f
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3s_1372720082300610
   Codename: panther
   Model: Quest 3S
@@ -479,6 +481,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 4200872b35ad9e5789d32879a8866792dbe780b86205f5c91f3d8f3396a9eda7
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3s_1372720090900610
   Codename: panther
   Model: Quest 3S
@@ -492,6 +495,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: d9dd4c9df9ccb5765eb35ee921debbc9963ab4aa330c487e98837b3847e504f9
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3s_1372720095800610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1372720095800610'
@@ -505,6 +509,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 098a5a3ffcee2d9d1ba501fecab67aa1bc54a51de54609f651baaa0ad393b6df
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3s_1372720096500610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1372720096500610'
@@ -518,6 +523,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: bdc9d21c19f633653d23373f4566c298bf558554cdcf80f8180c1d0173d828b7
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3s_1372720102500610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1372720102500610'
@@ -531,6 +537,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 3a45f253ce866f74627ee34cb248365ec9cab8298ce5b0b3842b56bc1cda5bce
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3s_1372720106300610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1372720106300610'
@@ -544,6 +551,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 09b012b0a253803249e089dc01d74075005a2b2a82a1d84edbda3aa34284ed96
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3s_1372720111800610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1372720111800610'
@@ -557,6 +565,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 96fe1606946a8f26beea885b81e8c8c30e066030a8584469903aa7220e7f36ea
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3s_1372720121800610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1372720121800610'
@@ -570,6 +579,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 6f8f8b7a8d40c9b9684dbb78da6ac20cd889eadb77c7f6eae89d003129d28df8
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3s_1372720130100610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1372720130100610'
@@ -583,6 +593,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 991e59ab4208d81758b91cab40684cf0a8d540f5659c7d2f50e058647724efad
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3s_1372720134900610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1372720134900610'
@@ -596,6 +607,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 75b6d99ea1b07a6c11f988a37654afe5bedf90d9bfeb9b5f93a2f08e0f8a6d6b
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3s_1372720136000610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1372720136000610'
@@ -609,6 +621,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 9ccac7bd6d93045bc20e61cede6cc1e38e03012e556860470292e114fc111881
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3s_1372720140400610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1372720140400610'
@@ -622,6 +635,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: b5f827e994800321cf9473095edc657c22298d18379d95425a0fbcf83babd9ca
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3s_1871560079900610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1871560079900610'
@@ -635,6 +649,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 9cb2e924c74d7184fc0b53dd166243559ef96342f52d91b396513cf0368e0a7e
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q3s_1871560094100610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1871560094100610'
@@ -648,6 +663,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 345dd0fd9ebcaf329d8250c158420a5d842ac95ad182be6be9b25f5e68853141
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q3s_1871560095600610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1871560095600610'
@@ -661,6 +677,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 99d915d2cea50e7f109be3cbe02f40b183737ad182339f9cf8ab154d7e20b5c8
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q3s_1871560100100610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1871560100100610'
@@ -674,6 +691,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 8aa5a8857a7ae41b6f4706d2eb237818ebfe48873b2b6dc9ce9ee1ceae38c15d
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q3s_1871560105100610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1871560105100610'
@@ -687,6 +705,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: aec3698349ee90c5331ec843919aa894ade88bb9b660469a0d769be679d5a89a
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q3s_1871560109600610
   OS_Version: UP1A.231005.007.A1
   Incremental: '1871560109600610'
@@ -700,6 +719,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: dfbf4b96576ba04c7e281eabf134dae6032f6e8f9ef4a1045123bae2f29fbc24
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q3s_2434180063300610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2434180063300610'
@@ -713,6 +733,7 @@
   SystemUtilities_Version: 94.0.0.44.570.738601234
   sha256: 3b1b18944c1aeaf800aeadc71c06abc4e57d7adb0498ef87043ed4ea7e77a275
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q3s_2434180072500610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2434180072500610'
@@ -726,6 +747,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: d831a4a97b493e7c9027e2cfcc9c5edc5d036cf861cf8be9d777b46e41dda1b8
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q3s_2434180088800610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2434180088800610'
@@ -739,6 +761,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: c61ed7e1d21adc3ccd987d604ae9014810e9c2c9dc29d154d221c8f03b80608b
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q3s_2434180092900610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2434180092900610'
@@ -752,6 +775,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: bf29b862ff33c2b09a984fe65b93b65761594c590d83e26209771860d474339e
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q3s_2434180100400610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2434180100400610'
@@ -765,6 +789,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: cc613edf308ffb91ef9a4c94f4608e3e058b357af2d920eafa34ef696a328bb0
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q3s_2434180104000610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2434180104000610'
@@ -778,6 +803,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: 47bfea08fd5ac427acf0251350ba4b1c95bf5b66dd06989ed284dccd59eb729c
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - Build_Date: Fri Jun 14 19:01:58 PDT 2019
   Build_Date_UTC: '1560564118'
   Codename: monterey
@@ -5432,6 +5458,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: d9787c9a66495f7df9919de8fe3028cb1417c4f105085dcca0d7b7843bf71243
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: QPro_51043400079500340
   Codename: seacliff
   Model: Quest Pro
@@ -5445,6 +5472,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 4e39b2ea0bf4a937f0afc6ac086f106a6ba5f1ce613300a9e9df2fd3ad7a6a7d
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: QPro_51043400087900340
   Codename: seacliff
   Model: Quest Pro
@@ -5458,6 +5486,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 1f22a92d1bb7d525202fe679a19d4a4aa76ab95b39d22ff350d937104e7c468d
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: QPro_51043400092900340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51043400092900340'
@@ -5471,6 +5500,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 39c154690ef8c13bbdde31e8c3305cd1152cc2a16989055fb7299928bf000212
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: QPro_51043400093500340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51043400093500340'
@@ -5484,6 +5514,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 4a3127a1ddbbc9346a4c51001851fca6d55a185bd8cfe6a236ff07c6d125dff0
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: QPro_51043400099100340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51043400099100340'
@@ -5497,6 +5528,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: f3cff31602472869bb5476a571dd874922b16b1cc55267c2df3cced2b9c54edd
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: QPro_51043400103300340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51043400103300340'
@@ -5510,6 +5542,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 4c7847ba8ba8bb03781cc1a2f84e48616debd7112c37b2bffc5d3d311ad919d7
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: QPro_51043400108800340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51043400108800340'
@@ -5523,6 +5556,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 9655d5b6b87dfe28e28953f5724d42dd486e20a62a0abdd29e9a4c306e3136a2
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: QPro_51043400117700340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51043400117700340'
@@ -5536,6 +5570,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 94455e3ff7df4495b5de76d9f70a4d5666d2dc242772e2d3e2df4e32b098d4c1
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: QPro_51043400125700340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51043400125700340'
@@ -5549,6 +5584,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: ca42075c81650599d1de1dd91c7b1a74fec3a6778c4a2a88d6b49939c03ae7d2
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: QPro_51043400130500340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51043400130500340'
@@ -5562,6 +5598,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: dfd0cc5e567153b4dc421f5ca3a693023b2eba82b1be5134de66ec591c985283
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: QPro_51043400131500340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51043400131500340'
@@ -5575,6 +5612,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 9255f508b080e1ac2b8dd579f0ebf0dddc2f908e709e4c1576a585c64944dca1
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: QPro_51043400135800340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51043400135800340'
@@ -5588,6 +5626,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: c053248724c37f79106fc11f6dae8871cdd0312a39f6c7e7dcad82fe9ede9be1
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3_51052260096500520
   Codename: eureka
   Model: Quest 3
@@ -6030,6 +6069,7 @@
   SystemUtilities_Version: 91.0.0.28.664.738201391
   sha256: e844ffa166beef5d6225ae733fe6fa609c30d60b91bf3e53af15d67e95ef63a1
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: QPro_51184490067000340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51184490067000340'
@@ -6043,6 +6083,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: dfd5ab958e94cfa4d6f799c1d5ca18b7c0ae264c174713a82f8ea6f73be0ab49
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: QPro_51184490077900340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51184490077900340'
@@ -6056,6 +6097,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 7d17783c0d610a391246bdc5ec2babe71c3bde6dac1848a80763df07617ddacc
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: QPro_51184490092100340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51184490092100340'
@@ -6069,6 +6111,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 5722f267cf9d1ca944f4b1e2e14124f3acd1c5f8443b6b6359d1e92a9f3ed9b5
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: QPro_51184490093600340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51184490093600340'
@@ -6082,6 +6125,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: e9efb7f6f78188cdf03e8b50a7eef5a4ad4293754cb6a260f142197104bf1d90
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: QPro_51184490098000340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51184490098000340'
@@ -6095,6 +6139,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 6c9a77ced6eeff5f85a1bbe5a58ead574727b47790a305e2e181c63fff6e4674
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: QPro_51184490102800340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51184490102800340'
@@ -6108,6 +6153,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 9e674597cf86ec11d3775b1b359c09f171692113677c22f8d67ed200772898af
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: QPro_51184490107200340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51184490107200340'
@@ -6121,6 +6167,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: f2a32ca9658f60c5e714725eac1c1dfce2c9c4fadc5cb50ce5e05d6aa4bab931
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - Build_Date: Sun Oct  6 15:41:31 PDT 2024
   Build_Date_UTC: '1728254491'
   Codename: hollywood
@@ -6316,6 +6363,7 @@
   SystemUtilities_Version: 94.0.0.44.570.738601234
   sha256: 22455d45d31afb5326aeb769b5c1815b66c41c16e3ccb1cee1c6084a80ed3bde
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: QPro_51276530072800340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51276530072800340'
@@ -6329,6 +6377,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: eb4a5166624c8ca1b7d5789ba4987e805f89e39a7f1ee7d3525505993cde20e7
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: QPro_51276530088900340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51276530088900340'
@@ -6342,6 +6391,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: 4f800fbc78bc97dd4b659d53fa389663df92c642b2b80f4cedbbd4352657e6f0
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: QPro_51276530093100340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51276530093100340'
@@ -6355,6 +6405,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: d8a29cebaa4eb01471a9cb3aba411d329d812474e0acb9f3895ddb0008c1836e
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: QPro_51276530100500340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51276530100500340'
@@ -6368,6 +6419,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: 11abdac16d9315c5189cab21959f4ae5db3e825d38aaa5416b9c6836b3ffa94c
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: QPro_51276530104100340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51276530104100340'
@@ -6381,6 +6433,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: 059cce7f466d70b9968c3e3df7fc1c203478e75956d94b338bfc2f1dc84c7337
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q3_51312300157900520
   Codename: eureka
   Model: Quest 3
@@ -6394,6 +6447,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 27985510bf88f8bd60b3266fe0f12a62b176df408043f0750e653f599ca1fd31
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3_51312300167700520
   Codename: eureka
   Model: Quest 3
@@ -6407,6 +6461,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 4e2681268ab0fccd1b1577d00a597d4d61cfccfb6af5ab8b640ebf1ab2ec8e68
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3_51312300176600520
   Codename: eureka
   Model: Quest 3
@@ -6420,6 +6475,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 92b2d5cec69e1010508e0ffe6ffdd01e6bffd2e17169f725df9f4195acb54f2d
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3_51312300183000520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51312300183000520'
@@ -6433,6 +6489,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: b526c4d7565cd64a0c7ed50ad110bcd8657db8ccc38981920a91fbcef9ed4d8c
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3_51312300183900520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51312300183900520'
@@ -6446,6 +6503,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 822a6237b7c1ecf13cfcb9adaf5a98fdf59fc51d5dd14c0dd7de094daf519fbf
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3_51312300189100520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51312300189100520'
@@ -6459,6 +6517,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 7b17f97915da0e405c45f87648fc7b80a353dca1f24614256c93a5bc816c2006
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3_51312300194800520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51312300194800520'
@@ -6472,6 +6531,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 848d37b1f1f8bc4971fbcbd6bc2555140a30447e037fda2d436fa31ea39ac1bb
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3_51312300200800520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51312300200800520'
@@ -6485,6 +6545,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: d9d117c90b41912709c25c5f283108af4e1e826073091802ba040e5c0ad8b314
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3_51312300211500520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51312300211500520'
@@ -6498,6 +6559,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 198a2ec192a6e7768d792814395655b6a7a726669d4deab452da9b11dac5617e
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3_51312300220000520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51312300220000520'
@@ -6511,6 +6573,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 2ffc5f39c87dca73133858b8a275ab5a1b07762a4e19d7b82dac938f133eeced
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3_51312300225000520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51312300225000520'
@@ -6524,6 +6587,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 8f4869397189e4db4563aa7add41b6a99f270a949162f5e67a2b61704d931c67
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3_51312300226100520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51312300226100520'
@@ -6537,6 +6601,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 8d93291637c50d9643a79e4c5a41f3c8a20d28bd5534d2db6f709365168eab1a
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3_51312300230800520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51312300230800520'
@@ -6550,6 +6615,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 5785f9a9002eb2ad387894c9d3bc8d456e59fc8745dace4713a5eaaaf38c0b28
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: QPro_51360500027200340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51360500027200340'
@@ -6968,6 +7034,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 4cd14509580e5846058fcc896874ac1a0bbec4bed108cc7d6de7e231ac83e090
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q3_51563850130400520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51563850130400520'
@@ -6981,6 +7048,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 2c7bfa60b927c32421dd04d589f42e2b27d9625f967d847ed5e7cd8fc88f6b64
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q3_51563850132300520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51563850132300520'
@@ -6994,6 +7062,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 7952fb33e631f62331712eb20c7c6d5eeffa79dbc371f42820227b5d80fd6c40
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q3_51563850136800520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51563850136800520'
@@ -7007,6 +7076,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 0262c12adfaa6387b816bec4bbbf387aad295badbb5ff0507d34656e2c86dacc
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q3_51563850141700520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51563850141700520'
@@ -7020,6 +7090,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 0b581231e6ddd33505630acd00ee0013c2943afcb91d89d100b9a3cdf0ac967d
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q3_51563850146500520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51563850146500520'
@@ -7033,6 +7104,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 178b89df158fc1e41ceac852202c0813bdc8677d54aff9f769e72e1b6c9e014e
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q2_51584880050400150
   Codename: hollywood
   Model: Quest 2
@@ -7319,6 +7391,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: 3cfb36048c23483fdb62086fceafc566dcbe42683e89c7116355d4b10a8f3c7e
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q3_51764730111900520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51764730111900520'
@@ -7332,6 +7405,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: 2a08928cc1820bff1c40c5a95a63daf2ddfd3d1d0c39f1ef74ecbad86fa9568a
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q3_51764730116500520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51764730116500520'
@@ -7345,6 +7419,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: 2ee17bdddf16ec7f01a1c9b53e0dd901c7cdd0da136d47614731ef260e2924c6
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q3_51764730125000520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51764730125000520'
@@ -7358,6 +7433,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: f7ba48d574c762fc7611a600cb07d950a7d2d114875225ed5ab135317128b13b
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q3_51764730129200520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51764730129200520'
@@ -7371,6 +7447,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: c102cebd4afd4ae4078417a52e9eec808a65457f914ed16febf50bae3442d3c7
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q2_51831760062400150
   Codename: hollywood
   Model: Quest 2
@@ -7384,6 +7461,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: a480c0c14c48ddc9fb5f80205dc0a8855b3237a4a6bdd48b8fdfa0d508837b97
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q2_51831760072500150
   Codename: hollywood
   Model: Quest 2
@@ -7397,6 +7475,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 4d02d0d515cbeb08c5beece8019e48431256875ab3846d34a5751a0de02b305d
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q2_51831760079800150
   Codename: hollywood
   Model: Quest 2
@@ -7410,6 +7489,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: e216bd60499838bd58d34928667fe6622e63fe5a00e6f46394f04660bbf820ad
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q2_51831760088900150
   Codename: hollywood
   Model: Quest 2
@@ -7423,6 +7503,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: e17b35727da962f6c92cb9fd39b659adc311d7ae26a71b18e7c040d05000257d
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q2_51831760093700150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51831760093700150'
@@ -7436,6 +7517,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 374fef15c959233027b909e482a75df73361e62433eb525c25b1b2f54b84fd1d
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q2_51831760094500150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51831760094500150'
@@ -7449,6 +7531,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 089c5640753b52b48063467fbff48e21a3ee945e336924530d33f6c9587dd2f1
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q2_51831760100400150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51831760100400150'
@@ -7462,6 +7545,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: a13c1d2fe70ebf515298d03c7493f989b7b4c7ad7fdcba1d7ce79e14bb1b6ffd
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q2_51831760104300150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51831760104300150'
@@ -7475,6 +7559,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: e35dbbbbc742d60cad85cfb705bb7a7902eb736711d72edfd4b44c32e4acdc27
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q2_51831760109800150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51831760109800150'
@@ -7488,6 +7573,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 01f94168fb7da5c640805633f7bd4a401226cf80b300d966146e59b160c9543d
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q2_51831760119500150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51831760119500150'
@@ -7501,6 +7587,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: d6e8cd7792d135f0605068666c270e4293aae7b16ae30b2c74a4c9d1c5b7ff10
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q2_51831760127800150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51831760127800150'
@@ -7514,6 +7601,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 1d2d14c6f4088e8e68c4dc197d71313e0709532a74ee5b3fbaed8fe7a31a8907
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q2_51831760133100150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51831760133100150'
@@ -7527,6 +7615,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 40750fd769312b71b3371fd8eaf32ec8eab24dcb2e832add9a4193b9bb5be77b
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q2_51831760134100150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51831760134100150'
@@ -7540,6 +7629,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: 5a2a78d4da0c7f8301a7a0e8b1e77fa050263e997a50de2613ed0bd104c5f86b
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q2_51831760138500150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51831760138500150'
@@ -7553,6 +7643,7 @@
   SystemUtilities_Version: 87.0.0.28.698.737801455
   sha256: ce741903537afbc1b37db8fe9ee090bad972c07c5477cbc9aa174be66d40d772
   VROS_Build_Version: '81'
+  HZOS_Display_Name: 2.0.0
 - name: q3_51943020036500520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51943020036500520'
@@ -7664,6 +7755,7 @@
   SystemUtilities_Version: 91.0.0.28.664.738201391
   sha256: dfc6385b42e1f621006cc0cb27bb15a992b2e8ed46f6ed09aa69ee1cdaf4e265
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q2_51978090066900150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51978090066900150'
@@ -7677,6 +7769,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 0eaa6fe224a18555d05e0dd90b6312d83c3601087a4113441c8942f53dead4d0
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q2_51978090078200150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51978090078200150'
@@ -7690,6 +7783,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 9ef2e124e3dab2b030c9585d5238b63845b8a35254bef3dfc1847dfc171c28aa
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q2_51978090092400150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51978090092400150'
@@ -7703,6 +7797,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: d4eaad849ac645e539105721c5262a0c329c90e16fb83a80c00da4a79f4db5c1
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q2_51978090093900150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51978090093900150'
@@ -7716,6 +7811,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: ec3012703ef50e9ce7eebfb9a2c1505479d304d00071de26cde3148ea527b551
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q2_51978090098300150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51978090098300150'
@@ -7729,6 +7825,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 96fc8d39aa7d3a3cabe01afdffe9b3ab98979854dc3ee6f1389461078efbd7de
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q2_51978090103000150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51978090103000150'
@@ -7742,6 +7839,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 5ac2ee710531334cd3e69baaf31db6e630fb2b76036df9082c35c45c1222e4b4
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q2_51978090107800150
   OS_Version: UP1A.231005.007.A1
   Incremental: '51978090107800150'
@@ -7755,6 +7853,7 @@
   SystemUtilities_Version: 92.0.0.20.676.738401399
   sha256: 4e141e5f29559e6d420c83015ae3078452be0ca731c42c951b42ed1c23025c39
   VROS_Build_Version: '83'
+  HZOS_Display_Name: 2.3.0
 - name: q2_52056330072800150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52056330072800150'
@@ -7768,6 +7867,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: 9d21f5fdaa39a3a7eb1dee26060197b62c3c3736cecbdb4b879bd80e5688d880
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q2_52056330088900150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52056330088900150'
@@ -7781,6 +7881,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: 715d3b399944642a158a4db0ef42c7db8d08f72862e938ca3d3466b205927b5e
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q2_52056330093100150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52056330093100150'
@@ -7794,6 +7895,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: 1780b9b0c324940f62ea3ed159d54890e787fd1b6a5707d8a729a2a36b06641a
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q2_52056330100500150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52056330100500150'
@@ -7807,6 +7909,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: 0d6934d2b826ef431ec3c3093bd79b51d6f840905e41c2309676ff7241bc58c6
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q2_52056330104200150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52056330104200150'
@@ -7820,6 +7923,7 @@
   SystemUtilities_Version: 97.0.0.28.675.738901413
   sha256: a54b2dfbec6af6dc526baaaac63aaa4a3f1cac65d09a2fa8004cbb5c99c83f74
   VROS_Build_Version: '85'
+  HZOS_Display_Name: 2.7.0
 - name: q3_52083180010100520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52083180010100520'
