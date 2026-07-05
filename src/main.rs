@@ -166,7 +166,7 @@ fn process_meta_versions(firmwares: &mut [Firmware]) -> Result<(), ParseIntError
   for fw in firmwares {
     if fw.model == "Ray-Ban Display" {
       fw.version = fw.os_version.clone();
-    } else {
+    } else if fw.model == "Quest" || fw.model == "Quest 2" {
       let incremental_val = fw.incremental_as_u64()?;
       fw.version = if incremental_val <= 15280600195700000 {
         fw.system_utilities_version.clone().unwrap_or("Unknown".to_string())
@@ -175,6 +175,8 @@ fn process_meta_versions(firmwares: &mut [Firmware]) -> Result<(), ParseIntError
       } else {
         "Unknown".to_string()
       };
+    } else {
+      fw.version = fw.system_ux_version.clone().unwrap_or("Unknown".to_string());
     }
 
     if fw.version.is_empty() {
