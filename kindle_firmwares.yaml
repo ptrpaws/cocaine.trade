@@ -99,49 +99,49 @@
   name: update_kindle_voyage_5.6.1
   sha256: c7068cc05bbc9e7f19bacf0a0474b21bbf2255c211d93976df599c32b5e11b01
 - Incremental: 2531760037
-  Model: PW2
-  name: update_kindle_paperwhite_v2_5.6.1
-  sha256: c7bde9aef1be2d8e7006acf853c1b778cbc175ea188375c79ab4fbe0b829b032
-- Incremental: 2531760037
   Model: Legacy
   name: update_kindle_5.6.1
   sha256: 0c14a5df3a72425b284742de74f312936540dd665deb4d70b9e2cbb300712672
+- Incremental: 2531760037
+  Model: PW2
+  name: update_kindle_paperwhite_v2_5.6.1
+  sha256: c7bde9aef1be2d8e7006acf853c1b778cbc175ea188375c79ab4fbe0b829b032
 - Incremental: 2547690002
   Model: KV
   name: update_kindle_voyage_5.6.1.0.1
   sha256: 83c566dca124ec44f7c1e88bb3f2dd9ed902b7057c4ebf790fa88afb433066f6
 - Incremental: 2547700002
-  Model: PW2
-  name: update_kindle_paperwhite_v2_5.6.1.0.2
-  sha256: 2ce8be321a088cb10e6d5df56e5833816ea97188a65329692e209fcb85b07766
-- Incremental: 2547700002
   Model: Legacy
   name: update_kindle_5.6.1.0.2
   sha256: a47312c83ec81f40fe1e14192dfa049fd46970e2beb005bea4bc2aa26aca37dc
+- Incremental: 2547700002
+  Model: PW2
+  name: update_kindle_paperwhite_v2_5.6.1.0.2
+  sha256: 2ce8be321a088cb10e6d5df56e5833816ea97188a65329692e209fcb85b07766
 - Incremental: 2588930001
   Model: KV
   name: update_kindle_voyage_5.6.1.0.5
   sha256: 536c222564dac3732ee7df7a91f29c89833ef3f3de9f674d0a3d47881890a30e
 - Incremental: 2588930001
-  Model: PW2
-  name: update_kindle_paperwhite_v2_5.6.1.0.6
-  sha256: 1bb49eaf236979b623d4e577c5795c46595b2b9d166a956249f6a7947d970273
-- Incremental: 2588930001
   Model: Legacy
   name: update_kindle_5.6.1.0.6
   sha256: b8d02b653661e74bc6443d89d523b96e4da887d4ab1e9a33da209d131fe27bac
+- Incremental: 2588930001
+  Model: PW2
+  name: update_kindle_paperwhite_v2_5.6.1.0.6
+  sha256: 1bb49eaf236979b623d4e577c5795c46595b2b9d166a956249f6a7947d970273
 - Incremental: 2634390002
   Model: KV
   name: update_kindle_voyage_5.6.2.1
   sha256: f738741cdecbd8de66cc28a243ae33159591e849f946094e0621b00663cccefb
 - Incremental: 2634390002
-  Model: PW2
-  name: update_kindle_paperwhite_v2_5.6.2.1
-  sha256: 7b7780e1f33baba8bd0ace15edd6806f1235b13bef3e8ddceed09aa9edc1fc2e
-- Incremental: 2634390002
   Model: Legacy
   name: update_kindle_5.6.2.1
   sha256: 80338c73fa33e51143a25ef256ae8d9f9cb1d4b6d51dadd4d9891902758a73a2
+- Incremental: 2634390002
+  Model: PW2
+  name: update_kindle_paperwhite_v2_5.6.2.1
+  sha256: 7b7780e1f33baba8bd0ace15edd6806f1235b13bef3e8ddceed09aa9edc1fc2e
 - Incremental: 2689890035
   Model: Legacy
   name: update_kindle_5.6.1.1
@@ -155,6 +155,10 @@
   name: update_kindle_voyage_5.6.5
   sha256: c54bc282c273061fcf91a337f3d11d9d1f9b75134221b39df53b9fa5634d1a89
 - Incremental: 2730300038
+  Model: Legacy
+  name: update_kindle_5.6.5
+  sha256: ff32d21c6ef906c795548cb112019cb92755243bdfa0484fb5731f2259f8ab34
+- Incremental: 2730300038
   Model: PW2
   name: update_kindle_paperwhite_v2_5.6.5
   sha256: c9f81ac8be460b979880cd312caf9a5b6338fcf5aefec3c10dd8b3d237b95c32
@@ -162,14 +166,14 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.6.5
   sha256: 4563c7f34ab998743b1afd54b5b829edf9111d3105c979a1173f159b839564a5
-- Incremental: 2730300038
-  Model: Legacy
-  name: update_kindle_5.6.5
-  sha256: ff32d21c6ef906c795548cb112019cb92755243bdfa0484fb5731f2259f8ab34
 - Incremental: 2875970015
   Model: KV
   name: update_kindle_voyage_5.7.2
   sha256: bd3cdbc6db2b526573b570a3dcc2a48d181e34f224af21dbcef12a6d4a29e2a2
+- Incremental: 2875970015
+  Model: Legacy
+  name: update_kindle_5.7.2
+  sha256: 9efc4e9525207dfb74212d27faa234513d7bd2456cd9b8d617d92c2a888fc4e6
 - Incremental: 2875970015
   Model: PW2
   name: update_kindle_paperwhite_v2_5.7.2
@@ -178,14 +182,14 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.7.2
   sha256: b463539eaf45c7693e0a0bae614784d6f1fcebeb6e88618aa0826a466e19d1be
-- Incremental: 2875970015
-  Model: Legacy
-  name: update_kindle_5.7.2
-  sha256: 9efc4e9525207dfb74212d27faa234513d7bd2456cd9b8d617d92c2a888fc4e6
 - Incremental: 2882840002
   Model: KV
   name: update_kindle_voyage_5.7.2.1
   sha256: 46068f260e2a6b03cbf582da97d98bca3870d225aa04a0dc026934e44f922092
+- Incremental: 2882840002
+  Model: Legacy
+  name: update_kindle_5.7.2.1
+  sha256: 3509b6db61bfb91ae5640d9c6f273988e76b3d99d668fcf3f87283b9ac4d681a
 - Incremental: 2882840002
   Model: PW2
   name: update_kindle_paperwhite_v2_5.7.2.1
@@ -194,14 +198,14 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.7.2.1
   sha256: dc4ec3ac752a15bdc72ac2ef4370210f58bb0098e8014d66c0edfa3811025725
-- Incremental: 2882840002
-  Model: Legacy
-  name: update_kindle_5.7.2.1
-  sha256: 3509b6db61bfb91ae5640d9c6f273988e76b3d99d668fcf3f87283b9ac4d681a
 - Incremental: 2899390015
   Model: KV
   name: update_kindle_voyage_5.7.3
   sha256: 1276ebde208dd69547cbe8ef6dbe3091c8e26ab3a90883bac141deaece57cc09
+- Incremental: 2899390015
+  Model: Legacy
+  name: update_kindle_5.7.3
+  sha256: 9467d42df4c09e16160274dc11c0091528ccb65bc08c4d4e4345b51b7ea02f57
 - Incremental: 2899390015
   Model: PW2
   name: update_kindle_paperwhite_v2_5.7.3
@@ -210,18 +214,22 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.7.3
   sha256: 7be81a4225c35b049c6741ce0445bc67e67ebc79d3b945bcf2efc7cdc24f3809
-- Incremental: 2899390015
-  Model: Legacy
-  name: update_kindle_5.7.3
-  sha256: 9467d42df4c09e16160274dc11c0091528ccb65bc08c4d4e4345b51b7ea02f57
 - Incremental: 2911650002
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.7.3.1
   sha256: 6245d21d5e6126697e35f62f13739472384b0e0e072c7ab08452ebdc8d4366a9
 - Incremental: 2929620018
+  Model: KOA
+  name: update_kindle_oasis_5.7.4
+  sha256: 367893094e77abc7cd5cd327ada1f1a23dfa7c8d3aa443a3435ec30aa935ce21
+- Incremental: 2929620018
   Model: KV
   name: update_kindle_voyage_5.7.4
   sha256: 39a1add40d5d85c2d9d467521c3e9e921a60786abb7fc7afae629bd7afc801a5
+- Incremental: 2929620018
+  Model: Legacy
+  name: update_kindle_5.7.4
+  sha256: 3a379864a7058104e9a2995de1c3b4467684cb11689447dd4a7f844e03504612
 - Incremental: 2929620018
   Model: PW2
   name: update_kindle_paperwhite_v2_5.7.4
@@ -230,22 +238,22 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.7.4
   sha256: 1d0c12029ff34247dc8b26fbb122503945965992ff2ac5e3e46cc32a94fee298
-- Incremental: 2929620018
-  Model: Legacy
-  name: update_kindle_5.7.4
-  sha256: 3a379864a7058104e9a2995de1c3b4467684cb11689447dd4a7f844e03504612
-- Incremental: 2929620018
-  Model: KOA
-  name: update_kindle_oasis_5.7.4
-  sha256: 367893094e77abc7cd5cd327ada1f1a23dfa7c8d3aa443a3435ec30aa935ce21
 - Incremental: 2937220006
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.7.4.1
   sha256: 5e31b06dce46ea9f42122c4d61ad9a8de34d6f5740d66006677fabed2ee2d5b4
 - Incremental: 2974910023
+  Model: KOA
+  name: update_kindle_oasis_5.8.1
+  sha256: 58323687969ecfa2ca9df5bdf45d1e89c028e957e143cc2690ece47e35aafe71
+- Incremental: 2974910023
   Model: KV
   name: update_kindle_voyage_5.8.1
   sha256: 0d0d44532a927e39d9101041f8862c1e6fb7fff57c5666f10573bc5d559578a3
+- Incremental: 2974910023
+  Model: Legacy
+  name: update_kindle_5.8.1
+  sha256: ad12b75bce227afa01666b7eb6b6dd42a312fa42c5d64473e32c2451383b3ca4
 - Incremental: 2974910023
   Model: PW2
   name: update_kindle_paperwhite_v2_5.8.1
@@ -254,14 +262,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.8.1
   sha256: 0cee5b1b60085bd93b0d4fc6fe7fda940dc847ae4d1a26b018bccdf7f4c06983
-- Incremental: 2974910023
-  Model: Legacy
-  name: update_kindle_5.8.1
-  sha256: ad12b75bce227afa01666b7eb6b6dd42a312fa42c5d64473e32c2451383b3ca4
-- Incremental: 2974910023
-  Model: KOA
-  name: update_kindle_oasis_5.8.1
-  sha256: 58323687969ecfa2ca9df5bdf45d1e89c028e957e143cc2690ece47e35aafe71
 - Incremental: 2987430003
   Model: KT3
   name: update_kindle_8th_5.8.1.1
@@ -271,9 +271,21 @@
   name: update_kindle_oasis_5.8.1.0.1
   sha256: 3c7324080cd6f7a7853c8480be119bcdd1f52637746637a1dfc0af53d9b9e777
 - Incremental: 3018920018
+  Model: KOA
+  name: update_kindle_oasis_5.8.2
+  sha256: e46a53703f39ad6a2843818b553350c9651c2e98292563bdb6552b2f29756c54
+- Incremental: 3018920018
+  Model: KT3
+  name: update_kindle_8th_5.8.2
+  sha256: 96e59bd3ab9677c7906a5912eea330fb6b8c6a0e6f818fd1f6023031f6ea8bbb
+- Incremental: 3018920018
   Model: KV
   name: update_kindle_voyage_5.8.2
   sha256: c35405ff771e20e3620db71c2d89931f8ec7631b606d8be6a3fae9368f1b1486
+- Incremental: 3018920018
+  Model: Legacy
+  name: update_kindle_5.8.2
+  sha256: 6b707019fe5df21b200ca7617468a0d089b7819ba8f3d37196d834ff1fb2a934
 - Incremental: 3018920018
   Model: PW2
   name: update_kindle_paperwhite_v2_5.8.2
@@ -282,18 +294,18 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.8.2
   sha256: 5d20c9af1ef139129af21e2e0bb9542a952910c5a70a6266ad7cf5975086c188
-- Incremental: 3018920018
-  Model: KT3
-  name: update_kindle_8th_5.8.2
-  sha256: 96e59bd3ab9677c7906a5912eea330fb6b8c6a0e6f818fd1f6023031f6ea8bbb
-- Incremental: 3018920018
-  Model: Legacy
-  name: update_kindle_5.8.2
-  sha256: 6b707019fe5df21b200ca7617468a0d089b7819ba8f3d37196d834ff1fb2a934
-- Incremental: 3018920018
+- Incremental: 3045660001
   Model: KOA
-  name: update_kindle_oasis_5.8.2
-  sha256: e46a53703f39ad6a2843818b553350c9651c2e98292563bdb6552b2f29756c54
+  name: update_kindle_oasis_5.8.2.1
+  sha256: c8d75f17049e3583d1d8fe6fa25ea1e78452b350be57c12b9acc6e30aab7face
+- Incremental: 3045660001
+  Model: KT2
+  name: update_kindle_5.8.2.1
+  sha256: 1968ba76ba7c45fe2202fab088148b110edd32724f524a57d31edda531cb8640
+- Incremental: 3045660001
+  Model: KT3
+  name: update_kindle_8th_5.8.2.1
+  sha256: b3dcb329b47a6a188c4bb6700e45c446253389bc6ded00642f8e92161fc312f6
 - Incremental: 3045660001
   Model: KV
   name: update_kindle_voyage_5.8.2.1
@@ -306,18 +318,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.8.2.1
   sha256: d41a1c8b33925266994b8fafe206bd77641bfed204278d760ef44edd3d4356ac
-- Incremental: 3045660001
-  Model: KT3
-  name: update_kindle_8th_5.8.2.1
-  sha256: b3dcb329b47a6a188c4bb6700e45c446253389bc6ded00642f8e92161fc312f6
-- Incremental: 3045660001
-  Model: KT2
-  name: update_kindle_5.8.2.1
-  sha256: 1968ba76ba7c45fe2202fab088148b110edd32724f524a57d31edda531cb8640
-- Incremental: 3045660001
-  Model: KOA
-  name: update_kindle_oasis_5.8.2.1
-  sha256: c8d75f17049e3583d1d8fe6fa25ea1e78452b350be57c12b9acc6e30aab7face
 - Incremental: 3048340064
   Model: KT3
   name: update_kindle_8th_5.8.5
@@ -326,6 +326,10 @@
   Model: KOA
   name: update_kindle_oasis_5.8.5
   sha256: d981c72228562e2302f7a925abefe1d35c0d1360e7a7d251592a7d775eea16fd
+- Incremental: 3048470064
+  Model: KT2
+  name: update_kindle_5.8.5
+  sha256: e8d7c5a64eca2270e97c66587eaa0b660739f05f2fc5140ff2691455eac748dc
 - Incremental: 3048470064
   Model: KV
   name: update_kindle_voyage_5.8.5
@@ -338,10 +342,10 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.8.5
   sha256: 941b2b3c9da336afb3a257992775c5348a1dba67dec7244b2f5968b809aacde8
-- Incremental: 3048470064
+- Incremental: 3077510002
   Model: KT2
-  name: update_kindle_5.8.5
-  sha256: e8d7c5a64eca2270e97c66587eaa0b660739f05f2fc5140ff2691455eac748dc
+  name: update_kindle_5.8.5.0.1
+  sha256: 560c1315d981a7992fa54b1f08442d9b897388fab56d01594a8a93ff53b499d5
 - Incremental: 3077510002
   Model: KV
   name: update_kindle_voyage_5.8.5.0.1
@@ -354,10 +358,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.8.5.0.1
   sha256: 72c06b3610ac7d9ca2416c3f01b6d0e3618e9194376a6a79b4fe9870699e790c
-- Incremental: 3077510002
-  Model: KT2
-  name: update_kindle_5.8.5.0.1
-  sha256: 560c1315d981a7992fa54b1f08442d9b897388fab56d01594a8a93ff53b499d5
 - Incremental: 3077520002
   Model: KT3
   name: update_kindle_8th_5.8.5.0.1
@@ -371,6 +371,10 @@
   name: update_kindle_oasis_5.8.5.0.2
   sha256: 39994d3250e5e2ad989aea483387b1e96a704d2cd9bf53e4d644fc7126441a05
 - Incremental: 3085210002
+  Model: KT2
+  name: update_kindle_5.8.5.0.2
+  sha256: b4192163ab792c25d8633f92697bf15a56bfda082be33933903d85f724b46d3f
+- Incremental: 3085210002
   Model: KV
   name: update_kindle_voyage_5.8.5.0.2
   sha256: 23440515dc53a5cc478d4c43875c951267f689f77e5d06418c6e978a7a747d61
@@ -382,10 +386,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.8.5.0.2
   sha256: 958c1928e2fd6050d456ddfe1a9fcdd392a00d97244ccba8977db7017d1260f3
-- Incremental: 3085210002
-  Model: KT2
-  name: update_kindle_5.8.5.0.2
-  sha256: b4192163ab792c25d8633f92697bf15a56bfda082be33933903d85f724b46d3f
 - Incremental: 3085220002
   Model: KT3
   name: update_kindle_8th_5.8.5.0.2
@@ -394,6 +394,10 @@
   Model: KOA
   name: update_kindle_oasis_5.8.7
   sha256: 7f3db978c01740cd94cc8cbc9358defb4e650b596a26c37ace6294152ead1567
+- Incremental: 3095600028
+  Model: KT2
+  name: update_kindle_5.8.7
+  sha256: ac5a61380984837865c10e105369591c342941769a3f33b5a57e4e60a01836e3
 - Incremental: 3095600028
   Model: KV
   name: update_kindle_voyage_5.8.7
@@ -406,10 +410,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.8.7
   sha256: c15618cb5a6b61c08144e280b27ee0df5a5240f16eabaf2d97d3e0ab62f345a2
-- Incremental: 3095600028
-  Model: KT2
-  name: update_kindle_5.8.7
-  sha256: ac5a61380984837865c10e105369591c342941769a3f33b5a57e4e60a01836e3
 - Incremental: 3095610028
   Model: KT3
   name: update_kindle_8th_5.8.7
@@ -423,6 +423,10 @@
   name: update_kindle_8th_5.8.7.0.1
   sha256: 1756e6b7c86bb9b4bc056ec35d11df07edb0c8db1f0415a7aaebc9b1c109587d
 - Incremental: 3115940037
+  Model: KT2
+  name: update_kindle_5.8.7.0.1
+  sha256: d08f3d6e921ba5d9be2de2ce4278399e9f1bde792b55bcf8b9dce84899a29e93
+- Incremental: 3115940037
   Model: KV
   name: update_kindle_voyage_5.8.7.0.1
   sha256: fa3fa66e63869444cd7703cce90af52311919e6fc608ded86f80d333e5b90b00
@@ -434,10 +438,10 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.8.7.0.1
   sha256: 14d27b156b760925dba690faa26bcea341d15f91b6ebe1fda0dacb8285c050e4
-- Incremental: 3115940037
+- Incremental: 3144280022
   Model: KT2
-  name: update_kindle_5.8.7.0.1
-  sha256: d08f3d6e921ba5d9be2de2ce4278399e9f1bde792b55bcf8b9dce84899a29e93
+  name: update_kindle_5.8.8
+  sha256: a6f3de6cb45143d2d705841c901acfc0648575cfa52a8680d8a7408cba527b7b
 - Incremental: 3144280022
   Model: KV
   name: update_kindle_voyage_5.8.8
@@ -450,10 +454,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.8.8
   sha256: 5078f814edaf8cebf83636c0f39d3af745409d3659c7aaa6e29922c45b3a0c23
-- Incremental: 3144280022
-  Model: KT2
-  name: update_kindle_5.8.8
-  sha256: a6f3de6cb45143d2d705841c901acfc0648575cfa52a8680d8a7408cba527b7b
 - Incremental: 3144290022
   Model: KOA
   name: update_kindle_oasis_5.8.8
@@ -462,6 +462,10 @@
   Model: KT3
   name: update_kindle_8th_5.8.8
   sha256: 975264817dca2e8e33c08432c88b86104b3edcb7cded6a1aacb75c2944a7dab4
+- Incremental: 3164600017
+  Model: KT2
+  name: update_kindle_5.8.9
+  sha256: 0c8fc97d57329da732c750212251b2c6c88367eb3340a9aee08845e44b406939
 - Incremental: 3164600017
   Model: KV
   name: update_kindle_voyage_5.8.9
@@ -474,10 +478,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.8.9
   sha256: 067b5f5158d84e1c82196bb730d1bdc5aec22f96071b7574bdd8ac771123ffee
-- Incremental: 3164600017
-  Model: KT2
-  name: update_kindle_5.8.9
-  sha256: 0c8fc97d57329da732c750212251b2c6c88367eb3340a9aee08845e44b406939
 - Incremental: 3164610017
   Model: KT3
   name: update_kindle_8th_5.8.9
@@ -486,6 +486,10 @@
   Model: KOA
   name: update_kindle_oasis_5.8.9
   sha256: cb6a15e2938ed30b1b579cb9563558cae3293d4420b3b1f62f2f5c453eef5767
+- Incremental: 3179290002
+  Model: KT2
+  name: update_kindle_5.8.9.2
+  sha256: d39390e906d720243d17f9cdf3c3348df4a986bc5d16f04feff8c5b2326806e2
 - Incremental: 3179290002
   Model: KV
   name: update_kindle_voyage_5.8.9.2
@@ -498,10 +502,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.8.9.2
   sha256: 0b237cdf881d73d99cd295635827277311399b0e2f02dd0f65ee7b2b6dda7ac6
-- Incremental: 3179290002
-  Model: KT2
-  name: update_kindle_5.8.9.2
-  sha256: d39390e906d720243d17f9cdf3c3348df4a986bc5d16f04feff8c5b2326806e2
 - Incremental: 3179300002
   Model: KT3
   name: update_kindle_8th_5.8.9.2
@@ -510,6 +510,10 @@
   Model: KOA
   name: update_kindle_oasis_5.8.9.2
   sha256: 49028766f86abe833073e1fb273c06c4e911ca83f33c0e4b80a0dbca1e45ec88
+- Incremental: 3202090019
+  Model: KT2
+  name: update_kindle_5.8.10
+  sha256: 80f397de6f16b58f92398a5a6cb054fc01de0ba806ff80efc417b4d0a224f6e0
 - Incremental: 3202090019
   Model: KV
   name: update_kindle_voyage_5.8.10
@@ -522,10 +526,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.8.10
   sha256: 977c3bba1e0b6a9a891a005bde0cceef860d3f8462789220e00b85b89e7a9198
-- Incremental: 3202090019
-  Model: KT2
-  name: update_kindle_5.8.10
-  sha256: 80f397de6f16b58f92398a5a6cb054fc01de0ba806ff80efc417b4d0a224f6e0
 - Incremental: 3202100019
   Model: KT3
   name: update_kindle_8th_5.8.10
@@ -539,6 +539,10 @@
   name: update_kindle_oasis_5.8.11
   sha256: 2e54b805ab498a121d0579d363eb90ed62a17314b86f3ef6099df35525e66041
 - Incremental: 3243010037
+  Model: KT2
+  name: update_kindle_5.8.11
+  sha256: 4c3804ae4c5a9392c958ff4d91b0f5e0d34b9c8404712473015d191dd07cf8eb
+- Incremental: 3243010037
   Model: KV
   name: update_kindle_voyage_5.8.11
   sha256: 63825fa80c8c58e2d6bfc1488e3b62e32e94ef980cf97d8b50de28b7bf361c67
@@ -550,10 +554,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.8.11
   sha256: 179c9f9e88eba34e9de2d6a05c43febc9fe77231ed73a0fdbad4aa9b95350859
-- Incremental: 3243010037
-  Model: KT2
-  name: update_kindle_5.8.11
-  sha256: 4c3804ae4c5a9392c958ff4d91b0f5e0d34b9c8404712473015d191dd07cf8eb
 - Incremental: 3243020037
   Model: KT3
   name: update_kindle_8th_5.8.11
@@ -567,6 +567,10 @@
   name: update_kindle_all_new_paperwhite_5.9.2
   sha256: d4d98e316d26b2f2dd265ec32c67ee5f899613b25b0242980d5662dfb7d04d69
 - Incremental: 3262860017
+  Model: KT2
+  name: update_kindle_5.9.2.0.1
+  sha256: c0b8fbcec5aa7d6b2694a6cadbf78f4712ce15c8e5d3ddfba77e6fd1e01b4534
+- Incremental: 3262860017
   Model: KV
   name: update_kindle_voyage_5.9.2.0.1
   sha256: 982974e4714da6060e693d7b587c9aba343485a068f61383db76307fb75092d2
@@ -578,10 +582,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.9.2.0.1
   sha256: 9420737b9d71ae346b1457cbcc530507b45cbb5573805861498d357f77815196
-- Incremental: 3262860017
-  Model: KT2
-  name: update_kindle_5.9.2.0.1
-  sha256: c0b8fbcec5aa7d6b2694a6cadbf78f4712ce15c8e5d3ddfba77e6fd1e01b4534
 - Incremental: 3262870017
   Model: KT3
   name: update_kindle_8th_5.9.2.0.1
@@ -599,6 +599,10 @@
   name: update_kindle_8th_5.9.4
   sha256: f65e094ee70ef95d0625b52dc0ef873e2f38596d2170b4301cc05501cfad1666
 - Incremental: 3278740046
+  Model: KT2
+  name: update_kindle_5.9.4
+  sha256: 00bc297af8996680871873fa221f8d52aa9c761139fe18c2c86dc186f5b3006f
+- Incremental: 3278740046
   Model: KV
   name: update_kindle_voyage_5.9.4
   sha256: 54ca1c2eda0cfdcbd1a93d441cd8c7d849c6e8f1f17be48b8768d05a82d6751d
@@ -610,10 +614,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.9.4
   sha256: 0ca96351faea4faf2579adff53353a7c57c45292c0b9d7679ba49ded373092b1
-- Incremental: 3278740046
-  Model: KT2
-  name: update_kindle_5.9.4
-  sha256: 00bc297af8996680871873fa221f8d52aa9c761139fe18c2c86dc186f5b3006f
 - Incremental: 3278750045
   Model: KOA
   name: update_kindle_oasis_5.9.4
@@ -627,6 +627,10 @@
   name: update_kindle_oasis_5.9.5
   sha256: 088730ade1a9b1c8af66a3c8fdc2ae97b33df9327e00a4a8344c7d95ea7ab386
 - Incremental: 3295150015
+  Model: KT2
+  name: update_kindle_5.9.5
+  sha256: 549e9f8d99e36506d573fb1d0226f9d93f4530dc0539e2ddedd7fc239edb54d3
+- Incremental: 3295150015
   Model: KV
   name: update_kindle_voyage_5.9.5
   sha256: 311d240e127ebee6ae168aa3bfb7835187f05717ef6dee832ac5e788be0de052
@@ -638,10 +642,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.9.5
   sha256: c705045fb7b4b7e9893d3a94c4de249359d5778521e27305b5bfbb1ff0891d88
-- Incremental: 3295150015
-  Model: KT2
-  name: update_kindle_5.9.5
-  sha256: 549e9f8d99e36506d573fb1d0226f9d93f4530dc0539e2ddedd7fc239edb54d3
 - Incremental: 3295160015
   Model: KT3
   name: update_kindle_8th_5.9.5
@@ -655,6 +655,10 @@
   name: update_kindle_oasis_5.9.5.1
   sha256: f910cb86aa4805eeba07335d1d652fe74daf54df90aa1d00889db3b35b544de7
 - Incremental: 3301940011
+  Model: KT2
+  name: update_kindle_5.9.5.1
+  sha256: c75b0a4372bbc7eb28b628afd1078f074b33e5047fc76fe4a8c83cba00f02846
+- Incremental: 3301940011
   Model: KV
   name: update_kindle_voyage_5.9.5.1
   sha256: 5b1ed8d432b0602d2055f0ea4c1603639594438f3d06e936bdf8a70edf45e074
@@ -666,10 +670,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.9.5.1
   sha256: 883ed020e42d233133b90bf3251ea50734425bc78c77a76f661b1899d3835529
-- Incremental: 3301940011
-  Model: KT2
-  name: update_kindle_5.9.5.1
-  sha256: c75b0a4372bbc7eb28b628afd1078f074b33e5047fc76fe4a8c83cba00f02846
 - Incremental: 3301960011
   Model: KT3
   name: update_kindle_8th_5.9.5.1
@@ -691,6 +691,10 @@
   name: update_kindle_oasis_5.9.6
   sha256: fcec2612915dc76ce8a8756717b03ab5b0e5eaaee801dc59fa7b0ac1c5a852cc
 - Incremental: 3310050022
+  Model: KT2
+  name: update_kindle_5.9.6
+  sha256: 76502b0e9ff157291a24d4cfd48dfd406f2b556826735622a289a14588e7879e
+- Incremental: 3310050022
   Model: KV
   name: update_kindle_voyage_5.9.6
   sha256: 4d98058a435caf2d469dca9c026f19bcf8aa224f9b117260fe206ca585a6d65c
@@ -702,10 +706,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.9.6
   sha256: ec1d79089f11b71a195652e44b4697cbe2cd2a33e1cfd6daaa9ff831dd35284c
-- Incremental: 3310050022
-  Model: KT2
-  name: update_kindle_5.9.6
-  sha256: 76502b0e9ff157291a24d4cfd48dfd406f2b556826735622a289a14588e7879e
 - Incremental: 3314430001
   Model: KOA
   name: update_kindle_oasis_5.9.6.1
@@ -719,6 +719,10 @@
   name: update_kindle_all_new_oasis_5.9.6.1
   sha256: 251b00bb401fd177538a7524cae83c4723ce49ea7a508e3c25d57dd5c147a7eb
 - Incremental: 3314460001
+  Model: KT2
+  name: update_kindle_5.9.6.1
+  sha256: aca964496d9d36067bb24b1335cdccf7d065f5c0b76f67993e83ca20e1c22a19
+- Incremental: 3314460001
   Model: KV
   name: update_kindle_voyage_5.9.6.1
   sha256: d0ad5382b4f587ab96e6b625a01e602ec8e0bc8034772628c0a9efc6cf9882f5
@@ -730,10 +734,10 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.9.6.1
   sha256: 4b743c75308b1147fa36277c904476114002da96b950d02d1189d0de47a017f5
-- Incremental: 3314460001
+- Incremental: 3330440020
   Model: KT2
-  name: update_kindle_5.9.6.1
-  sha256: aca964496d9d36067bb24b1335cdccf7d065f5c0b76f67993e83ca20e1c22a19
+  name: update_kindle_5.9.7
+  sha256: 40c63d5fbc095756f32f3cff10b3537b19499e83a1e27b3fbf3a6a67c36afec0
 - Incremental: 3330440020
   Model: KV
   name: update_kindle_voyage_5.9.7
@@ -746,10 +750,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.9.7
   sha256: ff1b95a8901787e90c24238b9b083ce787ae14d70431027801f8009658bed54e
-- Incremental: 3330440020
-  Model: KT2
-  name: update_kindle_5.9.7
-  sha256: 40c63d5fbc095756f32f3cff10b3537b19499e83a1e27b3fbf3a6a67c36afec0
 - Incremental: 3330450020
   Model: KOA2
   name: update_kindle_all_new_oasis_5.9.7
@@ -767,6 +767,10 @@
   name: update_kindle_oasis_5.10.1.1
   sha256: f4bab61ffec2deb28a21045ba302a529a3cbbd1e09605bf820929e5fda9f9e36
 - Incremental: 3358230034
+  Model: KT2
+  name: update_kindle_5.10.1.1
+  sha256: 3dd4ddddc8d68d196025e54956056f23684d83cb9b9388ff7ceaa7c2b213cb13
+- Incremental: 3358230034
   Model: KV
   name: update_kindle_voyage_5.10.1.1
   sha256: 007a85dd6a544a3498bc73f1efa3d6eb8c77034ba6607b9ca05cb9695cac903c
@@ -778,10 +782,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.10.1.1
   sha256: b1e93029235450e71821c8826dcc2ffe753226ed31cb803ff7887119e021954c
-- Incremental: 3358230034
-  Model: KT2
-  name: update_kindle_5.10.1.1
-  sha256: 3dd4ddddc8d68d196025e54956056f23684d83cb9b9388ff7ceaa7c2b213cb13
 - Incremental: 3358240034
   Model: KT3
   name: update_kindle_8th_5.10.1.1
@@ -815,6 +815,10 @@
   name: update_kindle_all_new_oasis_5.10.2
   sha256: eb1a76720f42c823e95cdca82905d88391aa94a53ceba53468fc535e21f2b17d
 - Incremental: 3374520058
+  Model: KT2
+  name: update_kindle_5.10.2
+  sha256: 3dc8d26ccd7d0b58f1dff365e2c4d72f83c5e4d6a90f0bd556a9f1608c425f72
+- Incremental: 3374520058
   Model: KV
   name: update_kindle_voyage_5.10.2
   sha256: ce30358cb5986582aa0811743622faf3292d426ec8d260989b11b33b638e1cf1
@@ -826,10 +830,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.10.2
   sha256: f3d4427c2742e609cfa100edd95a71f3440ba25afd31c3fb1eaa5182f81b1cae
-- Incremental: 3374520058
-  Model: KT2
-  name: update_kindle_5.10.2
-  sha256: 3dc8d26ccd7d0b58f1dff365e2c4d72f83c5e4d6a90f0bd556a9f1608c425f72
 - Incremental: 3380410003
   Model: PW2
   name: update_kindle_paperwhite_v2_5.10.2.1
@@ -847,6 +847,10 @@
   name: update_kindle_all_new_paperwhite_v2_5.10.3
   sha256: 80a46e0891edba23ecf0888764b2f3d97d340895d2d57584f9b0f63251f490f8
 - Incremental: 3383200041
+  Model: KT2
+  name: update_kindle_5.10.3
+  sha256: a9207603cbd24323a4721a5990d255761588b580101c7f472b995dcbc7901671
+- Incremental: 3383200041
   Model: KV
   name: update_kindle_voyage_5.10.3
   sha256: ba2f651e3b424878ea467928e021869861eb71d1f759bd9d7459c193d6587253
@@ -858,10 +862,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.10.3
   sha256: a753ce57d81666f6e9963045d90b0f6f5676088ee2b2303c3e9eb77cef19fa34
-- Incremental: 3383200041
-  Model: KT2
-  name: update_kindle_5.10.3
-  sha256: a9207603cbd24323a4721a5990d255761588b580101c7f472b995dcbc7901671
 - Incremental: 3383210041
   Model: KOA2
   name: update_kindle_all_new_oasis_5.10.3
@@ -875,6 +875,10 @@
   name: update_kindle_10th_5.11.1
   sha256: 79c8fcddbc8635d87758b4e51e1812818fdd66a60737fa1146a51ad15b732251
 - Incremental: 3528530001
+  Model: KT2
+  name: update_kindle_5.11.1.1
+  sha256: 6389e5b38b7a440a921f898ef7310bc88b7c95f8c997d684346d3e843778e86d
+- Incremental: 3528530001
   Model: KV
   name: update_kindle_voyage_5.11.1.1
   sha256: 3646be2e863c59dedff5079e2e05a210f23367b0aa0a01942ae61061c47ed3d3
@@ -886,10 +890,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.11.1.1
   sha256: ebe614929056aeef1c65887fec8d1d7f32037ac31712458863a5d11642588689
-- Incremental: 3528530001
-  Model: KT2
-  name: update_kindle_5.11.1.1
-  sha256: 6389e5b38b7a440a921f898ef7310bc88b7c95f8c997d684346d3e843778e86d
 - Incremental: 3528540001
   Model: KOA
   name: update_kindle_oasis_5.11.1.1
@@ -911,6 +911,10 @@
   name: update_kindle_all_new_paperwhite_v2_5.11.2
   sha256: f8a54e77527136562127d52a21e00c536416a6faf45702cd6da74d65246cfc66
 - Incremental: 3541850032
+  Model: KT2
+  name: update_kindle_5.11.2
+  sha256: 968578de1a3eaecbc79c85e0a54aca930dfcfb632475f06a309a65ca19da60b3
+- Incremental: 3541850032
   Model: KV
   name: update_kindle_voyage_5.11.2
   sha256: 629f52f68e724d2534ffa0c9a4ef8d9e99180bb688e65063a6d729467ee2e01b
@@ -922,10 +926,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.11.2
   sha256: 004a958a6fb9029322df7d7329c1adea1c4a826e4d039145251dfcf3f598981c
-- Incremental: 3541850032
-  Model: KT2
-  name: update_kindle_5.11.2
-  sha256: 968578de1a3eaecbc79c85e0a54aca930dfcfb632475f06a309a65ca19da60b3
 - Incremental: 3541860032
   Model: KOA2
   name: update_kindle_all_new_oasis_5.11.2
@@ -943,6 +943,10 @@
   name: update_kindle_8th_5.12.1
   sha256: ade3602ff1de25091aaa17cbdaccc6a8d3c888cd3b07623fd8555943f7f75830
 - Incremental: 3552140044
+  Model: KT2
+  name: update_kindle_5.12.1
+  sha256: 35b36ef8586fea37fc32cc6a563f5f7948558a39f225b634d38da64001c11142
+- Incremental: 3552140044
   Model: KV
   name: update_kindle_voyage_5.12.1
   sha256: 9758871fdd32fb23069100cdcc596c7900e4ad65e41a4ba66c1f8a5d9c84a903
@@ -954,10 +958,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.12.1
   sha256: 8579565b7f4e3c301c14ccce2e667045058d66f64cfdd29856991f74ccab57b5
-- Incremental: 3552140044
-  Model: KT2
-  name: update_kindle_5.12.1
-  sha256: 35b36ef8586fea37fc32cc6a563f5f7948558a39f225b634d38da64001c11142
 - Incremental: 3552150044
   Model: KT4
   name: update_kindle_10th_5.12.1
@@ -983,6 +983,10 @@
   name: update_kindle_all_new_paperwhite_v2_5.12.2
   sha256: 2b24960916fbd718b25fc7b47dfa7048699f199fbcb09df8ce19ad07d2ee1724
 - Incremental: 3569620025
+  Model: KT2
+  name: update_kindle_5.12.2
+  sha256: 03352a5a64760bafc415aa65271d6411a126fa50fa0c913ccc28668f77cb91e8
+- Incremental: 3569620025
   Model: KV
   name: update_kindle_voyage_5.12.2
   sha256: 1b348188716a23afb1cc927040487fddb55d8e550ddaca98d2c5a982c02ab1a6
@@ -994,10 +998,6 @@
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.12.2
   sha256: db8801193a93f03b3f72815a88d456978d08eade9bdacb460e1af0f48704e87e
-- Incremental: 3569620025
-  Model: KT2
-  name: update_kindle_5.12.2
-  sha256: 03352a5a64760bafc415aa65271d6411a126fa50fa0c913ccc28668f77cb91e8
 - Incremental: 3569630025
   Model: KOA
   name: update_kindle_oasis_5.12.2
@@ -1011,25 +1011,25 @@
   name: update_kindle_8th_5.12.2
   sha256: 760651c6e59291c52a92369f62634730d5de84f1c79ee8d74eb2f01e98db0105
 - Incremental: 3569660025
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.12.2
-  sha256: b65b2676fb4eafc4948f0a51aeb0a5b3327a271ee15ace455ade9926513e0183
-- Incremental: 3569660025
   Model: KOA2
   name: update_kindle_all_new_oasis_5.12.2
   sha256: a6bc34ac9e66b848251643acf1e5dffa362495aa22de2a32612294d4acef37ae
+- Incremental: 3569660025
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.12.2
+  sha256: b65b2676fb4eafc4948f0a51aeb0a5b3327a271ee15ace455ade9926513e0183
 - Incremental: 3581470036
   Model: KOA
   name: update_kindle_oasis_5.12.3
   sha256: c8cbdaee8ac9e13e40a81422bc92a7fec5fbb4e62df79d4ce2789fa7a5609ac8
 - Incremental: 3581480036
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.12.3
-  sha256: 878d4131cb70730fff3cb7508e662e3660c82788995e4865c21033d0c1b102c6
-- Incremental: 3581480036
   Model: KOA2
   name: update_kindle_all_new_oasis_5.12.3
   sha256: 63f9a9bc673ed85218044ad3c60ec75887d33d6f8df0c95ed6c3f19c7e271b51
+- Incremental: 3581480036
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.12.3
+  sha256: 878d4131cb70730fff3cb7508e662e3660c82788995e4865c21033d0c1b102c6
 - Incremental: 3581490036
   Model: PW4
   name: update_kindle_all_new_paperwhite_v2_5.12.3
@@ -1071,13 +1071,13 @@
   name: update_kindle_10th_5.12.4
   sha256: a06f29e4614485c2e0baf6ba90b9bf5ab087181f35856d04e0a901da3b3e539a
 - Incremental: 3602800042
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.12.4
-  sha256: 8c0f79391b430717c9744b90a8bc7181c7512b90bb988a5906be321f77303f34
-- Incremental: 3602800042
   Model: KOA2
   name: update_kindle_all_new_oasis_5.12.4
   sha256: dde97218fd1e719796b5502f004a0069351601e55faa6cc02713e8d50790d60e
+- Incremental: 3602800042
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.12.4
+  sha256: 8c0f79391b430717c9744b90a8bc7181c7512b90bb988a5906be321f77303f34
 - Incremental: 3617120041
   Model: KV
   name: update_kindle_voyage_5.12.5
@@ -1099,13 +1099,13 @@
   name: update_kindle_10th_5.12.5
   sha256: f6e783eaab5ed06e621f76032d278b49e42361e9741178ead71a135afee9ed02
 - Incremental: 3617300042
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.12.5
-  sha256: 25aff5af21dd02a3e8d869c0c86dceb5d59192d1fa441913e8c3c259d8ca20bd
-- Incremental: 3617300042
   Model: KOA2
   name: update_kindle_all_new_oasis_5.12.5
   sha256: 5025fda627b30afeab40a7325497447546b31551ebfa05716e05811e74340fb6
+- Incremental: 3617300042
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.12.5
+  sha256: 25aff5af21dd02a3e8d869c0c86dceb5d59192d1fa441913e8c3c259d8ca20bd
 - Incremental: 3643130037
   Model: KV
   name: update_kindle_voyage_5.13.1
@@ -1119,13 +1119,13 @@
   name: update_kindle_8th_5.13.1
   sha256: ecc73cd301555080495e52f868dcea3d3697e20fa9ea5c72efd80f21a764a74f
 - Incremental: 3643160037
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.13.1
-  sha256: 67ce7d79efc738fa32a188e4c6c0db2c49454d7d0257d0c47afe21ca42abf0ab
-- Incremental: 3643160037
   Model: KOA2
   name: update_kindle_all_new_oasis_5.13.1
   sha256: 5079b9272ac0e62a1850cfc787f8fcba3a1fa302ac6ae3ea4507472370869f56
+- Incremental: 3643160037
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.13.1
+  sha256: 67ce7d79efc738fa32a188e4c6c0db2c49454d7d0257d0c47afe21ca42abf0ab
 - Incremental: 3643170037
   Model: PW4
   name: update_kindle_all_new_paperwhite_v2_5.13.1
@@ -1147,13 +1147,13 @@
   name: update_kindle_all_new_paperwhite_5.13.2
   sha256: fdc95a6dcea22918d078819b84f9114da889bd362d9de118593977b049842bb2
 - Incremental: 3661420039
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.13.2
-  sha256: 01440b8e96ff19092ca6762319c6966c1dd1e1d6ccff496e964df5e9e0ea5f2f
-- Incremental: 3661420039
   Model: KOA2
   name: update_kindle_all_new_oasis_5.13.2
   sha256: b9531a62b187ff348c5d2afe3d62703d78dc9eb8bc4ebc3b9bc71d9f22b12326
+- Incremental: 3661420039
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.13.2
+  sha256: 01440b8e96ff19092ca6762319c6966c1dd1e1d6ccff496e964df5e9e0ea5f2f
 - Incremental: 3661430039
   Model: KOA
   name: update_kindle_oasis_5.13.2
@@ -1191,25 +1191,25 @@
   name: update_kindle_oasis_5.13.3
   sha256: 6cf4587ccba467b07e5e673e96229d43a893c4dbb65a957e024379983d76fee0
 - Incremental: 3676030033
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.13.3
-  sha256: 77b5a9e5902002581dda03323c2e61222b6df600ad52ca55c81c65b22752b01c
-- Incremental: 3676030033
   Model: KOA2
   name: update_kindle_all_new_oasis_5.13.3
   sha256: 3bc29fac30c3612fe512a1b4df757f40d0eef7d2df8053e9d6f59b897765d292
+- Incremental: 3676030033
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.13.3
+  sha256: 77b5a9e5902002581dda03323c2e61222b6df600ad52ca55c81c65b22752b01c
 - Incremental: 3692490026
   Model: KT3
   name: update_kindle_8th_5.13.4
   sha256: d1b8394fcff9db22c3aa5691ff7b9a3450fd86aafbb5a2a016aadcf253fc62e5
 - Incremental: 3692500026
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.13.4
-  sha256: c670b156b50e829706a9d3d6b47a8bb57fc2f45932eed600f724be62133601df
-- Incremental: 3692500026
   Model: KOA2
   name: update_kindle_all_new_oasis_5.13.4
   sha256: bbf2a2c2a3018518a034d5e1462172007b8a0245514a331fdeb241aae1f1253b
+- Incremental: 3692500026
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.13.4
+  sha256: c670b156b50e829706a9d3d6b47a8bb57fc2f45932eed600f724be62133601df
 - Incremental: 3692510026
   Model: KOA
   name: update_kindle_oasis_5.13.4
@@ -1231,13 +1231,13 @@
   name: update_kindle_all_new_paperwhite_5.13.4
   sha256: 972ffbc5c72434ed94ff0c388a406d0df7f97b23f4b6f87fa59ae4c2da931814
 - Incremental: 3709770004
-  Model: PW2
-  name: update_kindle_paperwhite_v2_5.12.2.1
-  sha256: 68e112f58dd09b3ee247413408c40efccc8b4d39cf4f559f7abe24da440c4323
-- Incremental: 3709770004
   Model: KT2
   name: update_kindle_5.12.2.1
   sha256: 539e7dfde375f01a84a1277e00e960c4d0a5968ddad78a0516728926617f0eec
+- Incremental: 3709770004
+  Model: PW2
+  name: update_kindle_paperwhite_v2_5.12.2.1
+  sha256: 68e112f58dd09b3ee247413408c40efccc8b4d39cf4f559f7abe24da440c4323
 - Incremental: 3716740030
   Model: KT3
   name: update_kindle_8th_5.13.5
@@ -1251,13 +1251,13 @@
   name: update_kindle_all_new_paperwhite_5.13.5
   sha256: 943796120a94f96743f9c34d59b9727a21c91a15e61ef91f9b23159c6d045775
 - Incremental: 3716760030
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.13.5
-  sha256: f0819863611749e449aa0e7c077dbe7ae34c4c6e58f6332da26a25b5dcccfeeb
-- Incremental: 3716760030
   Model: KOA2
   name: update_kindle_all_new_oasis_5.13.5
   sha256: 017edefdedd7056aa89f3d14ae7f2fe6e779f3293622eb0cf629ed43c6ed8929
+- Incremental: 3716760030
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.13.5
+  sha256: f0819863611749e449aa0e7c077dbe7ae34c4c6e58f6332da26a25b5dcccfeeb
 - Incremental: 3716770030
   Model: KOA
   name: update_kindle_oasis_5.13.5
@@ -1271,13 +1271,13 @@
   name: update_kindle_all_new_paperwhite_v2_5.13.5
   sha256: 83b4ab488af7e0ebd4c9cb3c83b6acbbb217eb3307cfa89a4e1f17bc20f5d6c7
 - Incremental: 3720580001
-  Model: PW2
-  name: update_kindle_paperwhite_v2_5.12.2.1.1
-  sha256: be46bbec09eba4bea0a18d740646b94c07f259879e9e3d623d54156afe791c26
-- Incremental: 3720580001
   Model: KT2
   name: update_kindle_5.12.2.1.1
   sha256: a27ad25b9976f3a8698b3148ad730a8e54a11a728ae50bb06322defc21519f2e
+- Incremental: 3720580001
+  Model: PW2
+  name: update_kindle_paperwhite_v2_5.12.2.1.1
+  sha256: be46bbec09eba4bea0a18d740646b94c07f259879e9e3d623d54156afe791c26
 - Incremental: 3731980038
   Model: PW4
   name: update_kindle_all_new_paperwhite_v2_5.13.6
@@ -1299,13 +1299,13 @@
   name: update_kindle_oasis_5.13.6
   sha256: 1c093a5718630234da77d4c1790d5c03bab0750bb756218849b4edfa25ab5825
 - Incremental: 3732020038
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.13.6
-  sha256: 3342f06bb5957b37e136bcd399f8b81b84aac55dc2676d9bd6d55f16252bb57c
-- Incremental: 3732020038
   Model: KOA2
   name: update_kindle_all_new_oasis_5.13.6
   sha256: b1a5e78a15ba35123d6f3a995a7a0af05470de763a71c99e3258508ef49c43e4
+- Incremental: 3732020038
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.13.6
+  sha256: 3342f06bb5957b37e136bcd399f8b81b84aac55dc2676d9bd6d55f16252bb57c
 - Incremental: 3732030038
   Model: KT3
   name: update_kindle_8th_5.13.6
@@ -1327,13 +1327,13 @@
   name: update_kindle_all_new_paperwhite_v2_5.13.7
   sha256: eeb227d6d0c1356bf778bdce2da8f9dad37d1cd09aed7c2bc6d4150383587579
 - Incremental: 3763030075
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.13.7
-  sha256: b2403d2d9521997e5490d4dffdc7ffecdc10892eb8425c13ed2db95c6427e3a0
-- Incremental: 3763030075
   Model: KOA2
   name: update_kindle_all_new_oasis_5.13.7
   sha256: 954b736001a718078f1fdd4fe498b9210ec39f3238c984c3fea2515b95ab70de
+- Incremental: 3763030075
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.13.7
+  sha256: b2403d2d9521997e5490d4dffdc7ffecdc10892eb8425c13ed2db95c6427e3a0
 - Incremental: 3763040075
   Model: KT4
   name: update_kindle_10th_5.13.7
@@ -1347,13 +1347,13 @@
   name: update_kindle_all_new_paperwhite_v2_5.14.1
   sha256: 0fec2eb002303f75e63e1bf2b48350ab6a05bd7400249ff149dc597060e905a7
 - Incremental: 3776410030
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.14.1
-  sha256: ae8a6f840fa00c9e65e5ad035b184d502039908fb1b3e06c92762bd32dabb1ff
-- Incremental: 3776410030
   Model: KOA2
   name: update_kindle_all_new_oasis_5.14.1
   sha256: ddb587f250fcdfc56385f49cbf1ce7feeeb68958d4e74984cf902a2ed39d1edf
+- Incremental: 3776410030
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.14.1
+  sha256: ae8a6f840fa00c9e65e5ad035b184d502039908fb1b3e06c92762bd32dabb1ff
 - Incremental: 3776420030
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.14.1
@@ -1371,13 +1371,13 @@
   name: update_kindle_all_new_paperwhite_11th_5.14.1.1
   sha256: 34307ad2afb3f69bcccf60a7f2391804d1233cf0052fd97b741d268b4bc1a025
 - Incremental: 3791510038
-  Model: PW2
-  name: update_kindle_paperwhite_v2_5.12.2.2
-  sha256: b9b60d785aae49d908b855927a5fe2eb9f3fb2053157b182c37e56f80e247e3b
-- Incremental: 3791510038
   Model: KT2
   name: update_kindle_5.12.2.2
   sha256: 83b710a008ce217c8187b1a546c34145ead17eab015e12b2ccb0518fedacc0ab
+- Incremental: 3791510038
+  Model: PW2
+  name: update_kindle_paperwhite_v2_5.12.2.2
+  sha256: b9b60d785aae49d908b855927a5fe2eb9f3fb2053157b182c37e56f80e247e3b
 - Incremental: 3807110059
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.14.2
@@ -1395,13 +1395,13 @@
   name: update_kindle_all_new_paperwhite_v2_5.14.2
   sha256: 0d222c9c948561fb2f360c3cfd11132953ec9264da2d9d7ec5617cd7c1c1b1f1
 - Incremental: 3807150059
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.14.2
-  sha256: 5011afb45066adfd2bbe89d69e6701efce69f6cb693549c91df6e75b2ea03c8b
-- Incremental: 3807150059
   Model: KOA2
   name: update_kindle_all_new_oasis_5.14.2
   sha256: 7a295c8687d2184aa31df0e53d39a69bd31aa8d2ca3eea14f8a49f5777698be9
+- Incremental: 3807150059
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.14.2
+  sha256: 5011afb45066adfd2bbe89d69e6701efce69f6cb693549c91df6e75b2ea03c8b
 - Incremental: 3807160059
   Model: KT4
   name: update_kindle_10th_5.14.2
@@ -1427,13 +1427,13 @@
   name: update_kindle_all_new_paperwhite_v2_5.14.3
   sha256: 9cfabead5475a2ae391c7ffa90d8e135faca223b8dfbc84a516926f2a0b593f2
 - Incremental: 3830850070
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.14.3
-  sha256: 899a9a28aa5e1dc9620cdd03bf138a95017756bc03b8b4b2071aa1c4b9eb7779
-- Incremental: 3830850070
   Model: KOA2
   name: update_kindle_all_new_oasis_5.14.3
   sha256: 47be3a7ef41f9b673a8974c22cb5aa71c9bcc6aff101ade6966bac62acf7824e
+- Incremental: 3830850070
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.14.3
+  sha256: 899a9a28aa5e1dc9620cdd03bf138a95017756bc03b8b4b2071aa1c4b9eb7779
 - Incremental: 3830880070
   Model: KT4
   name: update_kindle_10th_5.14.3
@@ -1459,13 +1459,13 @@
   name: update_kindle_oasis_5.14.3.0.1
   sha256: 5bc24d31882a27aa25ccc24a5d30f88ab1e7797d0f2acc84d60bbfbe322a8e73
 - Incremental: 3838620001
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.14.3.0.1
-  sha256: 9a618571b09369405c2f8761e02b31376d674622e5ea82a156d0c32665177026
-- Incremental: 3838620001
   Model: KOA2
   name: update_kindle_all_new_oasis_5.14.3.0.1
   sha256: ddbd2b04f15edddf085d357aab5d83781e2f5e4e621a3d8531f2a73b0b29023b
+- Incremental: 3838620001
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.14.3.0.1
+  sha256: 9a618571b09369405c2f8761e02b31376d674622e5ea82a156d0c32665177026
 - Incremental: 3838630001
   Model: PW4
   name: update_kindle_all_new_paperwhite_v2_5.14.3.0.1
@@ -1491,13 +1491,13 @@
   name: update_kindle_all_new_paperwhite_11th_5.14.3.2
   sha256: ed2d3ab5ba936614372de125948288d2db4e238359610a0333ea5c87f676ddcc
 - Incremental: 3867600003
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.14.3.2
-  sha256: e5932baa32e97ad1418cecf376f1f5d830a769f8456d3fbcea97fb0c31c4ed12
-- Incremental: 3867600003
   Model: KOA2
   name: update_kindle_all_new_oasis_5.14.3.2
   sha256: e56f635368272dc4560af5fd398f24228a136b097715182cb8cba1f0381d28ac
+- Incremental: 3867600003
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.14.3.2
+  sha256: e5932baa32e97ad1418cecf376f1f5d830a769f8456d3fbcea97fb0c31c4ed12
 - Incremental: 3867610003
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.14.3.2
@@ -1511,13 +1511,13 @@
   name: update_kindle_oasis_5.15.1
   sha256: d284e82af2a4f2284979f8da8f5e0219dcdd6d7e90b82901ce9c28d38208e3b7
 - Incremental: 3889290042
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.15.1
-  sha256: b725d9606ac58c4958b3b148e05a00996920a01143ee517b529b9981414031db
-- Incremental: 3889290042
   Model: KOA2
   name: update_kindle_all_new_oasis_5.15.1
   sha256: 29f602f1a5c8512d8cf13d5e10e285fae6f9d36094934e6be4417685496671c6
+- Incremental: 3889290042
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.15.1
+  sha256: b725d9606ac58c4958b3b148e05a00996920a01143ee517b529b9981414031db
 - Incremental: 3889300042
   Model: KT5
   name: update_kindle_11th_5.15.1
@@ -1567,13 +1567,13 @@
   name: update_kindle_10th_5.15.1.1
   sha256: 179b3aa569192caed1266a7d7e9609fed068228680a0e89351d1d656fc4b09fe
 - Incremental: 3925030005
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.15.1.1
-  sha256: 8b2ea8f1225b4f779a8a0be23ab15cfe2afff404dda6056bc60cf2b39ba09b40
-- Incremental: 3925030005
   Model: KOA2
   name: update_kindle_all_new_oasis_5.15.1.1
   sha256: 2239288a9ff94bdfe44719155edf7e9063a3b0aaf85cfec5e7df47d5dc633a2d
+- Incremental: 3925030005
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.15.1.1
+  sha256: 8b2ea8f1225b4f779a8a0be23ab15cfe2afff404dda6056bc60cf2b39ba09b40
 - Incremental: 3925040005
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.15.1.1
@@ -1615,13 +1615,13 @@
   name: update_kindle_oasis_5.16.2.1
   sha256: 4a12c143d9b552df3757bcc2dbd3053b2c3ec75f9cc11b0467968db9ee301f2c
 - Incremental: 4064630031
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.16.2.1
-  sha256: 86578c387843f3423ce1bfba7c1f191e242f6bb9079df76a3b40970d54fe2f4f
-- Incremental: 4064630031
   Model: KOA2
   name: update_kindle_all_new_oasis_5.16.2.1
   sha256: cdae0f0c1520f99313230e52731ab66be0884c05bd1a0cdb3309b0450c13533a
+- Incremental: 4064630031
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.16.2.1
+  sha256: 86578c387843f3423ce1bfba7c1f191e242f6bb9079df76a3b40970d54fe2f4f
 - Incremental: 4064640031
   Model: PW3
   name: update_kindle_all_new_paperwhite_5.16.2.1
@@ -1635,13 +1635,13 @@
   name: update_kindle_10th_5.16.2.1
   sha256: 3acec2e1ca3916a48edc38dedb9dc7cc0656bb840359f4f59e32d7799e7abf28
 - Incremental: 4097450002
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.16.2.1.1
-  sha256: a5a3d1a452478ec7411508a1faa5b18815d993abc612a2bee251163459ca665e
-- Incremental: 4097450002
   Model: KOA2
   name: update_kindle_all_new_oasis_5.16.2.1.1
   sha256: 8f10eb0cf94f55c75e0cf4acd2bbd8750dbd96bedf21d8f32da7d2e7157ae1c4
+- Incremental: 4097450002
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.16.2.1.1
+  sha256: a5a3d1a452478ec7411508a1faa5b18815d993abc612a2bee251163459ca665e
 - Incremental: 4097460002
   Model: KT4
   name: update_kindle_10th_5.16.2.1.1
@@ -1656,6 +1656,10 @@
   sha256: 270900342da116cec7107389ec730bc80c4906ecbb464073e238390e4abfd8b1
 - Incremental: 4097490002
   Model: KT3
+  name: update_kindle_8th_5.16.2.1.1
+  sha256: 0d602094826d6a485b22d1ba054deaa2b3f60a9dc1451689d3733950b1eb1408
+- Incremental: 4097490002
+  Model: KT8
   name: update_kindle_8th_5.16.2.1.1
   sha256: 0d602094826d6a485b22d1ba054deaa2b3f60a9dc1451689d3733950b1eb1408
 - Incremental: 4097500002
@@ -1870,523 +1874,547 @@
   Model: KS
   name: update_kindle_scribe_5.16.9
   sha256: 04f61eb227a30f5144d3386b0cb4c6d86a1c90b64a123725ecebe50870680546
-- Incremental: 4417580025
-  Model: CS
-  name: update_kindle_colorsoft_5.18.1
-  sha256: 3e9d782e8d25e9b46b0d22721fb5111b9bbfbd9c523247dd51ffb4c1edb63749
 - Incremental: 4270230001
   Model: KOA3
   name: update_kindle_all_new_oasis_v2_5.16.10.0.1
   sha256: 895a151c965b33d56baf28cf8bb34aa7d1978f98cd4c0292e0e24cf3e49d3814
-- Incremental: 4304180001
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.16.21.0.2
-  sha256: 5d126fa77c7526bd822da6a175266ed9d37527ed9508b79efeda3c6f8d938ff5
-- Incremental: 4289720037
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.16.21
-  sha256: 1021588a760eb616e9308df7d8371d4803c5d794bc9ebffd5daeda9efb741bd0
-- Incremental: 4351880007
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.17.1.0.3
-  sha256: 3447dc96463f8aec41ac0c443442b787c226d420bfaf50bcf5e9feaf3ef6daca
-- Incremental: 4320350039
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.17.1
-  sha256: aa9a05c033723c26c34194a913ad2ac55be9381cf724e45679df202064684ba3
-- Incremental: 4417560025
-  Model: KOA3
-  name: update_kindle_all_new_oasis_v2_5.18.1
-  sha256: 6eb4c9a4977f619034c3c5709e90bdddf80a98054e86042e7ed57cb66fd6c9c0
-- Incremental: 4270280001
-  Model: KS
-  name: update_kindle_scribe_5.16.10.0.1
-  sha256: 0b4cb1ee046c6f6c4fb2b1c88d0413b7035e6fe625b3e7f7555e67032527d0dc
-- Incremental: 4289780037
-  Model: KS
-  name: update_kindle_scribe_5.16.21
-  sha256: 79a15728b6a700012659b27eaf1a209316b200b1111023721bb8d0dfb31fdb39
-- Incremental: 4333700042
-  Model: KS
-  name: update_kindle_scribe_5.17.1.0.1
-  sha256: a53b942b14f5157b666a76a786eb2ddbbe45c828385e30cb04798629ccee3064
-- Incremental: 4343740038
-  Model: KS
-  name: update_kindle_scribe_5.17.2
-  sha256: 9532297c2e90568b66bab71ed374b7061b396b84cda6ec4a02bd89a3093e7e4b
-- Incremental: 4386500030
-  Model: KS
-  name: update_kindle_scribe_5.17.3
-  sha256: f3734b58852eb8d6c2c2e11fa40fbd3c8779443d94828fe9db20ab12b627ea16
-- Incremental: 4417620025
-  Model: KS
-  name: update_kindle_scribe_5.18.1
-  sha256: d9a0be185651240f9e098755871ccc165f4355c9052cbe7e078308f704b7e8cc
-- Incremental: 4386490030
-  Model: KS2
-  name: update_kindle_scribe_2024_5.17.3
-  sha256: 8656a32d05608fe6af0312b338d2450a285519585aa622418c073115cd0ab391
-- Incremental: 4417630025
-  Model: KS2
-  name: update_kindle_scribe_2024_5.18.1
-  sha256: e31ffcbd1f6139c2ec383edfb82c553c13bc56e3216af9320114cfaddf58f403
-- Incremental: 4270260001
-  Model: KT4
-  name: update_kindle_10th_5.16.10.0.1
-  sha256: aab8befbaa300b5c6780330d7af64f03b7b5407be0aa5d4863bb2b7f44452930
-- Incremental: 4289740037
-  Model: KT4
-  name: update_kindle_10th_5.16.21
-  sha256: 5c2ec43f2324cda5b709be8132de3b1ce7e0485f368422704bcd612d36df8811
-- Incremental: 4351850007
-  Model: KT4
-  name: update_kindle_10th_5.17.1.0.3
-  sha256: 552327c4743e743fc3212a00e02a9bf78448f01416c5a37f0f476d108a50a259
-- Incremental: 4320320039
-  Model: KT4
-  name: update_kindle_10th_5.17.1
-  sha256: 869379fbec1e9c2d22cfd28b8275f4652ebe986380eda0cd7d8a89ae004b6140
-- Incremental: 4417590025
-  Model: KT4
-  name: update_kindle_10th_5.18.1
-  sha256: 4fcd642a622eb7d5fc3a67bf2c58f82713a3d097379855a40335c4f5a39fce27
 - Incremental: 4270240001
   Model: KT5
   name: update_kindle_11th_5.16.10.0.1
   sha256: fe3c9e355134ef46dd419028af0dc053b2b2327a5a02be960c566d2569519a6f
-- Incremental: 4289770037
-  Model: KT5
-  name: update_kindle_11th_5.16.21
-  sha256: b8c3d1abe0e657fd6d87250ef40d4d58a042156eaaff2494adeeb042efe2834c
-- Incremental: 4351890007
-  Model: KT5
-  name: update_kindle_11th_5.17.1.0.3
-  sha256: 1ebb9824d1e2ae35e0f27d22c8a0de0827dae5adf1886ee5769f2ebcbf3536f4
-- Incremental: 4320310039
-  Model: KT5
-  name: update_kindle_11th_5.17.1
-  sha256: b3abc16d0037523edecd31a798236ec29cf4892f1ae9d2544d3ee45e46371c2c
-- Incremental: 4417600025
-  Model: KT5
-  name: update_kindle_11th_5.18.1
-  sha256: 63684a4ab2109bea5f0f2418665b6ac9574a28fe7c0a02e04379a60186fb3d75
-- Incremental: 4289760037
-  Model: KT6
-  name: update_kindle_11th_2024_5.16.21
-  sha256: c75c83da0ca53dfbb57675c0a4ea66c77a9b4ab6674dc58090e8425203b20907
-- Incremental: 4334420001
-  Model: KT6
-  name: update_kindle_11th_2024_5.17.1.0.2
-  sha256: bc4f12d3fa4a0dc654cbc6d72be1273e0a35696cac646c65c94ea22327c341f0
-- Incremental: 4351960007
-  Model: KT6
-  name: update_kindle_11th_2024_5.17.1.0.4
-  sha256: 23630a913b5713f858e981561442afc84d4e3f57271fafc4609f7a3eb914535f
-- Incremental: 4417570025
-  Model: KT6
-  name: update_kindle_11th_2024_5.18.1
-  sha256: 11f8a6bbba3f86ea72b0fd9bce11beb53b8b3ecc444ad6e18c80ee470b982a92
 - Incremental: 4270250001
   Model: PW4
   name: update_kindle_all_new_paperwhite_v2_5.16.10.0.1
   sha256: 7eb2b6b9b11789b3eb4b9d44ef2bd91de31a20df4a222a4fb891f271c8f60d17
-- Incremental: 4289730037
-  Model: PW4
-  name: update_kindle_all_new_paperwhite_v2_5.16.21
-  sha256: 5d93ee9c8f72211d134dbc2906977b4c3dacf6bc56ab5a682efd9aa26dc6f2e7
-- Incremental: 4351860007
-  Model: PW4
-  name: update_kindle_all_new_paperwhite_v2_5.17.1.0.3
-  sha256: 82993067404b4902e88fa7cea0e78aca3f8bd56a1de457e6c0d8cb4ea0ba4bbc
-- Incremental: 4320330039
-  Model: PW4
-  name: update_kindle_all_new_paperwhite_v2_5.17.1
-  sha256: 67d65c67b3fa900495be738f8e460d57ead552a57f7c5a62301ce11c8b54fba2
-- Incremental: 4417610025
-  Model: PW4
-  name: update_kindle_all_new_paperwhite_v2_5.18.1
-  sha256: 159d3f1a72181504df73a587b9f5f8d0c29cad4efb5c34e5175cf1a290582412
+- Incremental: 4270260001
+  Model: KT4
+  name: update_kindle_10th_5.16.10.0.1
+  sha256: aab8befbaa300b5c6780330d7af64f03b7b5407be0aa5d4863bb2b7f44452930
 - Incremental: 4270270001
   Model: PW5
   name: update_kindle_all_new_paperwhite_11th_5.16.10.0.1
   sha256: a5102a4ddcb30d7142009a686cb2e0c2a0ec0b6f41e3c4bd028bada82fe69ff9
+- Incremental: 4270280001
+  Model: KS
+  name: update_kindle_scribe_5.16.10.0.1
+  sha256: 0b4cb1ee046c6f6c4fb2b1c88d0413b7035e6fe625b3e7f7555e67032527d0dc
+- Incremental: 4289720037
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.16.21
+  sha256: 1021588a760eb616e9308df7d8371d4803c5d794bc9ebffd5daeda9efb741bd0
+- Incremental: 4289730037
+  Model: PW4
+  name: update_kindle_all_new_paperwhite_v2_5.16.21
+  sha256: 5d93ee9c8f72211d134dbc2906977b4c3dacf6bc56ab5a682efd9aa26dc6f2e7
+- Incremental: 4289740037
+  Model: KT4
+  name: update_kindle_10th_5.16.21
+  sha256: 5c2ec43f2324cda5b709be8132de3b1ce7e0485f368422704bcd612d36df8811
 - Incremental: 4289750037
   Model: PW5
   name: update_kindle_all_new_paperwhite_11th_5.16.21
   sha256: 92f8ffff3da2c28cbbc26cae9ad72cccd2a720bd61b405ee862727de76d0227c
-- Incremental: 4351900007
-  Model: PW5
-  name: update_kindle_all_new_paperwhite_11th_5.17.1.0.3
-  sha256: 6ddb770c6afa5d8f7c0a23ce9d2287e8f7cbf2bd2b8629324566a16fbd9efa21
+- Incremental: 4289760037
+  Model: KT6
+  name: update_kindle_11th_2024_5.16.21
+  sha256: c75c83da0ca53dfbb57675c0a4ea66c77a9b4ab6674dc58090e8425203b20907
+- Incremental: 4289770037
+  Model: KT5
+  name: update_kindle_11th_5.16.21
+  sha256: b8c3d1abe0e657fd6d87250ef40d4d58a042156eaaff2494adeeb042efe2834c
+- Incremental: 4289780037
+  Model: KS
+  name: update_kindle_scribe_5.16.21
+  sha256: 79a15728b6a700012659b27eaf1a209316b200b1111023721bb8d0dfb31fdb39
+- Incremental: 4304180001
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.16.21.0.2
+  sha256: 5d126fa77c7526bd822da6a175266ed9d37527ed9508b79efeda3c6f8d938ff5
+- Incremental: 4320310039
+  Model: KT5
+  name: update_kindle_11th_5.17.1
+  sha256: b3abc16d0037523edecd31a798236ec29cf4892f1ae9d2544d3ee45e46371c2c
+- Incremental: 4320320039
+  Model: KT4
+  name: update_kindle_10th_5.17.1
+  sha256: 869379fbec1e9c2d22cfd28b8275f4652ebe986380eda0cd7d8a89ae004b6140
+- Incremental: 4320330039
+  Model: PW4
+  name: update_kindle_all_new_paperwhite_v2_5.17.1
+  sha256: 67d65c67b3fa900495be738f8e460d57ead552a57f7c5a62301ce11c8b54fba2
+- Incremental: 4320350039
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.17.1
+  sha256: aa9a05c033723c26c34194a913ad2ac55be9381cf724e45679df202064684ba3
 - Incremental: 4320360039
   Model: PW5
   name: update_kindle_all_new_paperwhite_11th_5.17.1
   sha256: 80f089ac300b55789c89a9fd96e28017bdaa7a13dfc811bad019681f63adf78a
-- Incremental: 4417540025
-  Model: PW5
-  name: update_kindle_all_new_paperwhite_11th_5.18.1
-  sha256: e1edf8562e092baa1ffdf70d6426a11d90871cdb4a760f9f36f280a34e20e458
+- Incremental: 4333700042
+  Model: KS
+  name: update_kindle_scribe_5.17.1.0.1
+  sha256: a53b942b14f5157b666a76a786eb2ddbbe45c828385e30cb04798629ccee3064
+- Incremental: 4334420001
+  Model: KT6
+  name: update_kindle_11th_2024_5.17.1.0.2
+  sha256: bc4f12d3fa4a0dc654cbc6d72be1273e0a35696cac646c65c94ea22327c341f0
 - Incremental: 4334430001
   Model: PW6
   name: update_kindle_all_new_paperwhite_12th_5.17.1.0.2
   sha256: 11a4ba2067af411f2c66033bcaaddc8a31e552dbc9b4b39edc68f3d064268bfb
+- Incremental: 4343740038
+  Model: KS
+  name: update_kindle_scribe_5.17.2
+  sha256: 9532297c2e90568b66bab71ed374b7061b396b84cda6ec4a02bd89a3093e7e4b
+- Incremental: 4351850007
+  Model: KT4
+  name: update_kindle_10th_5.17.1.0.3
+  sha256: 552327c4743e743fc3212a00e02a9bf78448f01416c5a37f0f476d108a50a259
+- Incremental: 4351860007
+  Model: PW4
+  name: update_kindle_all_new_paperwhite_v2_5.17.1.0.3
+  sha256: 82993067404b4902e88fa7cea0e78aca3f8bd56a1de457e6c0d8cb4ea0ba4bbc
+- Incremental: 4351880007
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.17.1.0.3
+  sha256: 3447dc96463f8aec41ac0c443442b787c226d420bfaf50bcf5e9feaf3ef6daca
+- Incremental: 4351890007
+  Model: KT5
+  name: update_kindle_11th_5.17.1.0.3
+  sha256: 1ebb9824d1e2ae35e0f27d22c8a0de0827dae5adf1886ee5769f2ebcbf3536f4
+- Incremental: 4351900007
+  Model: PW5
+  name: update_kindle_all_new_paperwhite_11th_5.17.1.0.3
+  sha256: 6ddb770c6afa5d8f7c0a23ce9d2287e8f7cbf2bd2b8629324566a16fbd9efa21
+- Incremental: 4351960007
+  Model: KT6
+  name: update_kindle_11th_2024_5.17.1.0.4
+  sha256: 23630a913b5713f858e981561442afc84d4e3f57271fafc4609f7a3eb914535f
 - Incremental: 4351970007
   Model: PW6
   name: update_kindle_all_new_paperwhite_12th_5.17.1.0.4
   sha256: 5538653a0ddf45b078447ea4894e0490aa2207572e2fd15cc5dc39e053dfef88
+- Incremental: 4386490030
+  Model: KS2
+  name: update_kindle_scribe_2024_5.17.3
+  sha256: 8656a32d05608fe6af0312b338d2450a285519585aa622418c073115cd0ab391
+- Incremental: 4386500030
+  Model: KS
+  name: update_kindle_scribe_5.17.3
+  sha256: f3734b58852eb8d6c2c2e11fa40fbd3c8779443d94828fe9db20ab12b627ea16
+- Incremental: 4417540025
+  Model: PW5
+  name: update_kindle_all_new_paperwhite_11th_5.18.1
+  sha256: e1edf8562e092baa1ffdf70d6426a11d90871cdb4a760f9f36f280a34e20e458
 - Incremental: 4417550025
   Model: PW6
   name: update_kindle_all_new_paperwhite_12th_5.18.1
   sha256: 1fee20badd63b13634fc4d89d69195c12a98f378013b1b5dffed518bd6c271ec
-- Incremental: 4466700029
-  Model: PW5
-  name: update_kindle_all_new_paperwhite_11th_5.18.3
-  sha256: 27bb8d2e6ec2d18c6d29d5a36a294a0223cea42c6980c50f195cbedf8a99cc9b
-- Incremental: 4434540025
-  Model: PW5
-  name: update_kindle_all_new_paperwhite_11th_5.18.2
-  sha256: c42298a2b948da5f947011d08a3942e2ee0f2dc319ef7e4dd227a2fb95d89a82
-- Incremental: 4527730001
-  Model: PW5
-  name: update_kindle_all_new_paperwhite_11th_5.18.4.0.1
-  sha256: 2ea205fe49b02d0b9fe6ac4bd0763771bd128f4a930e398297e26529cba2ebd7
-- Incremental: 4556810001
-  Model: PW5
-  name: update_kindle_all_new_paperwhite_11th_5.18.5.0.1
-  sha256: 7bc195866c72a72aa7024f2f83df04c898116c7018e6aa28e5bbe0ca52913a52
-- Incremental: 4546060025
-  Model: PW5
-  name: update_kindle_all_new_paperwhite_11th_5.18.5
-  sha256: fce64dd758fca59661d16c5458f7f0da43df83899b60cf35b1b8052983082638
-- Incremental: 4507460022
-  Model: PW5
-  name: update_kindle_all_new_paperwhite_11th_5.18.4
-  sha256: 033b6653564de303a67754250e15e387ef41b8c3c5ee72068db306e61394af67
-- Incremental: 4527790001
-  Model: KS2
-  name: update_kindle_scribe_2024_5.18.4.0.1
-  sha256: 3e04cae809110c320301b724e94908c71b7a7b620c856c8976bb88c4c9d1a59e
-- Incremental: 4507480022
-  Model: KS2
-  name: update_kindle_scribe_2024_5.18.4
-  sha256: 017ef6da5da0f04cb1662324245d516e824ca2956ca16be3b0ab68c755326d07
-- Incremental: 4546070025
-  Model: KS2
-  name: update_kindle_scribe_2024_5.18.5
-  sha256: 878c33d7d19761ea219950337bb399184dae9d3cbdc05a5866359ec9ad2d1c3b
-- Incremental: 4434590025
-  Model: KS2
-  name: update_kindle_scribe_2024_5.18.2
-  sha256: 868957bd5a91dc60709df73243331c2669a76dfe1f2cbc524a2f94639a6a4090
-- Incremental: 4556840001
-  Model: KS2
-  name: update_kindle_scribe_2024_5.18.5.0.1
-  sha256: f928c15702ebef162de5e68a73a18e7c5a09135f1db3fa193e80efb4275cff0c
-- Incremental: 4466720029
-  Model: KS2
-  name: update_kindle_scribe_2024_5.18.3
-  sha256: e9553bbb8017eebd4c4124003c244fa4adc95f772c926c882b76fb904312a456
-- Incremental: 4546050025
+- Incremental: 4417560025
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.18.1
+  sha256: 6eb4c9a4977f619034c3c5709e90bdddf80a98054e86042e7ed57cb66fd6c9c0
+- Incremental: 4417570025
+  Model: KT6
+  name: update_kindle_11th_2024_5.18.1
+  sha256: 11f8a6bbba3f86ea72b0fd9bce11beb53b8b3ecc444ad6e18c80ee470b982a92
+- Incremental: 4417580025
   Model: CS
-  name: update_kindle_colorsoft_5.18.5
-  sha256: e7aca2bd20040a676d8d31aa074db2516f9a42db868a8b197f868192e395320e
-- Incremental: 4556820001
-  Model: CS
-  name: update_kindle_colorsoft_5.18.5.0.1
-  sha256: 68ef3828a3f11a8bb414868ce6fb34eb342be2c850deb8c8a6db21a0143eda4a
-- Incremental: 4507450022
-  Model: CS
-  name: update_kindle_colorsoft_5.18.4
-  sha256: 6e0a7a3f65b4aed840574f7af478ec2db996f013f8bb7446d0d663865be4a5fa
-- Incremental: 4527740001
-  Model: CS
-  name: update_kindle_colorsoft_5.18.4.0.1
-  sha256: 2eb0e2a5694e49f58cb878ea69f19f20ddd1f5febbc97b05d2a5fdbf0b57627c
-- Incremental: 4466670029
-  Model: CS
-  name: update_kindle_colorsoft_5.18.3
-  sha256: 771a763d4ad685f97aab3819e36af86792946fa1989f1a35818d05e20ec554bb
-- Incremental: 4434570025
-  Model: CS
-  name: update_kindle_colorsoft_5.18.2
-  sha256: 129802ad5906289bd1f2a8682dfcbf002e6341cf814871cc5e0800d56fd8ae82
-- Incremental: 4527760001
+  name: update_kindle_colorsoft_5.18.1
+  sha256: 3e9d782e8d25e9b46b0d22721fb5111b9bbfbd9c523247dd51ffb4c1edb63749
+- Incremental: 4417590025
+  Model: KT4
+  name: update_kindle_10th_5.18.1
+  sha256: 4fcd642a622eb7d5fc3a67bf2c58f82713a3d097379855a40335c4f5a39fce27
+- Incremental: 4417600025
   Model: KT5
-  name: update_kindle_11th_5.18.4.0.1
-  sha256: 330f781b17eaef85a2f3dd5fd904827a06330d9ee9fb882c312bf67c6fc9dffb
-- Incremental: 4556780001
-  Model: KT5
-  name: update_kindle_11th_5.18.5.0.1
-  sha256: 77c9ab40c7c5e3e280fe217e9e93aa787daf725506f444723140092cc8f991a6
-- Incremental: 4434560025
-  Model: KT5
-  name: update_kindle_11th_5.18.2
-  sha256: 8920dd956a695460cfa683790d5c79855a2d8ea074fb1c62a5311c5a65061d4d
-- Incremental: 4466680029
-  Model: KT5
-  name: update_kindle_11th_5.18.3
-  sha256: e63df640c2aa5621926204e3d06eb06baa707852d6e388b175d1c39c96ec9081
-- Incremental: 4507430022
-  Model: KT5
-  name: update_kindle_11th_5.18.4
-  sha256: 2070341d07f8958501fa98a3b45a81fb24b123becb4e2a82141f14f5e06265ca
-- Incremental: 4546020025
-  Model: KT5
-  name: update_kindle_11th_5.18.5
-  sha256: 2673ecc41e2a631b217f728ae26aaa68c2bf5b24f51f2bd24160b8d3803106e9
-- Incremental: 4527750001
-  Model: PW6
-  name: update_kindle_all_new_paperwhite_12th_5.18.4.0.1
-  sha256: 0b053cac933631b39d8358c6a4724c073e39522fb525cce4d1407185dc7b0d24
+  name: update_kindle_11th_5.18.1
+  sha256: 63684a4ab2109bea5f0f2418665b6ac9574a28fe7c0a02e04379a60186fb3d75
+- Incremental: 4417610025
+  Model: PW4
+  name: update_kindle_all_new_paperwhite_v2_5.18.1
+  sha256: 159d3f1a72181504df73a587b9f5f8d0c29cad4efb5c34e5175cf1a290582412
+- Incremental: 4417620025
+  Model: KS
+  name: update_kindle_scribe_5.18.1
+  sha256: d9a0be185651240f9e098755871ccc165f4355c9052cbe7e078308f704b7e8cc
+- Incremental: 4417630025
+  Model: KS2
+  name: update_kindle_scribe_2024_5.18.1
+  sha256: e31ffcbd1f6139c2ec383edfb82c553c13bc56e3216af9320114cfaddf58f403
 - Incremental: 4434530025
   Model: PW6
   name: update_kindle_all_new_paperwhite_12th_5.18.2
   sha256: b0f782764f849cface4f7817103558f9db10fd51ba314f5f8f191feff850fabb
-- Incremental: 4466690029
-  Model: PW6
-  name: update_kindle_all_new_paperwhite_12th_5.18.3
-  sha256: 7174ac5e826796c7bdd476688d48080d7d787a9163d3ee41f165076a8ebf648c
-- Incremental: 4507440022
-  Model: PW6
-  name: update_kindle_all_new_paperwhite_12th_5.18.4
-  sha256: 3b92559142329332c20c806faf444558cc5817e6f187fed26d7adb5de1c3d554
-- Incremental: 4546040025
-  Model: PW6
-  name: update_kindle_all_new_paperwhite_12th_5.18.5
-  sha256: e9a14e054a3b07e844fffc11e37b9888433450668955f8e690f5eb768ba90f1e
-- Incremental: 4556800001
-  Model: PW6
-  name: update_kindle_all_new_paperwhite_12th_5.18.5.0.1
-  sha256: 368604b8fd62ebe12c8e0cf32cfec9856fb69c99f37c8907dbb6863f6a78670c
-- Incremental: 4527820001
-  Model: KS
-  name: update_kindle_scribe_5.18.4.0.1
-  sha256: 50d22ed8d38ca06a12c06455f600fdb8a84d6f55fa43bec26d6fab1cd3ff851b
-- Incremental: 4556830001
-  Model: KS
-  name: update_kindle_scribe_5.18.5.0.1
-  sha256: 9ef9244669df46bdba429dc36519f75acd935924f61dac3aab4345e472877576
-- Incremental: 4434580025
-  Model: KS
-  name: update_kindle_scribe_5.18.2
-  sha256: 20706daf62e7fd299da7770f3d06aae933f1b5ec2b5e63171a50504beca0c88d
-- Incremental: 4466760029
-  Model: KS
-  name: update_kindle_scribe_5.18.3
-  sha256: 4d0a7107f46af5731152b019e0c21b4298fd9d7dac856c8eef302f0fa45be56b
-- Incremental: 4507470022
-  Model: KS
-  name: update_kindle_scribe_5.18.4
-  sha256: e758be9b18c5e7f16e703987532e67ff6a244d1c250385beac30224dbace083b
-- Incremental: 4546080025
-  Model: KS
-  name: update_kindle_scribe_5.18.5
-  sha256: 9c9d42dbfa2e3e119a5e9f67c0ec28207aa479c129f5719fcfd2648386b055da
-- Incremental: 4446290017
-  Model: KT6
-  name: update_kindle_11th_2024_5.18.1.5
-  sha256: 5d192c5a33412ef2497dd1463a11a036fafcf3f48071f328e13cbb0c2cea458c
-- Incremental: 4527780001
-  Model: KT6
-  name: update_kindle_11th_2024_5.18.4.0.1
-  sha256: f1982ffa730af025b00b87968310f5f4b139bc895612fbc49e8af4133f0c6d95
-- Incremental: 4556790001
-  Model: KT6
-  name: update_kindle_11th_2024_5.18.5.0.1
-  sha256: 7cbd3e7e4fb54d67d2b3b13f2b0e2b63dabc09bcac6164271653c21d5426a8d3
-- Incremental: 4466650029
-  Model: KT6
-  name: update_kindle_11th_2024_5.18.3
-  sha256: 3e0716ed90ad5f83f39285b03e8c27e9241705d358b7ea9d40857a69e2774d00
-- Incremental: 4507420022
-  Model: KT6
-  name: update_kindle_11th_2024_5.18.4
-  sha256: 18cbbd9f9307d6c8f11c9291ab3d75d27668f400225c24590765deef2aaa54a6
-- Incremental: 4546030025
-  Model: KT6
-  name: update_kindle_11th_2024_5.18.5
-  sha256: dec8ab42830b6d96a89c25821eb88357d0a5a2896a7cf02c7e91904b9b654d14
-- Incremental: 4670780040
-  Model: KSC
-  name: update_kindle_scribe_colorsoft_1st_generation_5.19.2
-  sha256: e22c08046b189482873ad2d28d2e8bd876e57b80363baa662a1c05ac21447afb
-- Incremental: 4794260058
-  Model: KSC
-  name: update_kindle_scribe_colorsoft_1st_generation_5.19.5
-  sha256: 4245c51f2c05e896ec88e610920d874aef28bf73af448e0c6e44c925a532f4b5
-- Incremental: 4767220003
-  Model: KSC
-  name: update_kindle_scribe_colorsoft_1st_generation_5.19.4.0.1
-  sha256: 9f53b1ee613f1e1063bd94c4862842c8d34a9c20f572d46941e15282f1e1af2a
-- Incremental: 4723050002
-  Model: KSC
-  name: update_kindle_scribe_colorsoft_1st_generation_5.19.3.0.1
-  sha256: 86be5a335c04b938e413159d4fc9f854af65e6a97c54129cab87543ad9c55478
-- Incremental: 4751380049
-  Model: PW6
-  name: update_kindle_all_new_paperwhite_12th_5.19.4
-  sha256: 519f3b0d73a3147b21587800b1f7cdcd4c9b7ef73fa522f1a38acd19973feb57
-- Incremental: 4721740001
-  Model: PW6
-  name: update_kindle_all_new_paperwhite_12th_5.19.3.0.1
-  sha256: 9bdc420d1b8d9ff016f67ae6df2a7425fdec08a8e80686119572e8d4ca0005f8
-- Incremental: 4670740040
-  Model: PW6
-  name: update_kindle_all_new_paperwhite_12th_5.19.2
-  sha256: b63c7512f82a6426bd3baac2526ee3b24208ad7e1c006a7570550dec5cb272fe
-- Incremental: 4794310058
-  Model: PW6
-  name: update_kindle_all_new_paperwhite_12th_5.19.5
-  sha256: 6291b3e4d1508bd05a31ef87acac86e412c12f3ef9877b98766a789cb52676b2
-- Incremental: 4586210041
-  Model: PW6
-  name: update_kindle_all_new_paperwhite_12th_5.18.6
-  sha256: 5c2d05e19b78c1cd9f8084e31cf33fcf42d69ee0fb382c21e54d90e5c8e3ce37
-- Incremental: 4767250003
-  Model: PW6
-  name: update_kindle_all_new_paperwhite_12th_5.19.4.0.1
-  sha256: b58e50068f0b4ecc670c4de3e8bbbac9d735caf1663d087ecf0a7a1be118997b
-- Incremental: 4586150041
-  Model: KT6
-  name: update_kindle_11th_2024_5.18.6
-  sha256: 59e74cb63c46a5d52220c04a1b1319bc4c146836fe7bd2587e2bde146f32e7fb
-- Incremental: 4767200003
-  Model: KT6
-  name: update_kindle_11th_2024_5.19.4.0.1
-  sha256: df4ddd8397c66d1e5a496b41bf850d9f4ef5f3883869daeebc56b3408dcc036c
-- Incremental: 4740630001
-  Model: KT6
-  name: update_kindle_11th_2024_5.19.3.0.2
-  sha256: 3926fbbf0ba3fe0c7fe8e02c2c99e1b6e66078ca95b72ed86ad5dc185e73c236
-- Incremental: 4721760001
-  Model: KT6
-  name: update_kindle_11th_2024_5.19.3.0.1
-  sha256: 2fd9999f2466f541f2ecbdbc21d34dad5700bcb1a18f9172eb6ac5fc21dfe6d9
-- Incremental: 4794270058
-  Model: KT6
-  name: update_kindle_11th_2024_5.19.5
-  sha256: ed5e8c3977fb28807934eba3215ef184e73848b1328bd7bd8cbaff980f8a6d09
-- Incremental: 4670750040
-  Model: KT6
-  name: update_kindle_11th_2024_5.19.2
-  sha256: 95826a3fd2a7ba5d3368e9a81aec132dc973650576d71c24f6773719497152e2
-- Incremental: 4097490002
-  Model: KT8
-  name: update_kindle_8th_5.16.2.1.1
-  sha256: 0d602094826d6a485b22d1ba054deaa2b3f60a9dc1451689d3733950b1eb1408
-- Incremental: 4723080002
-  Model: KS2
-  name: update_kindle_scribe_2024_5.19.3.0.1
-  sha256: afca7c935d62bc3f5bb4c784775c27956b4418fa8c826a4567c46ce79677fd72
-- Incremental: 4586160041
-  Model: KS2
-  name: update_kindle_scribe_2024_5.18.6
-  sha256: cfabfbaee4de8c5897bc14c8c348f5aae88e387d56e158cea397207926ba7fdc
-- Incremental: 4767260003
-  Model: KS2
-  name: update_kindle_scribe_2024_5.19.4.0.1
-  sha256: 4fb7f045bba3b76bafdad8044d683575af97e163d8a3b449deee678c7f2e09ef
-- Incremental: 4670810040
-  Model: KS2
-  name: update_kindle_scribe_2024_5.19.2
-  sha256: 0abd2372caf9f2e79c643808265987066a38a480ec91bcdf326591e815bf917c
-- Incremental: 4794290058
-  Model: KS2
-  name: update_kindle_scribe_2024_5.19.5
-  sha256: 149e319bd3fe146c56a45dc65a74d367385d78759b1fda7d36f966061fdedd6e
-- Incremental: 4586170041
-  Model: KT5
-  name: update_kindle_11th_5.18.6
-  sha256: 19231b0d085a1e4c16cdea3c7ef9f6f1fa2fa0da52f03079bd8fc1b4ac63b0eb
-- Incremental: 4740590001
-  Model: KT5
-  name: update_kindle_11th_5.19.2.0.1
-  sha256: 0ea1a4413c576b162972565cccc13158081303acc8b0d92477671accf86a3a9e
-- Incremental: 4670730040
-  Model: KT5
-  name: update_kindle_11th_5.19.2
-  sha256: 867b598dcd1ebe3f26f58fe454181ecff678e8ba16e5c9addfdfd0c1928dc734
-- Incremental: 4586180041
+- Incremental: 4434540025
   Model: PW5
-  name: update_kindle_all_new_paperwhite_11th_5.18.6
-  sha256: c7f40600b3b7e26b5e59725912872af3694adba33b7a74cf18f075712ad4adfa
-- Incremental: 4670760040
-  Model: PW5
-  name: update_kindle_all_new_paperwhite_11th_5.19.2
-  sha256: 64ddcbae52f0009b5d3f9974d93610db7f26a8787c895c55f413127af474b987
+  name: update_kindle_all_new_paperwhite_11th_5.18.2
+  sha256: c42298a2b948da5f947011d08a3942e2ee0f2dc319ef7e4dd227a2fb95d89a82
 - Incremental: 4434550025
   Model: KOA3
   name: update_kindle_all_new_oasis_v2_5.18.2
   sha256: f1c6cd86e6f9236dd0a80831c882cf04a96e175697089b0f0d3ecad9933e0325
+- Incremental: 4434560025
+  Model: KT5
+  name: update_kindle_11th_5.18.2
+  sha256: 8920dd956a695460cfa683790d5c79855a2d8ea074fb1c62a5311c5a65061d4d
+- Incremental: 4434570025
+  Model: CS
+  name: update_kindle_colorsoft_5.18.2
+  sha256: 129802ad5906289bd1f2a8682dfcbf002e6341cf814871cc5e0800d56fd8ae82
+- Incremental: 4434580025
+  Model: KS
+  name: update_kindle_scribe_5.18.2
+  sha256: 20706daf62e7fd299da7770f3d06aae933f1b5ec2b5e63171a50504beca0c88d
+- Incremental: 4434590025
+  Model: KS2
+  name: update_kindle_scribe_2024_5.18.2
+  sha256: 868957bd5a91dc60709df73243331c2669a76dfe1f2cbc524a2f94639a6a4090
+- Incremental: 4446290017
+  Model: KT6
+  name: update_kindle_11th_2024_5.18.1.5
+  sha256: 5d192c5a33412ef2497dd1463a11a036fafcf3f48071f328e13cbb0c2cea458c
+- Incremental: 4466650029
+  Model: KT6
+  name: update_kindle_11th_2024_5.18.3
+  sha256: 3e0716ed90ad5f83f39285b03e8c27e9241705d358b7ea9d40857a69e2774d00
+- Incremental: 4466670029
+  Model: CS
+  name: update_kindle_colorsoft_5.18.3
+  sha256: 771a763d4ad685f97aab3819e36af86792946fa1989f1a35818d05e20ec554bb
+- Incremental: 4466680029
+  Model: KT5
+  name: update_kindle_11th_5.18.3
+  sha256: e63df640c2aa5621926204e3d06eb06baa707852d6e388b175d1c39c96ec9081
+- Incremental: 4466690029
+  Model: PW6
+  name: update_kindle_all_new_paperwhite_12th_5.18.3
+  sha256: 7174ac5e826796c7bdd476688d48080d7d787a9163d3ee41f165076a8ebf648c
+- Incremental: 4466700029
+  Model: PW5
+  name: update_kindle_all_new_paperwhite_11th_5.18.3
+  sha256: 27bb8d2e6ec2d18c6d29d5a36a294a0223cea42c6980c50f195cbedf8a99cc9b
+- Incremental: 4466720029
+  Model: KS2
+  name: update_kindle_scribe_2024_5.18.3
+  sha256: e9553bbb8017eebd4c4124003c244fa4adc95f772c926c882b76fb904312a456
+- Incremental: 4466760029
+  Model: KS
+  name: update_kindle_scribe_5.18.3
+  sha256: 4d0a7107f46af5731152b019e0c21b4298fd9d7dac856c8eef302f0fa45be56b
+- Incremental: 4507420022
+  Model: KT6
+  name: update_kindle_11th_2024_5.18.4
+  sha256: 18cbbd9f9307d6c8f11c9291ab3d75d27668f400225c24590765deef2aaa54a6
+- Incremental: 4507430022
+  Model: KT5
+  name: update_kindle_11th_5.18.4
+  sha256: 2070341d07f8958501fa98a3b45a81fb24b123becb4e2a82141f14f5e06265ca
+- Incremental: 4507440022
+  Model: PW6
+  name: update_kindle_all_new_paperwhite_12th_5.18.4
+  sha256: 3b92559142329332c20c806faf444558cc5817e6f187fed26d7adb5de1c3d554
+- Incremental: 4507450022
+  Model: CS
+  name: update_kindle_colorsoft_5.18.4
+  sha256: 6e0a7a3f65b4aed840574f7af478ec2db996f013f8bb7446d0d663865be4a5fa
+- Incremental: 4507460022
+  Model: PW5
+  name: update_kindle_all_new_paperwhite_11th_5.18.4
+  sha256: 033b6653564de303a67754250e15e387ef41b8c3c5ee72068db306e61394af67
+- Incremental: 4507470022
+  Model: KS
+  name: update_kindle_scribe_5.18.4
+  sha256: e758be9b18c5e7f16e703987532e67ff6a244d1c250385beac30224dbace083b
+- Incremental: 4507480022
+  Model: KS2
+  name: update_kindle_scribe_2024_5.18.4
+  sha256: 017ef6da5da0f04cb1662324245d516e824ca2956ca16be3b0ab68c755326d07
+- Incremental: 4527730001
+  Model: PW5
+  name: update_kindle_all_new_paperwhite_11th_5.18.4.0.1
+  sha256: 2ea205fe49b02d0b9fe6ac4bd0763771bd128f4a930e398297e26529cba2ebd7
+- Incremental: 4527740001
+  Model: CS
+  name: update_kindle_colorsoft_5.18.4.0.1
+  sha256: 2eb0e2a5694e49f58cb878ea69f19f20ddd1f5febbc97b05d2a5fdbf0b57627c
+- Incremental: 4527750001
+  Model: PW6
+  name: update_kindle_all_new_paperwhite_12th_5.18.4.0.1
+  sha256: 0b053cac933631b39d8358c6a4724c073e39522fb525cce4d1407185dc7b0d24
+- Incremental: 4527760001
+  Model: KT5
+  name: update_kindle_11th_5.18.4.0.1
+  sha256: 330f781b17eaef85a2f3dd5fd904827a06330d9ee9fb882c312bf67c6fc9dffb
+- Incremental: 4527780001
+  Model: KT6
+  name: update_kindle_11th_2024_5.18.4.0.1
+  sha256: f1982ffa730af025b00b87968310f5f4b139bc895612fbc49e8af4133f0c6d95
+- Incremental: 4527790001
+  Model: KS2
+  name: update_kindle_scribe_2024_5.18.4.0.1
+  sha256: 3e04cae809110c320301b724e94908c71b7a7b620c856c8976bb88c4c9d1a59e
+- Incremental: 4527820001
+  Model: KS
+  name: update_kindle_scribe_5.18.4.0.1
+  sha256: 50d22ed8d38ca06a12c06455f600fdb8a84d6f55fa43bec26d6fab1cd3ff851b
+- Incremental: 4546020025
+  Model: KT5
+  name: update_kindle_11th_5.18.5
+  sha256: 2673ecc41e2a631b217f728ae26aaa68c2bf5b24f51f2bd24160b8d3803106e9
+- Incremental: 4546030025
+  Model: KT6
+  name: update_kindle_11th_2024_5.18.5
+  sha256: dec8ab42830b6d96a89c25821eb88357d0a5a2896a7cf02c7e91904b9b654d14
+- Incremental: 4546040025
+  Model: PW6
+  name: update_kindle_all_new_paperwhite_12th_5.18.5
+  sha256: e9a14e054a3b07e844fffc11e37b9888433450668955f8e690f5eb768ba90f1e
+- Incremental: 4546050025
+  Model: CS
+  name: update_kindle_colorsoft_5.18.5
+  sha256: e7aca2bd20040a676d8d31aa074db2516f9a42db868a8b197f868192e395320e
+- Incremental: 4546060025
+  Model: PW5
+  name: update_kindle_all_new_paperwhite_11th_5.18.5
+  sha256: fce64dd758fca59661d16c5458f7f0da43df83899b60cf35b1b8052983082638
+- Incremental: 4546070025
+  Model: KS2
+  name: update_kindle_scribe_2024_5.18.5
+  sha256: 878c33d7d19761ea219950337bb399184dae9d3cbdc05a5866359ec9ad2d1c3b
+- Incremental: 4546080025
+  Model: KS
+  name: update_kindle_scribe_5.18.5
+  sha256: 9c9d42dbfa2e3e119a5e9f67c0ec28207aa479c129f5719fcfd2648386b055da
+- Incremental: 4556780001
+  Model: KT5
+  name: update_kindle_11th_5.18.5.0.1
+  sha256: 77c9ab40c7c5e3e280fe217e9e93aa787daf725506f444723140092cc8f991a6
+- Incremental: 4556790001
+  Model: KT6
+  name: update_kindle_11th_2024_5.18.5.0.1
+  sha256: 7cbd3e7e4fb54d67d2b3b13f2b0e2b63dabc09bcac6164271653c21d5426a8d3
+- Incremental: 4556800001
+  Model: PW6
+  name: update_kindle_all_new_paperwhite_12th_5.18.5.0.1
+  sha256: 368604b8fd62ebe12c8e0cf32cfec9856fb69c99f37c8907dbb6863f6a78670c
+- Incremental: 4556810001
+  Model: PW5
+  name: update_kindle_all_new_paperwhite_11th_5.18.5.0.1
+  sha256: 7bc195866c72a72aa7024f2f83df04c898116c7018e6aa28e5bbe0ca52913a52
+- Incremental: 4556820001
+  Model: CS
+  name: update_kindle_colorsoft_5.18.5.0.1
+  sha256: 68ef3828a3f11a8bb414868ce6fb34eb342be2c850deb8c8a6db21a0143eda4a
+- Incremental: 4556830001
+  Model: KS
+  name: update_kindle_scribe_5.18.5.0.1
+  sha256: 9ef9244669df46bdba429dc36519f75acd935924f61dac3aab4345e472877576
+- Incremental: 4556840001
+  Model: KS2
+  name: update_kindle_scribe_2024_5.18.5.0.1
+  sha256: f928c15702ebef162de5e68a73a18e7c5a09135f1db3fa193e80efb4275cff0c
+- Incremental: 4586150041
+  Model: KT6
+  name: update_kindle_11th_2024_5.18.6
+  sha256: 59e74cb63c46a5d52220c04a1b1319bc4c146836fe7bd2587e2bde146f32e7fb
+- Incremental: 4586160041
+  Model: KS2
+  name: update_kindle_scribe_2024_5.18.6
+  sha256: cfabfbaee4de8c5897bc14c8c348f5aae88e387d56e158cea397207926ba7fdc
+- Incremental: 4586170041
+  Model: KT5
+  name: update_kindle_11th_5.18.6
+  sha256: 19231b0d085a1e4c16cdea3c7ef9f6f1fa2fa0da52f03079bd8fc1b4ac63b0eb
+- Incremental: 4586180041
+  Model: PW5
+  name: update_kindle_all_new_paperwhite_11th_5.18.6
+  sha256: c7f40600b3b7e26b5e59725912872af3694adba33b7a74cf18f075712ad4adfa
 - Incremental: 4586190041
   Model: CS
   name: update_kindle_colorsoft_5.18.6
   sha256: 3b5fdfd43d1d4b132afe13c753175e85c5f08f00ed8d1ceabcfcb99aa7eb3e99
-- Incremental: 4721720001
-  Model: CS
-  name: update_kindle_colorsoft_5.19.3.0.1
-  sha256: fa5830252f8cfdc50f960c76a4bec0593a391e446567305b1e3341adc208a86b
-- Incremental: 4751400049
-  Model: CS
-  name: update_kindle_colorsoft_5.19.4
-  sha256: be91413ec83d485f185319ab7ae9563073973265da84f1fb642ac14b5a23a455
-- Incremental: 4767270003
-  Model: CS
-  name: update_kindle_colorsoft_5.19.4.0.1
-  sha256: 5296ee129a429c43cf93fa5783dd9f635874eabdd3eaf8517856d27b246e7c62
-- Incremental: 4670790040
-  Model: CS
-  name: update_kindle_colorsoft_5.19.2
-  sha256: 366063a36a79ba30036dbf73abee8f3db8a7d09e9ce0dca87b1b9a727e5923bb
-- Incremental: 4794280058
-  Model: CS
-  name: update_kindle_colorsoft_5.19.5
-  sha256: 80d4fab0b38612f2f0af8235d53d86e5f91055841afb42b9236f448ba18b049d
-- Incremental: 4769680023
-  Model: PW4
-  name: update_kindle_all_new_paperwhite_v2_5.18.1.1.1
-  sha256: 84b259779a49d77a324abe8d50ee8842cf27ba79229a3bf6db3881a341d95e8f
-- Incremental: 4769670023
-  Model: KT4
-  name: update_kindle_10th_5.18.1.1.1
-  sha256: 16d48df2d6598c2240ccc100d959499466361b8326e9f72bfdd86bd2c3ca3509
-- Incremental: 4767210003
-  Model: KS3
-  name: update_kindle_scribe_3rd_generation_5.19.4.0.1
-  sha256: 57b8a0c870a4d3550f58f3e555c4b689b618d1fbdf2f22c9346d59612b39240d
-- Incremental: 4794300058
-  Model: KS3
-  name: update_kindle_scribe_3rd_generation_5.19.5
-  sha256: e24b18fe87fb63b5b346abd6981cccbb8fc2264d49d8fd6636d03b6c3dfa6c85
-- Incremental: 4670800040
-  Model: KS3
-  name: update_kindle_scribe_3rd_generation_5.19.2
-  sha256: cf04ccc8acaed2434e3bb850443198129ae652454a97d46c534e8e2ab6905cfa
-- Incremental: 4723070002
-  Model: KS3
-  name: update_kindle_scribe_3rd_generation_5.19.3.0.1
-  sha256: dfa025a775b2d85051e3fe03be6011286cb1d0b32d0b0db29acf6eef08c6ecc1
-- Incremental: 4670770040
-  Model: KS
-  name: update_kindle_scribe_5.19.2
-  sha256: c310f8470d04bbe3ed5813d156b0d4b526bbabfee9e99eed16ba3979c870eb5d
-- Incremental: 4767240003
-  Model: KS
-  name: update_kindle_scribe_5.19.4.0.1
-  sha256: 573ca620c0f8a7ee735b10725ad6409b9c27f89f9a74a3edfeadb6387a8a6c1e
-- Incremental: 4794320058
-  Model: KS
-  name: update_kindle_scribe_5.19.5
-  sha256: 2b03d71370fe07e56d9cd486fb5caff7f5ab17147eaf178ab869730ddb1ffc76
-- Incremental: 4751390049
-  Model: KS
-  name: update_kindle_scribe_5.19.4
-  sha256: 8052c005b74ee2eac547027c359acb3ed0e9c4efed2e39a57488364176f958b9
-- Incremental: 4723060002
-  Model: KS
-  name: update_kindle_scribe_5.19.3.0.1
-  sha256: 2147cdbcd13efbe690360f56f568ad25c613265c9697f8da7e320d06799dcb66
+- Incremental: 4586210041
+  Model: PW6
+  name: update_kindle_all_new_paperwhite_12th_5.18.6
+  sha256: 5c2d05e19b78c1cd9f8084e31cf33fcf42d69ee0fb382c21e54d90e5c8e3ce37
 - Incremental: 4586220041
   Model: KS
   name: update_kindle_scribe_5.18.6
   sha256: 194ce121e9b18fc561a915741cb1c6f9331df53e3a6c178912be4b2727f450ce
+- Incremental: 4670730040
+  Model: KT5
+  name: update_kindle_11th_5.19.2
+  sha256: 867b598dcd1ebe3f26f58fe454181ecff678e8ba16e5c9addfdfd0c1928dc734
+- Incremental: 4670740040
+  Model: PW6
+  name: update_kindle_all_new_paperwhite_12th_5.19.2
+  sha256: b63c7512f82a6426bd3baac2526ee3b24208ad7e1c006a7570550dec5cb272fe
+- Incremental: 4670750040
+  Model: KT6
+  name: update_kindle_11th_2024_5.19.2
+  sha256: 95826a3fd2a7ba5d3368e9a81aec132dc973650576d71c24f6773719497152e2
+- Incremental: 4670760040
+  Model: PW5
+  name: update_kindle_all_new_paperwhite_11th_5.19.2
+  sha256: 64ddcbae52f0009b5d3f9974d93610db7f26a8787c895c55f413127af474b987
+- Incremental: 4670770040
+  Model: KS
+  name: update_kindle_scribe_5.19.2
+  sha256: c310f8470d04bbe3ed5813d156b0d4b526bbabfee9e99eed16ba3979c870eb5d
+- Incremental: 4670780040
+  Model: KSC
+  name: update_kindle_scribe_colorsoft_1st_generation_5.19.2
+  sha256: e22c08046b189482873ad2d28d2e8bd876e57b80363baa662a1c05ac21447afb
+- Incremental: 4670790040
+  Model: CS
+  name: update_kindle_colorsoft_5.19.2
+  sha256: 366063a36a79ba30036dbf73abee8f3db8a7d09e9ce0dca87b1b9a727e5923bb
+- Incremental: 4670800040
+  Model: KS3
+  name: update_kindle_scribe_3rd_generation_5.19.2
+  sha256: cf04ccc8acaed2434e3bb850443198129ae652454a97d46c534e8e2ab6905cfa
+- Incremental: 4670810040
+  Model: KS2
+  name: update_kindle_scribe_2024_5.19.2
+  sha256: 0abd2372caf9f2e79c643808265987066a38a480ec91bcdf326591e815bf917c
+- Incremental: 4721720001
+  Model: CS
+  name: update_kindle_colorsoft_5.19.3.0.1
+  sha256: fa5830252f8cfdc50f960c76a4bec0593a391e446567305b1e3341adc208a86b
+- Incremental: 4721740001
+  Model: PW6
+  name: update_kindle_all_new_paperwhite_12th_5.19.3.0.1
+  sha256: 9bdc420d1b8d9ff016f67ae6df2a7425fdec08a8e80686119572e8d4ca0005f8
+- Incremental: 4721760001
+  Model: KT6
+  name: update_kindle_11th_2024_5.19.3.0.1
+  sha256: 2fd9999f2466f541f2ecbdbc21d34dad5700bcb1a18f9172eb6ac5fc21dfe6d9
+- Incremental: 4723050002
+  Model: KSC
+  name: update_kindle_scribe_colorsoft_1st_generation_5.19.3.0.1
+  sha256: 86be5a335c04b938e413159d4fc9f854af65e6a97c54129cab87543ad9c55478
+- Incremental: 4723060002
+  Model: KS
+  name: update_kindle_scribe_5.19.3.0.1
+  sha256: 2147cdbcd13efbe690360f56f568ad25c613265c9697f8da7e320d06799dcb66
+- Incremental: 4723070002
+  Model: KS3
+  name: update_kindle_scribe_3rd_generation_5.19.3.0.1
+  sha256: dfa025a775b2d85051e3fe03be6011286cb1d0b32d0b0db29acf6eef08c6ecc1
+- Incremental: 4723080002
+  Model: KS2
+  name: update_kindle_scribe_2024_5.19.3.0.1
+  sha256: afca7c935d62bc3f5bb4c784775c27956b4418fa8c826a4567c46ce79677fd72
+- Incremental: 4740590001
+  Model: KT5
+  name: update_kindle_11th_5.19.2.0.1
+  sha256: 0ea1a4413c576b162972565cccc13158081303acc8b0d92477671accf86a3a9e
+- Incremental: 4740630001
+  Model: KT6
+  name: update_kindle_11th_2024_5.19.3.0.2
+  sha256: 3926fbbf0ba3fe0c7fe8e02c2c99e1b6e66078ca95b72ed86ad5dc185e73c236
+- Incremental: 4751380049
+  Model: PW6
+  name: update_kindle_all_new_paperwhite_12th_5.19.4
+  sha256: 519f3b0d73a3147b21587800b1f7cdcd4c9b7ef73fa522f1a38acd19973feb57
+- Incremental: 4751390049
+  Model: KS
+  name: update_kindle_scribe_5.19.4
+  sha256: 8052c005b74ee2eac547027c359acb3ed0e9c4efed2e39a57488364176f958b9
+- Incremental: 4751400049
+  Model: CS
+  name: update_kindle_colorsoft_5.19.4
+  sha256: be91413ec83d485f185319ab7ae9563073973265da84f1fb642ac14b5a23a455
+- Incremental: 4767200003
+  Model: KT6
+  name: update_kindle_11th_2024_5.19.4.0.1
+  sha256: df4ddd8397c66d1e5a496b41bf850d9f4ef5f3883869daeebc56b3408dcc036c
+- Incremental: 4767210003
+  Model: KS3
+  name: update_kindle_scribe_3rd_generation_5.19.4.0.1
+  sha256: 57b8a0c870a4d3550f58f3e555c4b689b618d1fbdf2f22c9346d59612b39240d
+- Incremental: 4767220003
+  Model: KSC
+  name: update_kindle_scribe_colorsoft_1st_generation_5.19.4.0.1
+  sha256: 9f53b1ee613f1e1063bd94c4862842c8d34a9c20f572d46941e15282f1e1af2a
+- Incremental: 4767240003
+  Model: KS
+  name: update_kindle_scribe_5.19.4.0.1
+  sha256: 573ca620c0f8a7ee735b10725ad6409b9c27f89f9a74a3edfeadb6387a8a6c1e
+- Incremental: 4767250003
+  Model: PW6
+  name: update_kindle_all_new_paperwhite_12th_5.19.4.0.1
+  sha256: b58e50068f0b4ecc670c4de3e8bbbac9d735caf1663d087ecf0a7a1be118997b
+- Incremental: 4767260003
+  Model: KS2
+  name: update_kindle_scribe_2024_5.19.4.0.1
+  sha256: 4fb7f045bba3b76bafdad8044d683575af97e163d8a3b449deee678c7f2e09ef
+- Incremental: 4767270003
+  Model: CS
+  name: update_kindle_colorsoft_5.19.4.0.1
+  sha256: 5296ee129a429c43cf93fa5783dd9f635874eabdd3eaf8517856d27b246e7c62
+- Incremental: 4769670023
+  Model: KT4
+  name: update_kindle_10th_5.18.1.1.1
+  sha256: 16d48df2d6598c2240ccc100d959499466361b8326e9f72bfdd86bd2c3ca3509
+- Incremental: 4769680023
+  Model: PW4
+  name: update_kindle_all_new_paperwhite_v2_5.18.1.1.1
+  sha256: 84b259779a49d77a324abe8d50ee8842cf27ba79229a3bf6db3881a341d95e8f
+- Incremental: 4794260058
+  Model: KSC
+  name: update_kindle_scribe_colorsoft_1st_generation_5.19.5
+  sha256: 4245c51f2c05e896ec88e610920d874aef28bf73af448e0c6e44c925a532f4b5
+- Incremental: 4794270058
+  Model: KT6
+  name: update_kindle_11th_2024_5.19.5
+  sha256: ed5e8c3977fb28807934eba3215ef184e73848b1328bd7bd8cbaff980f8a6d09
+- Incremental: 4794280058
+  Model: CS
+  name: update_kindle_colorsoft_5.19.5
+  sha256: 80d4fab0b38612f2f0af8235d53d86e5f91055841afb42b9236f448ba18b049d
+- Incremental: 4794290058
+  Model: KS2
+  name: update_kindle_scribe_2024_5.19.5
+  sha256: 149e319bd3fe146c56a45dc65a74d367385d78759b1fda7d36f966061fdedd6e
+- Incremental: 4794300058
+  Model: KS3
+  name: update_kindle_scribe_3rd_generation_5.19.5
+  sha256: e24b18fe87fb63b5b346abd6981cccbb8fc2264d49d8fd6636d03b6c3dfa6c85
+- Incremental: 4794310058
+  Model: PW6
+  name: update_kindle_all_new_paperwhite_12th_5.19.5
+  sha256: 6291b3e4d1508bd05a31ef87acac86e412c12f3ef9877b98766a789cb52676b2
+- Incremental: 4794320058
+  Model: KS
+  name: update_kindle_scribe_5.19.5
+  sha256: 2b03d71370fe07e56d9cd486fb5caff7f5ab17147eaf178ab869730ddb1ffc76
+- Incremental: 4832160042
+  Model: PW6
+  name: update_kindle_all_new_paperwhite_12th_5.19.6
+  sha256: 72445ffe3142991535902922a69969b913d4b27c58af4ceda1a3dc5ffadd143c
+- Incremental: 4832180042
+  Model: CS
+  name: update_kindle_colorsoft_5.19.6
+  sha256: 89421a960002bee402ed29a183460a1c0d561865416490536714c6131933dbd8
+- Incremental: 4832190042
+  Model: KS
+  name: update_kindle_scribe_5.19.6
+  sha256: e45c77be8bea7ed501220b96797d2406c18d5855b7230bfa74ed8d3dcbc9f349
+- Incremental: 4832210042
+  Model: KS3
+  name: update_kindle_scribe_3rd_generation_5.19.6
+  sha256: d72c96786eaff28d40205e0bf509576fc92dc31b196ab98f4ae416cecc363237
+- Incremental: 4832220042
+  Model: KS2
+  name: update_kindle_scribe_2024_5.19.6
+  sha256: 7bc80958fd82a6eade14afefdf440b91d9dd2bc590010bb31aaea77fdd208914
+- Incremental: 4832260042
+  Model: KSC
+  name: update_kindle_scribe_colorsoft_1st_generation_5.19.6
+  sha256: adcf1e8beefbcb7942ea32c61a8f974b83de9955f23bda3b7a62f487e82fe555
+- Incremental: 4832540042
+  Model: KT6
+  name: update_kindle_11th_2024_5.19.6
+  sha256: b6f54eb0cb884b48066f1c793bbb5c03edb63f6798776261ca901d6c15ac2e6b
