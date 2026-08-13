@@ -2390,6 +2390,10 @@
   Model: KS
   name: update_kindle_scribe_5.19.5
   sha256: 2b03d71370fe07e56d9cd486fb5caff7f5ab17147eaf178ab869730ddb1ffc76
+- Incremental: 4821110015
+  Model: KOA3
+  name: update_kindle_all_new_oasis_v2_5.18.2.1.1
+  sha256: cef947e96a523618f087d3b9312ea62cc4445bca1bdc28d7585a387a011403c7
 - Incremental: 4832160042
   Model: PW6
   name: update_kindle_all_new_paperwhite_12th_5.19.6
