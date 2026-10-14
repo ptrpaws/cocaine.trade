@@ -1207,6 +1207,34 @@
   VrShell_Version: 209.0.0.272.433.1084126039
   SystemUtilities_Version: 116.0.0.27.669.740803502
   sha256: 1960b3760c86c5d1a0c7ee719786086d8ba5df1294b5dcc4688a221745e00797
+- name: q3s_4069240011500610
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '4069240011500610'
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/6e4f-b962-156e-0a00.twshared100824.04.ftw6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest 3S
+  Codename: panther
+  Build_Date: Tue Oct  6 18:43:20 PDT 2026
+  Build_Date_UTC: '1791337400'
+  VROS_Build_Version: '209'
+  HZOS_Display_Name: 2.9.0
+  SystemUX_Version: 209.0.0.101.1270.1085527190
+  VrShell_Version: 209.0.0.294.433.1085523519
+  SystemUtilities_Version: 116.0.0.27.669.740803502
+  sha256: 1f639f73467c0123f82c98d15c3102598c7aa75ad16b02b559a90dee37011448
+- name: q3s_4069240012300610
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '4069240012300610'
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/bfcc-8463-157a-0a00.twshared23619.03.prn5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest 3S
+  Codename: panther
+  Build_Date: Thu Oct  8 19:04:33 PDT 2026
+  Build_Date_UTC: '1791511473'
+  VROS_Build_Version: '209'
+  HZOS_Display_Name: 2.9.0
+  SystemUX_Version: 209.0.0.114.1270.1087227583
+  VrShell_Version: 209.0.0.321.433.1087228848
+  SystemUtilities_Version: 116.0.0.27.669.740803502
+  sha256: e2898140599b08a30cb67740990268de86f967099f5c64fd99cf9da8dcfb12a3
 - Build_Date: Thu Nov  7 18:10:10 PST 2019
   Build_Date_UTC: '1573179010'
   Codename: monterey
@@ -7455,6 +7483,34 @@
   VrShell_Version: 209.0.0.270.433.1083999077
   SystemUtilities_Version: 116.0.0.27.669.740803502
   sha256: 39cf0550d64ade1968b16bd42b91627dfd49fed042b11b2d484f796981a4ebb6
+- name: QPro_51549380011400340
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '51549380011400340'
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/e414-a960-1542-0a00.twshared18226.04.frc1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest Pro
+  Codename: seacliff
+  Build_Date: Tue Oct  6 19:19:26 PDT 2026
+  Build_Date_UTC: '1791339566'
+  VROS_Build_Version: '209'
+  HZOS_Display_Name: 2.9.0
+  SystemUX_Version: 209.0.0.101.1270.1085527190
+  VrShell_Version: 209.0.0.294.433.1085523519
+  SystemUtilities_Version: 116.0.0.27.669.740803502
+  sha256: db4eea659e5c9990bcadbb152dfa8a310f6b8bd7df990625cdaa72747f8e4747
+- name: QPro_51549380012200340
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '51549380012200340'
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/e2c5-0e60-15c0-0a00.twshared10359.29.lla2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest Pro
+  Codename: seacliff
+  Build_Date: Thu Oct  8 19:47:56 PDT 2026
+  Build_Date_UTC: '1791514076'
+  VROS_Build_Version: '209'
+  HZOS_Display_Name: 2.9.0
+  SystemUX_Version: 209.0.0.114.1270.1087227583
+  VrShell_Version: 209.0.0.321.433.1087228848
+  SystemUtilities_Version: 116.0.0.27.669.740803502
+  sha256: d2948c3e3786ede7ea3d97faa47dc19fbaab5c3ab892878d893f3fba265ac69f
 - name: q3_51563850115600520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51563850115600520'
@@ -9268,6 +9324,34 @@
   VrShell_Version: 209.0.0.272.433.1084126039
   SystemUtilities_Version: 116.0.0.27.669.740803502
   sha256: 91d42c8d31aec941b4a699ae3bb28b29907991b8869af94052f0ad39b3543228
+- name: q2_52322490011100150
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '52322490011100150'
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/2be2-8362-15d4-0a00.twshared1806.04.prn5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest 2
+  Codename: hollywood
+  Build_Date: Tue Oct  6 18:41:10 PDT 2026
+  Build_Date_UTC: '1791337270'
+  VROS_Build_Version: '209'
+  HZOS_Display_Name: 2.9.0
+  SystemUX_Version: 209.0.0.101.1270.1085527190
+  VrShell_Version: 209.0.0.294.433.1085523519
+  SystemUtilities_Version: 116.0.0.27.669.740803502
+  sha256: aca104853488fc9c19474f1ff24a9692f67e02d66f429e28668ccc60e0ed9a70
+- name: q2_52322490011900150
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '52322490011900150'
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/2629-6c59-1599-0a00.twshared11432.04.hil5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest 2
+  Codename: hollywood
+  Build_Date: Thu Oct  8 18:58:32 PDT 2026
+  Build_Date_UTC: '1791511112'
+  VROS_Build_Version: '209'
+  HZOS_Display_Name: 2.9.0
+  SystemUX_Version: 209.0.0.114.1270.1087227583
+  VrShell_Version: 209.0.0.321.433.1087228848
+  SystemUtilities_Version: 116.0.0.27.669.740803502
+  sha256: 8a25c12dc60c1a0a244be52609a22b90660725eee2c9c8a4676ea0f0a2b8aeb7
 - name: q3_52345320022000520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52345320022000520'
@@ -9520,6 +9604,34 @@
   VrShell_Version: 209.0.0.272.433.1084126039
   SystemUtilities_Version: 116.0.0.27.669.740803502
   sha256: b02b2f8c9215fb80eadf5504a0e44ede1dab77f512b424c76473adeede1f0312
+- name: q3_52641960020000520
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '52641960020000520'
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/e5b8-9b61-1512-0a00.twshared31910.14.vll2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest 3
+  Codename: eureka
+  Build_Date: Tue Oct  6 19:06:05 PDT 2026
+  Build_Date_UTC: '1791338765'
+  VROS_Build_Version: '209'
+  HZOS_Display_Name: 2.9.0
+  SystemUX_Version: 209.0.0.101.1270.1085527190
+  VrShell_Version: 209.0.0.294.433.1085523519
+  SystemUtilities_Version: 116.0.0.27.669.740803502
+  sha256: 074056da5f4bad3cb70edb42b7c31cc7ebd0b9233e9d1dc98ff3c13574902b21
+- name: q3_52641960021500520
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '52641960021500520'
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/03f9-fc63-15ba-0a00.twshared0467.16.ftw3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Model: Quest 3
+  Codename: eureka
+  Build_Date: Thu Oct  8 18:58:15 PDT 2026
+  Build_Date_UTC: '1791511095'
+  VROS_Build_Version: '209'
+  HZOS_Display_Name: 2.9.0
+  SystemUX_Version: 209.0.0.114.1270.1087227583
+  VrShell_Version: 209.0.0.321.433.1087228848
+  SystemUtilities_Version: 116.0.0.27.669.740803502
+  sha256: 20e554b8b6a03574db1584fe8fecbe6e3becda9b5dd96d79964a11e1301b52b2
 - name: greatwhite_54940170441600080
   Incremental: '54940170441600080'
   Fingerprint: Meta/greatwhite/greatwhite:14/UKQ1.241029.001/54940170441600080:user/release-keys
