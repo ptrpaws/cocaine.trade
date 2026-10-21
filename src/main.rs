@@ -52,6 +52,8 @@ struct Firmware {
   #[serde(rename = "OS_Version")]
   #[serde(default)]
   os_version: String,
+  #[serde(rename = "HZOS_Display_Name")]
+  hzos_display_name: Option<String>,
   #[serde(rename = "SystemUX_Version")]
   system_ux_version: Option<String>,
   #[serde(rename = "SystemUtilities_Version")]
@@ -64,6 +66,8 @@ struct Firmware {
   sha256: String,
   #[serde(default)]
   version: String,
+  #[serde(default)]
+  display_version: String,
 }
 
 impl FirmwareData for Firmware {
@@ -182,6 +186,19 @@ fn process_meta_versions(firmwares: &mut [Firmware]) -> Result<(), ParseIntError
     if fw.version.is_empty() {
       fw.version = "Unknown".to_string();
     }
+
+    let major = fw.version.split('.').next()
+      .unwrap_or("Unknown");
+    let display_name = fw.hzos_display_name.as_deref()
+      .filter(|name| !name.is_empty());
+
+    fw.display_version = match major.parse::<u32>() {
+      Ok(number) if number >= 200 => {
+        format!("v{}", display_name.unwrap_or(major))
+      }
+      Ok(_) => format!("v{}", major),
+      Err(_) => fw.version.clone(),
+    };
   }
   Ok(())
 }
