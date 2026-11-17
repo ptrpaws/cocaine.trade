@@ -1,4 +1,7 @@
 <h2>{{ model }} Firmware Archive</h2>
+{% if firmwares | length == 0 %}
+<p>No firmware archived yet.</p>
+{% else %}
 <div class="column-toggle">
   <label><input type="checkbox" class="hide-column" data-column="2" data-storage-key="version" checked>Version</label>
   <label><input type="checkbox" class="hide-column" data-column="3" data-storage-key="runtime">Runtime Version</label>
@@ -35,5 +38,6 @@
     </tbody>
   </table>
 </div>
-<a href="/" class='link link-gold'>[RETURN TO MAIN]</a>
 <script src="table_management.js"></script>
+{% endif %}
+<a href="/" class='link link-gold'>[RETURN TO MAIN]</a>

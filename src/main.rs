@@ -13,12 +13,15 @@ const TEMPLATES_GLOB: &str = "templates/**/*.html";
 const FIRMWARES_FILE: &str = "firmwares.yaml";
 const KINDLE_FIRMWARES_FILE: &str = "kindle_firmwares.yaml";
 
+const XBOX_MODEL: &str = "Quest 3S Xbox Edition";
+
 const MODEL_ORDER: &[&str] = &[
     "Quest",
     "Quest 2",
     "Quest Pro",
     "Quest 3",
     "Quest 3S",
+    XBOX_MODEL,
     "Ray-Ban Display",
 ];
 const KINDLE_MODEL_ORDER: &[&str] = &[
@@ -144,13 +147,13 @@ fn generate_site(build_path: &Path) -> Result<(), Box<dyn Error>> {
   process_meta_versions(&mut firmwares)?;
   process_kindle_versions(&mut kindle_firmwares);
 
-  let models = get_and_sort_models(&firmwares, MODEL_ORDER);
-  let kindle_models = get_and_sort_models(&kindle_firmwares, KINDLE_MODEL_ORDER);
+  let models = get_and_sort_models(&firmwares, MODEL_ORDER, &[XBOX_MODEL]);
+  let kindle_models = get_and_sort_models(&kindle_firmwares, KINDLE_MODEL_ORDER, &[]);
 
   let tera = Tera::new(TEMPLATES_GLOB)?;
 
-  generate_model_pages(&tera, build_path, &firmwares, "Meta", "firmware_page.html")?;
-  generate_model_pages(&tera, build_path, &kindle_firmwares, "Kindle", "kindle_firmware_page.html")?;
+  generate_model_pages(&tera, build_path, &firmwares, &models, "Meta", "firmware_page.html")?;
+  generate_model_pages(&tera, build_path, &kindle_firmwares, &kindle_models, "Kindle", "kindle_firmware_page.html")?;
 
   println!("generating core pages (index, 404, robots.txt)...");
   generate_core_pages(&tera, build_path, &models, &kindle_models)?;
@@ -211,8 +214,8 @@ fn process_kindle_versions(firmwares: &mut [KindleFirmware]) {
   }
 }
 
-fn get_and_sort_models<T: FirmwareData>(firmwares: &[T], order: &[&str]) -> Vec<String> {
-  let mut models: Vec<&str> = firmwares.iter().map(|fw| fw.model()).collect();
+fn get_and_sort_models<T: FirmwareData>(firmwares: &[T], order: &[&str], required: &[&str]) -> Vec<String> {
+  let mut models: Vec<&str> = firmwares.iter().map(|fw| fw.model()).chain(required.iter().copied()).collect();
   models.sort_unstable();
   models.dedup();
   models.sort_by_key(|model| order.iter().position(|&r| r == *model).unwrap_or(order.len()));
@@ -223,6 +226,7 @@ fn generate_model_pages<T>(
   tera: &Tera,
   build_path: &Path,
   firmwares: &[T],
+  models: &[String],
   log_prefix: &str,
   template_name: &str,
 ) -> Result<(), Box<dyn Error>>
@@ -231,7 +235,8 @@ where
 {
   println!("generating {} firmware pages...", log_prefix);
 
-  let mut firmwares_by_model: HashMap<String, Vec<T>> = HashMap::new();
+  let mut firmwares_by_model: HashMap<String, Vec<T>> =
+    models.iter().cloned().map(|model| (model, Vec::new())).collect();
   for fw in firmwares {
     firmwares_by_model.entry(fw.model().to_string()).or_default().push(fw.clone());
   }
