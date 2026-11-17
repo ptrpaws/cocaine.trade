@@ -2763,6 +2763,18 @@
   name: q3_49829370035500510
   sha256: 9178b1f6ccdffad2b0f5f25a6dcb21eb3df9ae5b417257e9c0f49f10ae3d9fec
   VROS_Build_Version: '62'
+- name: q1_49845030180500400
+  OS_Version: user-49845030180500400
+  Incremental: '49845030180500400'
+  Fingerprint: oculus/vr_monterey/monterey:10/QQ3A.200805.001/49845030180500400:user/release-keys
+  Model: Quest
+  Codename: monterey
+  Build_Date: Thu Feb 16 08:43:36 PST 2023
+  Build_Date_UTC: '1676565816'
+  SystemUX_Version: 50.0.0.163.257.446735607
+  VrShell_Version: 50.0.0.163.257.446735966
+  SystemUtilities_Version: 50.0.0.163.257.446736083
+  sha256: d7a0fa5bf44e67e031c8c441c3a12ebad5a020bb395fcee65a0af31f315ea587
 - Build_Date: Fri Mar 10 08:45:59 PST 2023
   Build_Date_UTC: '1678466759'
   Codename: monterey
