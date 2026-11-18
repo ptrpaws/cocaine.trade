@@ -121,8 +121,19 @@ struct CommunityDump {
   vrshell: Option<String>,
   system_ux: Option<String>,
   system_utilities: Option<String>,
+  avb: Option<CommunityDumpAvb>,
   #[serde(default)]
   files: Vec<CommunityDumpFile>,
+}
+
+#[derive(Serialize, Deserialize)]
+struct CommunityDumpAvb {
+  status: String,
+  signer: Option<String>,
+  #[serde(default)]
+  mismatches: Vec<String>,
+  #[serde(default)]
+  missing: Vec<String>,
 }
 
 #[derive(Serialize, Deserialize)]

@@ -7,6 +7,8 @@
   build_type: user
   build_tags: release-keys
   vrshell: '2.10.0'
+  avb:
+    status: no_vbmeta
   files:
     - name: q1_user-mar16th-2018.zip
       size_bytes: 1169743448
@@ -21,6 +23,8 @@
   build_tags: dev-keys
   vrshell: '3.9.0'
   system_utilities: '3.57.0'
+  avb:
+    status: no_vbmeta
   files:
     - name: q1_userdev-dec16th-2018.zip
       size_bytes: 1291357200
@@ -36,6 +40,10 @@
   vrshell: '14.0.0.0.17'
   system_ux: '14.0.0.0.11'
   system_utilities: '14.0.0.0.34'
+  avb:
+    status: mismatch
+    signer: aosp_test
+    mismatches: [boot, dtbo]
   files:
     - name: q2_userdebug-dec11th-2019.zip
       kind: Slot B recovery (reported)
@@ -52,6 +60,9 @@
   vrshell: '16.0.0.0.335'
   system_ux: '16.0.0.0.335'
   system_utilities: '16.0.0.0.341'
+  avb:
+    status: consistent
+    signer: aosp_test
   files:
     - name: q2_userdebug-mar9th-2020.zip
       size_bytes: 1258957242

@@ -8,6 +8,7 @@
   <label><input type="checkbox" class="hide-column" data-column="7" data-storage-key="community_incremental">Incremental</label>
   <label><input type="checkbox" class="hide-column" data-column="8" data-storage-key="community_build_type">Build Type</label>
   <label><input type="checkbox" class="hide-column" data-column="11" data-storage-key="community_sha256">SHA-256</label>
+  <label><input type="checkbox" class="hide-column" data-column="12" data-storage-key="community_avb" checked>AVB</label>
 </div>
 <div class="table-container">
   <table id="firmwareTable">
@@ -25,6 +26,7 @@
         <th>Build Date (PT)</th>
         <th>Dump</th>
         <th>SHA-256</th>
+        <th>AVB</th>
       </tr>
     </thead>
     <tbody>
@@ -56,6 +58,21 @@
           {% if not loop.first %}<br>{% endif %}
           <code>{{ file.sha256 }}</code>
           {% endfor %}
+        </td>
+        <td>
+          {% if not dump.avb %}—
+          {% elif dump.avb.status == "no_vbmeta" %}No VBMeta
+          {% else %}
+            {% if dump.avb.status == "consistent" %}Partitions match
+            {% elif dump.avb.status == "mismatch" %}Mismatch
+            {% elif dump.avb.status == "incomplete" %}Incomplete
+            {% endif %}
+            {% if dump.avb.signer == "aosp_test" %}<br><small>AOSP test key</small>
+            {% elif dump.avb.signer == "embedded_key" %}<br><small>Embedded key</small>
+            {% endif %}
+            {% if dump.avb.mismatches %}<br><small>{{ dump.avb.mismatches | join(sep=", ") }}</small>{% endif %}
+            {% if dump.avb.missing %}<br><small>Missing {{ dump.avb.missing | join(sep=", ") }}</small>{% endif %}
+          {% endif %}
         </td>
       </tr>
     {% endfor %}
