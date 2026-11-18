@@ -30,14 +30,19 @@ def read_metadata(avbtool, path):
     return valid, key, descriptors, image
 
 
-def verify_archive(avbtool, source, directory):
+def verify_archive(avbtool, source, directory, metadata_only=False):
     archive = ZipFile(source)
     with archive:
         if len(set(archive.namelist())) != len(archive.infolist()):
             raise ValueError("Duplicate ZIP members")
         if "vbmeta.img" not in archive.namelist():
-            return {"status": "no_vbmeta"}
-        missing, mismatches, visited = set(), set(), set()
+            return {
+                "status": "no_vbmeta",
+                "metadata_only": metadata_only,
+                "verified_vbmeta": [],
+                "verified_partitions": [],
+            }
+        missing, mismatches, verified_vbmeta, verified_partitions = set(), set(), set(), set()
 
         def extract(name):
             if not re.fullmatch(r"[A-Za-z0-9_]+", name):
@@ -65,15 +70,19 @@ def verify_archive(avbtool, source, directory):
             if not valid or (expected_key is not None and key != expected_key):
                 mismatches.add(name)
                 return key
-            if name in visited:
+            if name in verified_vbmeta:
                 return key
-            visited.add(name)
+            verified_vbmeta.add(name)
             for desc in descriptors:
                 if isinstance(desc, avbtool.AvbChainPartitionDescriptor):
                     verify(desc.partition_name, desc.public_key)
-                elif isinstance(desc, (avbtool.AvbHashDescriptor, avbtool.AvbHashtreeDescriptor)):
+                elif not metadata_only and isinstance(desc, (avbtool.AvbHashDescriptor, avbtool.AvbHashtreeDescriptor)):
                     partition = desc.partition_name
-                    if extract(partition) and not desc.verify(str(directory), ".img", {}, image, False):
+                    if not extract(partition):
+                        continue
+                    if desc.verify(str(directory), ".img", {}, image, False):
+                        verified_partitions.add(partition)
+                    else:
                         mismatches.add(partition)
             return key
 
@@ -83,8 +92,13 @@ def verify_archive(avbtool, source, directory):
         elif missing:
             status = "incomplete"
         else:
-            status = "consistent"
-        result = {"status": status}
+            status = "metadata_consistent" if metadata_only else "consistent"
+        result = {
+            "status": status,
+            "metadata_only": metadata_only,
+            "verified_vbmeta": sorted(verified_vbmeta - mismatches),
+            "verified_partitions": sorted(verified_partitions - mismatches),
+        }
         if root_key:
             digest = hashlib.sha1(root_key).hexdigest()
             result["signer"] = "aosp_test" if digest in AOSP_TEST_KEYS else "embedded_key"
@@ -100,13 +114,15 @@ def main():
     parser.add_argument("archive", type=Path)
     parser.add_argument("--avbtool", required=True, type=Path, help="Path to AOSP avbtool.py")
     parser.add_argument("--work-dir", type=Path, help="Directory for temporary partition images")
+    parser.add_argument("--metadata-only", action="store_true",
+                        help="Verify VBMeta signatures and chained keys without checking partition contents")
     args = parser.parse_args()
 
     spec = importlib.util.spec_from_file_location("avbtool", args.avbtool)
     avbtool = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(avbtool)
     with TemporaryDirectory(dir=args.work_dir) as work, redirect_stdout(sys.stderr):
-        result = verify_archive(avbtool, args.archive, Path(work))
+        result = verify_archive(avbtool, args.archive, Path(work), metadata_only=args.metadata_only)
     print(json.dumps(result))
 
 
