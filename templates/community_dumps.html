@@ -1,0 +1,69 @@
+<h2>Community Firmware Dumps</h2>
+{% if dumps %}
+<div class="column-toggle">
+  <label><input type="checkbox" class="hide-column" data-column="3" data-storage-key="community_vrshell" checked>VrShell</label>
+  <label><input type="checkbox" class="hide-column" data-column="4" data-storage-key="community_system_ux">SystemUX</label>
+  <label><input type="checkbox" class="hide-column" data-column="5" data-storage-key="community_system_utilities">System Utilities</label>
+  <label><input type="checkbox" class="hide-column" data-column="6" data-storage-key="community_build_id">Build ID</label>
+  <label><input type="checkbox" class="hide-column" data-column="7" data-storage-key="community_incremental">Incremental</label>
+  <label><input type="checkbox" class="hide-column" data-column="8" data-storage-key="community_build_type">Build Type</label>
+  <label><input type="checkbox" class="hide-column" data-column="11" data-storage-key="community_sha256">SHA-256</label>
+</div>
+<div class="table-container">
+  <table id="firmwareTable">
+    <thead>
+      <tr>
+        <th>Device</th>
+        <th>Release</th>
+        <th>Android</th>
+        <th>VrShell</th>
+        <th>SystemUX</th>
+        <th>System Utilities</th>
+        <th>Build ID</th>
+        <th>Incremental</th>
+        <th>Build Type</th>
+        <th>Build Date (PT)</th>
+        <th>Dump</th>
+        <th>SHA-256</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for dump in dumps %}
+      <tr>
+        <td>{{ dump.name }}<br><small>{{ dump.codename }}</small></td>
+        <td>{{ dump.version | default(value="—") }}</td>
+        <td>{{ dump.android_release | default(value="—") }}</td>
+        <td>{{ dump.vrshell | default(value="—") }}</td>
+        <td>{{ dump.system_ux | default(value="—") }}</td>
+        <td>{{ dump.system_utilities | default(value="—") }}</td>
+        <td>{{ dump.build_id | default(value="—") }}</td>
+        <td>{{ dump.incremental | default(value="—") }}</td>
+        <td>{{ dump.build_type | default(value="—") }}{% if dump.build_tags %}<br><small>{{ dump.build_tags }}</small>{% endif %}</td>
+        <td>{{ dump.build_date | default(value="—") }}</td>
+        <td>
+          {% for file in dump.files %}
+          {% if not loop.first %}<br>{% endif %}
+          {% if file.download %}
+          <a href="https://files.cocaine.trade/firmware/community/{{ file.name }}" class="fw-link">{{ file.name }}</a>
+          {% else %}
+          {{ file.name }}
+          {% endif %}
+          {% if file.kind %}<br><small>{{ file.kind }}</small>{% endif %}
+          {% endfor %}
+        </td>
+        <td>
+          {% for file in dump.files %}
+          {% if not loop.first %}<br>{% endif %}
+          <code>{{ file.sha256 }}</code>
+          {% endfor %}
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+<script src="table_management.js"></script>
+{% else %}
+<p>No dumps archived yet.</p>
+{% endif %}
+<a href="/" class="link link-gold">[RETURN TO MAIN]</a>

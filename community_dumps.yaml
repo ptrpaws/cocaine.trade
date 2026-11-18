@@ -1,0 +1,58 @@
+- name: Quest prototype
+  codename: monterey
+  build_date: '2018-03-16'
+  build_id: N9F27L
+  incremental: '2510011500000'
+  android_release: '7.1.1'
+  build_type: user
+  build_tags: release-keys
+  vrshell: '2.10.0'
+  files:
+    - name: q1_user-mar16th-2018.zip
+      size_bytes: 1169743448
+      sha256: b1de6adb1db8a82b7514cd25760491f41d254088671d143f0b938143dc16ce8a
+- name: Quest prototype
+  codename: monterey
+  build_date: '2018-12-16'
+  build_id: NGI77B
+  incremental: '2228800000000000'
+  android_release: '7.1.1'
+  build_type: userdev
+  build_tags: dev-keys
+  vrshell: '3.9.0'
+  system_utilities: '3.57.0'
+  files:
+    - name: q1_userdev-dec16th-2018.zip
+      size_bytes: 1291357200
+      sha256: 5e3fb49762bdac3aec30f73e3cefbc20bb3abdb94e489ef3b749ad708c4802fe
+- name: Quest 2 prototype
+  codename: hollywood
+  version: v14
+  build_date: '2019-12-11'
+  build_id: QP1A.190711.020
+  android_release: '10'
+  build_type: userdebug
+  build_tags: test-keys
+  vrshell: '14.0.0.0.17'
+  system_ux: '14.0.0.0.11'
+  system_utilities: '14.0.0.0.34'
+  files:
+    - name: q2_userdebug-dec11th-2019.zip
+      kind: Slot B recovery (reported)
+      size_bytes: 991491260
+      sha256: cefdb2785906dabe76893103ff5646d5985cd64b8c7e42dedef2b51fc77eb874
+- name: Quest 2 prototype
+  codename: hollywood
+  version: v16
+  build_date: '2020-03-09'
+  build_id: QP1A.190711.020
+  android_release: '10'
+  build_type: userdebug
+  build_tags: test-keys
+  vrshell: '16.0.0.0.335'
+  system_ux: '16.0.0.0.335'
+  system_utilities: '16.0.0.0.341'
+  files:
+    - name: q2_userdebug-mar9th-2020.zip
+      size_bytes: 1258957242
+      sha256: 8ef8a5617f61714fc8807315dcc5a4c4383d0188a337b3419bbfd4f9e30a9b94

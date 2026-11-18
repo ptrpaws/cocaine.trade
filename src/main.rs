@@ -12,6 +12,7 @@ const STATIC_DIR: &str = "static";
 const TEMPLATES_GLOB: &str = "templates/**/*.html";
 const FIRMWARES_FILE: &str = "firmwares.yaml";
 const KINDLE_FIRMWARES_FILE: &str = "kindle_firmwares.yaml";
+const COMMUNITY_DUMPS_FILE: &str = "community_dumps.yaml";
 
 const XBOX_MODEL: &str = "Quest 3S Xbox Edition";
 
@@ -106,6 +107,34 @@ impl FirmwareData for KindleFirmware {
   }
 }
 
+#[derive(Serialize, Deserialize)]
+struct CommunityDump {
+  name: String,
+  codename: String,
+  version: Option<String>,
+  build_date: Option<String>,
+  build_id: Option<String>,
+  incremental: Option<String>,
+  android_release: Option<String>,
+  build_type: Option<String>,
+  build_tags: Option<String>,
+  vrshell: Option<String>,
+  system_ux: Option<String>,
+  system_utilities: Option<String>,
+  #[serde(default)]
+  files: Vec<CommunityDumpFile>,
+}
+
+#[derive(Serialize, Deserialize)]
+struct CommunityDumpFile {
+  name: String,
+  kind: Option<String>,
+  size_bytes: u64,
+  sha256: String,
+  #[serde(default)]
+  download: bool,
+}
+
 fn default_string() -> String {
   "N/A".to_string()
 }
@@ -157,6 +186,7 @@ fn generate_site(build_path: &Path) -> Result<(), Box<dyn Error>> {
 
   println!("generating core pages (index, 404, robots.txt)...");
   generate_core_pages(&tera, build_path, &models, &kindle_models)?;
+  generate_community_dumps_page(&tera, build_path)?;
 
   Ok(())
 }
@@ -268,6 +298,28 @@ where
   Ok(())
 }
 
+fn generate_community_dumps_page(tera: &Tera, build_path: &Path) -> Result<(), Box<dyn Error>> {
+  let dumps = load_firmwares_from_file::<CommunityDump>(COMMUNITY_DUMPS_FILE)?;
+  for file in dumps.iter().flat_map(|dump| &dump.files) {
+    if file.name.is_empty()
+      || file.name.starts_with('.')
+      || !file.name.bytes().all(|c| c.is_ascii_alphanumeric() || b"._-".contains(&c))
+      || file.size_bytes == 0
+      || file.sha256.len() != 64
+      || !file.sha256.bytes().all(|c| c.is_ascii_hexdigit())
+    {
+      return Err(format!("invalid community dump file metadata: {}", file.name).into());
+    }
+  }
+  let mut context = Context::new();
+  context.insert("dumps", &dumps);
+  let body = tera.render("community_dumps.html", &context)?;
+  let html = render_template_with_base(tera, "Community Firmware Dumps", &body)?;
+  let minified = simple_minify_html::minify(html.as_bytes(), Some(simple_minify_html::Cfg::default()));
+  fs::write(build_path.join("Community_dumps.html"), minified)?;
+  Ok(())
+}
+
 fn generate_core_pages(
   tera: &Tera,
   build_path: &Path,
@@ -328,5 +380,5 @@ fn generate_robots_txt(models: &[String], kindle_models: &[String]) -> String {
     .map(|m| format!("Allow: /{}_firmware", m.replace(' ', "_")))
     .collect::<Vec<_>>()
     .join("\n");
-  format!("User-agent: *\nDisallow: /\nAllow: /$\n{}", allowed_links)
+  format!("User-agent: *\nDisallow: /\nAllow: /$\nAllow: /Community_dumps$\n{}", allowed_links)
 }
