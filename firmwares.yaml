@@ -975,7 +975,7 @@
 - name: q3s_2434180063300610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2434180063300610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/16b9-d852-0004-0000.twshared31412.03.rva2.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/2434180063300610:user/release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Sun Jan  4 18:59:27 PST 2026
@@ -989,7 +989,7 @@
 - name: q3s_2434180072500610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2434180072500610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/4423-de2a-0004-0000.twshared60976.09.atn6.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/2434180072500610:user/release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Mon Jan 12 17:00:28 PST 2026
@@ -1003,7 +1003,7 @@
 - name: q3s_2434180088800610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2434180088800610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/bd54-77b1-0004-0000.twshared66707.01.dkl1.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/2434180088800610:user/release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Mon Jan 26 06:56:56 PST 2026
@@ -1017,7 +1017,7 @@
 - name: q3s_2434180092900610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2434180092900610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/bad9-47f0-0004-0000.twshared71908.16.ftw1.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/2434180092900610:user/release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Thu Jan 29 21:13:07 PST 2026
@@ -1031,7 +1031,7 @@
 - name: q3s_2434180100400610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2434180100400610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/34f3-1ed9-0004-0000.twshared73870.10.ftw1.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/2434180100400610:user/release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Fri Feb  6 05:09:21 PST 2026
@@ -1045,7 +1045,7 @@
 - name: q3s_2434180104000610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2434180104000610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/30b6-ad16-0004-0000.twshared86184.02.odn1.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/2434180104000610:user/release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Thu Feb 12 05:09:48 PST 2026
@@ -1070,7 +1070,7 @@
 - name: q3s_2921110037200610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2921110037200610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/aceb-2ea9-0004-0000.twshared93172.03.odn1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/2921110037200610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Tue Feb 24 21:41:38 PST 2026
@@ -1084,7 +1084,7 @@
 - name: q3s_2921110038400610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2921110038400610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/de15-6e2e-0004-0000.twshared61675.15.cln1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/2921110038400610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Thu Feb 26 21:18:17 PST 2026
@@ -1098,7 +1098,7 @@
 - name: q3s_2921110041700610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2921110041700610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/ed2a-e9b3-0004-0000.twshared73176.04.pnb3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/2921110041700610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Wed Mar  4 01:41:52 PST 2026
@@ -1112,7 +1112,7 @@
 - name: q3s_2921110053000610
   OS_Version: UP1A.231005.007.A1
   Incremental: '2921110053000610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/48d1-6347-0004-0000.twshared46169.02.ldc3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/2921110053000610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Tue Mar 17 01:30:08 PDT 2026
@@ -1126,7 +1126,7 @@
 - name: q3s_3296320014500610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3296320014500610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/9381-ef84-0004-0000.twshared67102.03.prn5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3296320014500610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Mon Mar 23 17:13:54 PDT 2026
@@ -1140,7 +1140,7 @@
 - name: q3s_3296320020900610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3296320020900610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/f406-47b9-0004-0000.twshared32521.05.odn1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3296320020900610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Sun Mar 29 17:17:28 PDT 2026
@@ -1154,7 +1154,7 @@
 - name: q3s_3296320026500610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3296320026500610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/9f87-e597-0004-0000.twshared81435.35.frc1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3296320026500610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Tue Apr  7 17:27:34 PDT 2026
@@ -1168,7 +1168,7 @@
 - name: q3s_3296320027400610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3296320027400610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/45f0-00fd-0004-0000.twshared9788.01.snb3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3296320027400610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Thu Apr  9 01:32:30 PDT 2026
@@ -1182,7 +1182,7 @@
 - name: q3s_3296320030600610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3296320030600610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/6149-ca43-0004-0000.twshared92600.03.prn6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3296320030600610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Tue Apr 14 09:12:35 PDT 2026
@@ -1244,7 +1244,7 @@
 - name: q3s_3594280027800610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3594280027800610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/1b95-d26f-0004-0000.twshared37495.02.cco3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3594280027800610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Thu Jul  2 23:04:55 PDT 2026
@@ -1258,7 +1258,7 @@
 - name: q3s_3697600015800610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3697600015800610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/243d-9a9b-0004-0000.twshared28732.04.gtn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3697600015800610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Mon Jul  6 16:58:48 PDT 2026
@@ -1272,7 +1272,7 @@
 - name: q3s_3697600019500610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3697600019500610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/5c63-4fff-0004-0000.twshared47220.03.rva2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3697600019500610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Sun Jul 12 20:50:17 PDT 2026
@@ -1286,7 +1286,7 @@
 - name: q3s_3697600020700610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3697600020700610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/1636-0fde-0004-0000.twshared33051.07.vll2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3697600020700610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Tue Jul 14 16:47:49 PDT 2026
@@ -1300,7 +1300,7 @@
 - name: q3s_3697600023700610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3697600023700610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/bee8-05ad-0004-0000.twshared55343.01.rva6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3697600023700610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Sun Jul 19 16:53:49 PDT 2026
@@ -1314,7 +1314,7 @@
 - name: q3s_3697600024300610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3697600024300610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/2aa6-5e5d-0004-0000.twshared32086.06.gtn3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3697600024300610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Mon Jul 20 17:01:43 PDT 2026
@@ -1328,7 +1328,7 @@
 - name: q3s_3697600027800610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3697600027800610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/76e5-0748-0004-0000.twshared78347.14.pnb1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3697600027800610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Sun Jul 26 16:46:19 PDT 2026
@@ -1342,7 +1342,7 @@
 - name: q3s_3697600032300610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3697600032300610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/0672-e965-0004-0000.twshared11572.01.mwg2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3697600032300610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Tue Aug  4 18:56:10 PDT 2026
@@ -1368,7 +1368,7 @@
 - name: q3s_3814840019100610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3814840019100610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/780f-14e5-0004-0000.twshared11436.19.atn5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3814840019100610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Wed Aug 12 21:17:01 PDT 2026
@@ -1382,7 +1382,7 @@
 - name: q3s_3814840020600610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3814840020600610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/9325-7c9c-0004-0000.twshared22218.16.ftw3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3814840020600610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Sun Aug 16 13:00:11 PDT 2026
@@ -1396,7 +1396,7 @@
 - name: q3s_3814840036500610
   OS_Version: UP1A.231005.007.A1
   Incremental: '3814840036500610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/5814-8f58-15c2-0a00.twshared10107.14.scu1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/3814840036500610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Thu Sep 24 18:41:04 PDT 2026
@@ -1434,7 +1434,7 @@
 - name: q3s_4069240007800610
   OS_Version: UP1A.231005.007.A1
   Incremental: '4069240007800610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/7061-755b-15cf-0a00.twshared46319.02.prn5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/4069240007800610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Sun Sep 27 18:54:12 PDT 2026
@@ -1448,7 +1448,7 @@
 - name: q3s_4069240010700610
   OS_Version: UP1A.231005.007.A1
   Incremental: '4069240010700610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/355c-2859-15a1-0a00.twshared101986.15.frc2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/4069240010700610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Sun Oct  4 18:45:45 PDT 2026
@@ -1462,7 +1462,7 @@
 - name: q3s_4069240011500610
   OS_Version: UP1A.231005.007.A1
   Incremental: '4069240011500610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/6e4f-b962-156e-0a00.twshared100824.04.ftw6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/4069240011500610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Tue Oct  6 18:43:20 PDT 2026
@@ -1476,7 +1476,7 @@
 - name: q3s_4069240012300610
   OS_Version: UP1A.231005.007.A1
   Incremental: '4069240012300610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/bfcc-8463-157a-0a00.twshared23619.03.prn5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/4069240012300610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Thu Oct  8 19:04:33 PDT 2026
@@ -1490,7 +1490,7 @@
 - name: q3s_4069240016400610
   OS_Version: UP1A.231005.007.A1
   Incremental: '4069240016400610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/2f4b-9c68-15cb-0a00.twshared104192.17.frc2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/4069240016400610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Sun Oct 18 18:37:23 PDT 2026
@@ -1504,7 +1504,7 @@
 - name: q3s_4069240017700610
   OS_Version: UP1A.231005.007.A1
   Incremental: '4069240017700610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/9617-8c6c-15d3-0a00.twshared47644.10.atn6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/4069240017700610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Wed Oct 21 19:05:54 PDT 2026
@@ -1518,7 +1518,7 @@
 - name: q3s_4069240019900610
   OS_Version: UP1A.231005.007.A1
   Incremental: '4069240019900610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/0bbc-f06f-1568-0a00.twshared29136.09.atn6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/4069240019900610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Mon Oct 26 23:46:08 PDT 2026
@@ -1532,7 +1532,7 @@
 - name: q3s_4069240020600610
   OS_Version: UP1A.231005.007.A1
   Incremental: '4069240020600610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/f65d-8168-1555-0a00.twshared15263.03.cco6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/4069240020600610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Wed Oct 28 12:54:40 PDT 2026
@@ -1582,7 +1582,7 @@
 - name: q3s_4183210009400610
   OS_Version: UP1A.231005.007.A1
   Incremental: '4183210009400610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/6119-576f-15ee-0a00.twshared15411.01.snb1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/4183210009400610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Thu Nov  5 02:43:58 PST 2026
@@ -1596,7 +1596,7 @@
 - name: q3s_4183210011300610
   OS_Version: UP1A.231005.007.A1
   Incremental: '4183210011300610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/26fb-4f75-1589-0a00.twshared0986.05.scu1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/4183210011300610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Mon Nov  9 18:58:27 PST 2026
@@ -1610,7 +1610,7 @@
 - name: q3s_4183210012200610
   OS_Version: UP1A.231005.007.A1
   Incremental: '4183210012200610'
-  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/6b7b-837a-154f-0a00.twshared0252.11.gaz1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/panther/panther:14/UP1A.231005.007.A1/4183210012200610:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3S
   Codename: panther
   Build_Date: Wed Nov 11 17:48:02 PST 2026
@@ -6925,7 +6925,7 @@
 - name: QPro_51276530063500340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51276530063500340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/4a03-fbff-0004-0000.twshared68648.08.pnb2.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51276530063500340:user/release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Sun Jan  4 17:47:43 PST 2026
@@ -6939,7 +6939,7 @@
 - name: QPro_51276530072800340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51276530072800340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/5e23-0456-0004-0000.twshared29027.13.ftw3.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51276530072800340:user/release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Mon Jan 12 18:05:38 PST 2026
@@ -6953,7 +6953,7 @@
 - name: QPro_51276530088900340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51276530088900340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/6afe-53bc-0004-0000.twshared81421.05.ldc2.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51276530088900340:user/release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Mon Jan 26 05:57:13 PST 2026
@@ -6967,7 +6967,7 @@
 - name: QPro_51276530093100340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51276530093100340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/f0cc-e831-0004-0000.twshared30974.28.prn2.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51276530093100340:user/release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Thu Jan 29 22:37:38 PST 2026
@@ -6981,7 +6981,7 @@
 - name: QPro_51276530100500340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51276530100500340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/e811-d1cd-0004-0000.twshared24820.02.snb1.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51276530100500340:user/release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Fri Feb  6 06:20:41 PST 2026
@@ -6995,7 +6995,7 @@
 - name: QPro_51276530104100340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51276530104100340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/bd0c-f965-0004-0000.twshared125487.16.frc2.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51276530104100340:user/release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Thu Feb 12 06:20:28 PST 2026
@@ -7191,7 +7191,7 @@
 - name: QPro_51360500027200340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51360500027200340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/7934-0ca3-0004-0000.twshared23057.08.gtn3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51360500027200340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Sun Feb  8 17:54:30 PST 2026
@@ -7205,7 +7205,7 @@
 - name: QPro_51360500032000340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51360500032000340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/bf6f-6f06-0004-0000.twshared63101.03.nha1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51360500032000340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Mon Feb 16 17:53:20 PST 2026
@@ -7219,7 +7219,7 @@
 - name: QPro_51360500035000340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51360500035000340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/5b28-c659-0004-0000.twshared70948.16.atn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51360500035000340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Sun Feb 22 13:55:48 PST 2026
@@ -7233,7 +7233,7 @@
 - name: QPro_51360500037600340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51360500037600340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/894b-8f03-0004-0000.twshared76541.28.lla2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51360500037600340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Thu Feb 26 22:15:34 PST 2026
@@ -7247,7 +7247,7 @@
 - name: QPro_51360500040800340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51360500040800340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/529c-867a-0004-0000.twshared80905.04.odn1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51360500040800340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Wed Mar  4 02:28:00 PST 2026
@@ -7261,7 +7261,7 @@
 - name: QPro_51360500051900340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51360500051900340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/847f-8784-0004-0000.twshared21458.03.nha5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51360500051900340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Tue Mar 17 02:18:20 PDT 2026
@@ -7275,7 +7275,7 @@
 - name: QPro_51412760014500340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51412760014500340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/d294-6963-0004-0000.twshared2925.15.pnb1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51412760014500340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Mon Mar 23 18:09:00 PDT 2026
@@ -7289,7 +7289,7 @@
 - name: QPro_51412760020900340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51412760020900340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/89fa-3d2f-0004-0000.twshared51939.01.odn3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51412760020900340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Sun Mar 29 18:39:36 PDT 2026
@@ -7303,7 +7303,7 @@
 - name: QPro_51412760025900340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51412760025900340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/28db-2df3-0004-0000.twshared59398.27.lla2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51412760025900340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Tue Apr  7 02:55:06 PDT 2026
@@ -7317,7 +7317,7 @@
 - name: QPro_51412760027100340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51412760027100340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/2b6c-d9ce-0004-0000.twshared89899.17.atn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51412760027100340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Thu Apr  9 03:01:19 PDT 2026
@@ -7331,7 +7331,7 @@
 - name: QPro_51412760030200340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51412760030200340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/c04a-1a73-0004-0000.twshared29555.03.gtn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51412760030200340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Tue Apr 14 06:33:08 PDT 2026
@@ -7345,7 +7345,7 @@
 - name: QPro_51412760034600340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51412760034600340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/4b3f-8bdf-0004-0000.twshared60620.05.prn6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51412760034600340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Tue Apr 21 22:07:12 PDT 2026
@@ -7463,7 +7463,7 @@
 - name: QPro_51436340028700340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51436340028700340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/f76c-9741-0004-0000.twshared107698.04.odn1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51436340028700340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Wed May 27 09:45:57 PDT 2026
@@ -7477,7 +7477,7 @@
 - name: QPro_51436340031400340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51436340031400340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/1de5-50a0-0004-0000.twshared15435.03.vcn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51436340031400340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Mon Jun  1 13:21:33 PDT 2026
@@ -7491,7 +7491,7 @@
 - name: QPro_51436340040000340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51436340040000340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/1d37-f209-0004-0000.twshared3860.06.mwg6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51436340040000340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Mon Jun 15 21:38:32 PDT 2026
@@ -7505,7 +7505,7 @@
 - name: QPro_51463340027700340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51463340027700340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/b215-975e-0004-0000.twshared31739.03.cco5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51463340027700340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Thu Jul  2 23:52:57 PDT 2026
@@ -7519,7 +7519,7 @@
 - name: QPro_51483620019200340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51483620019200340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/9512-384a-0004-0000.twshared31720.03.rva2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51483620019200340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Sun Jul 12 09:41:55 PDT 2026
@@ -7533,7 +7533,7 @@
 - name: QPro_51483620020700340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51483620020700340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/04c8-6cbb-0004-0000.twshared65732.03.ldc1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51483620020700340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Tue Jul 14 17:43:41 PDT 2026
@@ -7547,7 +7547,7 @@
 - name: QPro_51483620023800340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51483620023800340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/ce1e-dfb7-0004-0000.twshared60987.02.cln3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51483620023800340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Sun Jul 19 17:44:28 PDT 2026
@@ -7561,7 +7561,7 @@
 - name: QPro_51483620024400340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51483620024400340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/b166-ca48-0004-0000.twshared10943.40.frc1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51483620024400340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Mon Jul 20 17:40:47 PDT 2026
@@ -7575,7 +7575,7 @@
 - name: QPro_51483620026500340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51483620026500340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/1cd2-2c3a-0004-0000.twshared39041.09.atn6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51483620026500340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Fri Jul 24 09:52:02 PDT 2026
@@ -7589,7 +7589,7 @@
 - name: QPro_51483620027600340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51483620027600340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/b690-1425-0004-0000.twshared70450.04.ldc2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51483620027600340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Sun Jul 26 05:57:59 PDT 2026
@@ -7603,7 +7603,7 @@
 - name: QPro_51483620032400340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51483620032400340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/57eb-7068-0004-0000.twshared60952.33.atn1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51483620032400340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Tue Aug  4 19:58:26 PDT 2026
@@ -7617,7 +7617,7 @@
 - name: QPro_51503870018000340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51503870018000340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/85ba-7c8d-0004-0000.twshared0845.03.maz3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51503870018000340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Mon Aug 10 13:37:35 PDT 2026
@@ -7631,7 +7631,7 @@
 - name: QPro_51503870018800340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51503870018800340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/f9ba-fc05-0004-0000.twshared47439.02.nha1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51503870018800340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Wed Aug 12 22:06:56 PDT 2026
@@ -7645,7 +7645,7 @@
 - name: QPro_51503870019200340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51503870019200340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/fc85-7dc2-0004-0000.twshared69538.06.ldc1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51503870019200340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Thu Aug 13 19:29:24 PDT 2026
@@ -7659,7 +7659,7 @@
 - name: QPro_51503870020100340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51503870020100340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/b738-3a16-0004-0000.twshared50841.03.rva5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51503870020100340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Sun Aug 16 02:03:46 PDT 2026
@@ -7673,7 +7673,7 @@
 - name: QPro_51503870021300340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51503870021300340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/b2c3-f581-0004-0000.twshared24680.03.dkl2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51503870021300340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Wed Aug 19 01:18:24 PDT 2026
@@ -7687,7 +7687,7 @@
 - name: QPro_51503870023600340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51503870023600340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/8b6b-7f2c-0004-0000.twshared69861.14.frc2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51503870023600340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Mon Aug 24 19:46:21 PDT 2026
@@ -7701,7 +7701,7 @@
 - name: QPro_51503870024400340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51503870024400340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/c0af-4386-0004-0000.twshared75533.02.rva3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51503870024400340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Wed Aug 26 19:34:45 PDT 2026
@@ -7715,7 +7715,7 @@
 - name: QPro_51503870035800340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51503870035800340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/f700-dd4d-15a3-0a00.twshared36690.02.atn6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51503870035800340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Thu Sep 24 07:54:22 PDT 2026
@@ -7820,7 +7820,7 @@
 - name: QPro_51549380007900340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51549380007900340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/be1c-275c-15a0-0a00.twshared0836.01.maz3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51549380007900340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Sun Sep 27 19:15:21 PDT 2026
@@ -7834,7 +7834,7 @@
 - name: QPro_51549380010500340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51549380010500340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/e6f6-3260-155c-0a00.twshared107730.01.atn7.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51549380010500340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Sun Oct  4 13:55:47 PDT 2026
@@ -7848,7 +7848,7 @@
 - name: QPro_51549380011400340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51549380011400340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/e414-a960-1542-0a00.twshared18226.04.frc1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51549380011400340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Tue Oct  6 19:19:26 PDT 2026
@@ -7862,7 +7862,7 @@
 - name: QPro_51549380012200340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51549380012200340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/e2c5-0e60-15c0-0a00.twshared10359.29.lla2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51549380012200340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Thu Oct  8 19:47:56 PDT 2026
@@ -7876,7 +7876,7 @@
 - name: QPro_51549380016200340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51549380016200340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/c4c5-5c6a-154b-0a00.twshared0436.16.odn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51549380016200340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Sun Oct 18 13:27:45 PDT 2026
@@ -7890,7 +7890,7 @@
 - name: QPro_51549380017400340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51549380017400340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/ae3b-9e6b-155a-0a00.twshared15708.02.hil5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51549380017400340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Wed Oct 21 13:45:44 PDT 2026
@@ -7904,7 +7904,7 @@
 - name: QPro_51549380019600340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51549380019600340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/3600-326c-150d-0a00.twshared100574.10.ftw1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51549380019600340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Tue Oct 27 00:19:26 PDT 2026
@@ -7918,7 +7918,7 @@
 - name: QPro_51549380020200340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51549380020200340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/582c-d06f-1505-0a00.twshared0750.18.scu1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51549380020200340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Wed Oct 28 08:07:37 PDT 2026
@@ -7932,7 +7932,7 @@
 - name: QPro_51549380022600340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51549380022600340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/e9a2-e674-1503-0a00.twshared0665.32.uco2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51549380022600340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Tue Nov  3 07:23:44 PST 2026
@@ -8030,7 +8030,7 @@
 - name: QPro_51583910005900340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51583910005900340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/1d44-326d-1520-0a00.twshared104038.02.prn6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51583910005900340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Wed Oct 28 13:41:40 PDT 2026
@@ -8044,7 +8044,7 @@
 - name: QPro_51583910008000340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51583910008000340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/7c89-7e6a-1598-0a00.twshared0618.53.uco1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51583910008000340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Mon Nov  2 16:15:19 PST 2026
@@ -8058,7 +8058,7 @@
 - name: QPro_51583910011400340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51583910011400340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/a13a-4879-15cc-0a00.twshared0757.18.scu1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51583910011400340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Tue Nov 10 01:13:10 PST 2026
@@ -8072,7 +8072,7 @@
 - name: QPro_51583910012000340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51583910012000340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/c850-7379-1548-0a00.twshared11024.17.vll1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51583910012000340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Wed Nov 11 13:27:11 PST 2026
@@ -8086,7 +8086,7 @@
 - name: QPro_51583910014400340
   OS_Version: UP1A.231005.007.A1
   Incremental: '51583910014400340'
-  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/bf99-b47d-15f1-0a00.twshared14837.51.prn1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/seacliff/seacliff:14/UP1A.231005.007.A1/51583910014400340:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest Pro
   Codename: seacliff
   Build_Date: Mon Nov 16 22:37:54 PST 2026
@@ -8373,7 +8373,7 @@
 - name: q3_51764730093400520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51764730093400520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/9fdb-c68c-0004-0000.twshared46560.03.dkl1.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/51764730093400520:user/release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon Jan 12 19:07:41 PST 2026
@@ -8387,7 +8387,7 @@
 - name: q3_51764730111900520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51764730111900520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/6497-498a-0004-0000.twshared5271.04.lla3.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/51764730111900520:user/release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon Jan 26 04:57:03 PST 2026
@@ -8401,7 +8401,7 @@
 - name: q3_51764730116500520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51764730116500520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/915a-c8c7-0004-0000.twshared27782.07.gtn3.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/51764730116500520:user/release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Thu Jan 29 21:08:55 PST 2026
@@ -8415,7 +8415,7 @@
 - name: q3_51764730125000520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51764730125000520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/fe26-2409-0004-0000.twshared75906.04.odn1.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/51764730125000520:user/release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Fri Feb  6 05:14:00 PST 2026
@@ -8429,7 +8429,7 @@
 - name: q3_51764730129200520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51764730129200520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/8f1b-9111-0004-0000.twshared63762.38.frc1.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/51764730129200520:user/release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Wed Feb 11 21:13:07 PST 2026
@@ -8639,7 +8639,7 @@
 - name: q3_51943020036500520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51943020036500520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/4cb4-7085-0004-0000.twshared107334.03.ldc2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/51943020036500520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Sun Feb  8 16:55:37 PST 2026
@@ -8653,7 +8653,7 @@
 - name: q3_51943020043400520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51943020043400520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/7ecd-27d7-0004-0000.twshared59986.04.nha1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/51943020043400520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon Feb 16 16:58:58 PST 2026
@@ -8667,7 +8667,7 @@
 - name: q3_51943020048700520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51943020048700520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/f8f3-0693-0004-0000.twshared22453.03.hil3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/51943020048700520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Sun Feb 22 12:56:50 PST 2026
@@ -8681,7 +8681,7 @@
 - name: q3_51943020050500520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51943020050500520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/9f59-8751-0004-0000.twshared117789.16.frc2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/51943020050500520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Tue Feb 24 20:11:18 PST 2026
@@ -8695,7 +8695,7 @@
 - name: q3_51943020052200520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51943020052200520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/96e0-38a3-0004-0000.twshared80344.07.ldc1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/51943020052200520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Thu Feb 26 21:01:14 PST 2026
@@ -8709,7 +8709,7 @@
 - name: q3_51943020055900520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51943020055900520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/a885-bdab-0004-0000.twshared46956.04.ncg5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/51943020055900520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Wed Mar  4 01:31:17 PST 2026
@@ -8723,7 +8723,7 @@
 - name: q3_51943020065300520
   OS_Version: UP1A.231005.007.A1
   Incremental: '51943020065300520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/bcd1-530f-0004-0000.twshared83726.02.cln3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/51943020065300520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Tue Mar 17 01:18:00 PDT 2026
@@ -8849,7 +8849,7 @@
 - name: q2_52056330072800150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52056330072800150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/ac62-2373-0004-0000.twshared52382.02.vll5.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52056330072800150:user/release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Mon Jan 12 16:51:55 PST 2026
@@ -8863,7 +8863,7 @@
 - name: q2_52056330088900150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52056330088900150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/919f-25f0-0004-0000.twshared12111.01.dkl5.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52056330088900150:user/release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Mon Jan 26 07:01:29 PST 2026
@@ -8877,7 +8877,7 @@
 - name: q2_52056330093100150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52056330093100150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/6b82-c37c-0004-0000.twshared72867.07.ftw5.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52056330093100150:user/release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Thu Jan 29 22:55:53 PST 2026
@@ -8891,7 +8891,7 @@
 - name: q2_52056330100500150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52056330100500150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/94af-f06d-0004-0000.twshared58978.08.ftw5.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52056330100500150:user/release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Fri Feb  6 05:11:09 PST 2026
@@ -8905,7 +8905,7 @@
 - name: q2_52056330104200150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52056330104200150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/ac90-8c62-0004-0000.twshared61239.04.cco1.tw.fbinfra.net:user/release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52056330104200150:user/release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Thu Feb 12 09:02:04 PST 2026
@@ -8919,7 +8919,7 @@
 - name: q3_52083180010100520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52083180010100520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/33bc-b4b1-0004-0000.twshared50599.03.ldc3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52083180010100520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon Mar 23 17:12:55 PDT 2026
@@ -8933,7 +8933,7 @@
 - name: q3_52083180015100520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52083180015100520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/8313-257d-0004-0000.twshared38974.04.cco5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52083180015100520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Sun Mar 29 17:19:48 PDT 2026
@@ -8947,7 +8947,7 @@
 - name: q3_52083180022600520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52083180022600520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/47dd-4024-0004-0000.twshared41721.29.prn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52083180022600520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Tue Apr  7 17:15:43 PDT 2026
@@ -8961,7 +8961,7 @@
 - name: q3_52083180023600520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52083180023600520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/6fae-9de6-0004-0000.twshared65169.05.prn6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52083180023600520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Thu Apr  9 01:17:13 PDT 2026
@@ -8975,7 +8975,7 @@
 - name: q3_52083180027000520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52083180027000520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/5afa-f9df-0004-0000.twshared12363.02.hil5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52083180027000520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Tue Apr 14 05:14:51 PDT 2026
@@ -8989,7 +8989,7 @@
 - name: q3_52083180032000520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52083180032000520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/0b12-bbcc-0004-0000.twshared60206.05.ldc2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52083180032000520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Tue Apr 21 21:00:04 PDT 2026
@@ -9003,7 +9003,7 @@
 - name: q2_52106880032500150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52106880032500150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/782a-af76-0004-0000.twshared102750.15.frc2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52106880032500150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Mon Feb 16 16:53:02 PST 2026
@@ -9017,7 +9017,7 @@
 - name: q2_52106880035500150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52106880035500150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/d5a6-60f1-0004-0000.twshared28632.18.odn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52106880035500150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Sun Feb 22 13:05:32 PST 2026
@@ -9031,7 +9031,7 @@
 - name: q2_52106880036800150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52106880036800150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/9547-d6d7-0004-0000.twshared23526.01.lla3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52106880036800150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Tue Feb 24 20:19:16 PST 2026
@@ -9045,7 +9045,7 @@
 - name: q2_52106880038100150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52106880038100150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/6f40-88d5-0004-0000.twshared39494.06.gtn3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52106880038100150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Thu Feb 26 21:07:48 PST 2026
@@ -9059,7 +9059,7 @@
 - name: q2_52106880041300150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52106880041300150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/6a80-6f24-0004-0000.twshared64723.02.rva5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52106880041300150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Wed Mar  4 01:25:31 PST 2026
@@ -9073,7 +9073,7 @@
 - name: q2_52106880041500150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52106880041500150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/5ae5-e51f-0004-0000.twshared59466.04.ldc5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52106880041500150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Wed Mar  4 09:04:05 PST 2026
@@ -9087,7 +9087,7 @@
 - name: q2_52106880052400150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52106880052400150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/a37e-6183-0004-0000.twshared15636.03.hil5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52106880052400150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Tue Mar 17 01:14:26 PDT 2026
@@ -9101,7 +9101,7 @@
 - name: q2_52150470014600150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52150470014600150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/6ff3-cfe4-0004-0000.twshared14902.02.dkl5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52150470014600150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Mon Mar 23 17:06:25 PDT 2026
@@ -9115,7 +9115,7 @@
 - name: q2_52150470020900150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52150470020900150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/983c-be88-0004-0000.twshared56443.02.ftw6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52150470020900150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Sun Mar 29 17:12:51 PDT 2026
@@ -9129,7 +9129,7 @@
 - name: q2_52150470026300150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52150470026300150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/3556-137d-0004-0000.twshared65778.07.vll3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52150470026300150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Tue Apr  7 17:21:50 PDT 2026
@@ -9143,7 +9143,7 @@
 - name: q2_52150470027100150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52150470027100150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/c3b7-de85-0004-0000.twshared73152.17.prn3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52150470027100150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Thu Apr  9 01:46:45 PDT 2026
@@ -9157,7 +9157,7 @@
 - name: q2_52150470030200150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52150470030200150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/c070-10b4-0004-0000.twshared37658.02.cco3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52150470030200150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Tue Apr 14 05:30:57 PDT 2026
@@ -9171,7 +9171,7 @@
 - name: q2_52150470034100150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52150470034100150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/3f9f-918f-0004-0000.twshared58068.02.vll3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52150470034100150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Tue Apr 21 01:26:22 PDT 2026
@@ -9185,7 +9185,7 @@
 - name: q2_52150470034600150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52150470034600150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/66d7-25ab-0004-0000.twshared116381.14.frc2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52150470034600150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Tue Apr 21 21:14:11 PDT 2026
@@ -9199,7 +9199,7 @@
 - name: q3_52168470022300520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52168470022300520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/6ea9-c9b9-0004-0000.twshared53983.04.nha2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52168470022300520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Sun May  3 16:57:04 PDT 2026
@@ -9213,7 +9213,7 @@
 - name: q3_52168470026700520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52168470026700520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/35b0-0f89-0004-0000.twshared61775.13.ftw2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52168470026700520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Thu May  7 16:55:54 PDT 2026
@@ -9227,7 +9227,7 @@
 - name: q3_52168470029300520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52168470029300520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/20da-e339-0004-0000.twshared23898.04.dkl5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52168470029300520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon May 11 18:57:51 PDT 2026
@@ -9241,7 +9241,7 @@
 - name: q3_52168470033700520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52168470033700520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/fe16-39e0-0004-0000.twshared1705.05.mwg6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52168470033700520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Sun May 17 09:19:22 PDT 2026
@@ -9255,7 +9255,7 @@
 - name: q3_52168470039400520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52168470039400520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/74c7-3634-0004-0000.twshared26957.03.gtn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52168470039400520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon May 25 17:10:39 PDT 2026
@@ -9269,7 +9269,7 @@
 - name: q3_52168470040700520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52168470040700520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/3205-0de5-0004-0000.twshared38062.01.nha5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52168470040700520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Wed May 27 17:08:09 PDT 2026
@@ -9283,7 +9283,7 @@
 - name: q3_52168470043600520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52168470043600520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/45ce-8151-0004-0000.twshared35795.07.vll2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52168470043600520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon Jun  1 12:48:23 PDT 2026
@@ -9297,7 +9297,7 @@
 - name: q3_52168470052900520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52168470052900520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/fdda-bd2e-0004-0000.twshared19185.01.kcm1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52168470052900520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon Jun 15 20:47:36 PDT 2026
@@ -9311,7 +9311,7 @@
 - name: q2_52175280016700150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52175280016700150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/39b3-6ab5-0004-0000.twshared57834.02.nha2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52175280016700150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Thu May  7 16:59:29 PDT 2026
@@ -9325,7 +9325,7 @@
 - name: q2_52175280018900150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52175280018900150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/fd04-0fbb-0004-0000.twshared17366.01.hil3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52175280018900150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Mon May 11 15:55:03 PDT 2026
@@ -9339,7 +9339,7 @@
 - name: q2_52175280022600150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52175280022600150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/8ab6-39c0-0004-0000.twshared75634.02.rva5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52175280022600150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Sun May 17 21:18:02 PDT 2026
@@ -9353,7 +9353,7 @@
 - name: q2_52175280027400150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52175280027400150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/4588-0d93-0004-0000.twshared38476.04.cco5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52175280027400150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Mon May 25 17:13:05 PDT 2026
@@ -9367,7 +9367,7 @@
 - name: q2_52175280028600150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52175280028600150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/92cf-6250-0004-0000.twshared67874.01.nha6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52175280028600150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Wed May 27 17:06:36 PDT 2026
@@ -9381,7 +9381,7 @@
 - name: q2_52175280031200150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52175280031200150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/0bba-19f3-0004-0000.twshared53651.02.lla3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52175280031200150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Mon Jun  1 12:51:40 PDT 2026
@@ -9395,7 +9395,7 @@
 - name: q2_52175280039900150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52175280039900150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/531e-9a0e-0004-0000.twshared45449.01.rva6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52175280039900150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Mon Jun 15 20:48:55 PDT 2026
@@ -9409,7 +9409,7 @@
 - name: q2_52202280016300150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52202280016300150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/54df-b5f3-0004-0000.twshared25087.03.dkl5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52202280016300150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Thu Jun 11 17:00:36 PDT 2026
@@ -9423,7 +9423,7 @@
 - name: q2_52202280019500150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52202280019500150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/020b-04ed-0004-0000.twshared34809.29.prn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52202280019500150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Wed Jun 17 20:40:25 PDT 2026
@@ -9437,7 +9437,7 @@
 - name: q2_52202280021800150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52202280021800150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/f36a-d02a-0004-0000.twshared47859.05.prn5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52202280021800150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Mon Jun 22 16:40:51 PDT 2026
@@ -9451,7 +9451,7 @@
 - name: q2_52202280025400150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52202280025400150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/eaa2-b7f8-0004-0000.twshared112874.09.rva1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52202280025400150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Sun Jun 28 16:35:29 PDT 2026
@@ -9465,7 +9465,7 @@
 - name: q2_52202280027400150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52202280027400150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/078d-3019-0004-0000.twshared45351.03.rva5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52202280027400150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Wed Jul  1 20:46:16 PDT 2026
@@ -9479,7 +9479,7 @@
 - name: q2_52202280028100150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52202280028100150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/d997-a8f8-0004-0000.twshared29230.05.ncg3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52202280028100150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Thu Jul  2 23:04:39 PDT 2026
@@ -9493,7 +9493,7 @@
 - name: q2_52222680019700150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52222680019700150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/62fd-48fe-0004-0000.twshared80283.06.rva1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52222680019700150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Sun Jul 12 16:48:10 PDT 2026
@@ -9507,7 +9507,7 @@
 - name: q2_52222680020900150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52222680020900150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/ab60-04df-0004-0000.twshared45911.02.rva2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52222680020900150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Tue Jul 14 17:02:26 PDT 2026
@@ -9521,7 +9521,7 @@
 - name: q2_52222680023900150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52222680023900150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/7076-b68c-0004-0000.twshared28166.04.gtn1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52222680023900150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Sun Jul 19 16:51:57 PDT 2026
@@ -9535,7 +9535,7 @@
 - name: q2_52222680024500150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52222680024500150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/0bde-de2a-0004-0000.twshared67616.05.rva1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52222680024500150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Mon Jul 20 16:59:24 PDT 2026
@@ -9549,7 +9549,7 @@
 - name: q2_52222680026600150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52222680026600150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/9161-bafe-0004-0000.twshared42236.36.frc1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52222680026600150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Fri Jul 24 08:59:49 PDT 2026
@@ -9563,7 +9563,7 @@
 - name: q2_52222680028100150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52222680028100150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/cb6a-d42a-0004-0000.twshared37351.16.odn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52222680028100150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Sun Jul 26 16:44:38 PDT 2026
@@ -9577,7 +9577,7 @@
 - name: q2_52222680032600150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52222680032600150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/209f-483b-0004-0000.twshared60030.05.rva2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52222680032600150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Tue Aug  4 19:05:16 PDT 2026
@@ -9591,7 +9591,7 @@
 - name: q2_52242990012600150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52242990012600150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/dc99-da73-0004-0000.twshared56087.03.ldc3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52242990012600150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Wed Jul 29 16:49:18 PDT 2026
@@ -9605,7 +9605,7 @@
 - name: q2_52242990017700150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52242990017700150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/8388-f220-0004-0000.twshared19772.34.atn1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52242990017700150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Tue Aug 11 06:56:18 PDT 2026
@@ -9619,7 +9619,7 @@
 - name: q2_52242990018400150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52242990018400150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/13e8-d9e1-0004-0000.twshared56525.03.ldc1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52242990018400150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Wed Aug 12 21:14:27 PDT 2026
@@ -9633,7 +9633,7 @@
 - name: q2_52242990019700150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52242990019700150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/0e65-d676-0004-0000.twshared64035.05.ldc2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52242990019700150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Sun Aug 16 00:46:03 PDT 2026
@@ -9647,7 +9647,7 @@
 - name: q2_52242990021400150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52242990021400150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/5da3-cb39-0004-0000.twshared28741.01.snb1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52242990021400150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Thu Aug 20 00:47:19 PDT 2026
@@ -9661,7 +9661,7 @@
 - name: q2_52242990023400150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52242990023400150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/76fb-e9dd-0004-0000.twshared2160.23.scu1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52242990023400150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Tue Aug 25 00:51:41 PDT 2026
@@ -9675,7 +9675,7 @@
 - name: q2_52242990024200150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52242990024200150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/aca9-9f83-0004-0000.twshared76551.04.prn5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52242990024200150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Thu Aug 27 00:53:22 PDT 2026
@@ -9689,7 +9689,7 @@
 - name: q2_52242990035800150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52242990035800150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/6879-e35a-151d-0a00.twshared10100.08.atn6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52242990035800150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Fri Sep 25 00:48:25 PDT 2026
@@ -9703,7 +9703,7 @@
 - name: q3_52270740013000520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52270740013000520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/58e9-40ad-0004-0000.twshared64601.05.ldc2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52270740013000520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Fri May 29 04:52:24 PDT 2026
@@ -9717,7 +9717,7 @@
 - name: q3_52270740021500520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52270740021500520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/56f0-557d-0004-0000.twshared53173.04.ncg6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52270740021500520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon Jun  8 20:58:18 PDT 2026
@@ -9731,7 +9731,7 @@
 - name: q3_52270740024300520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52270740024300520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/2d42-93fd-0004-0000.twshared59453.04.cco3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52270740024300520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Thu Jun 11 16:54:48 PDT 2026
@@ -9745,7 +9745,7 @@
 - name: q3_52270740028400520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52270740028400520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/1429-934f-0004-0000.twshared2712.01.mwg2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52270740028400520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Wed Jun 17 16:42:26 PDT 2026
@@ -9759,7 +9759,7 @@
 - name: q3_52270740031100520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52270740031100520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/bcc8-f949-0004-0000.twshared21524.01.kcm1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52270740031100520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon Jun 22 16:37:26 PDT 2026
@@ -9773,7 +9773,7 @@
 - name: q3_52270740034800520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52270740034800520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/4981-f8f9-0004-0000.twshared30093.04.ncg3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52270740034800520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Sun Jun 28 16:40:05 PDT 2026
@@ -9787,7 +9787,7 @@
 - name: q3_52270740036900520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52270740036900520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/c0b8-a728-0004-0000.twshared47042.04.prn6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52270740036900520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Wed Jul  1 20:47:22 PDT 2026
@@ -9801,7 +9801,7 @@
 - name: q3_52270740038100520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52270740038100520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/1c8a-5d28-0004-0000.twshared57169.09.atn6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52270740038100520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Thu Jul  2 23:09:03 PDT 2026
@@ -9815,7 +9815,7 @@
 - name: q2_52322490010300150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52322490010300150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/de7b-f460-1598-0a00.twshared24853.36.frc1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52322490010300150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Sun Oct  4 18:54:41 PDT 2026
@@ -9829,7 +9829,7 @@
 - name: q2_52322490011100150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52322490011100150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/2be2-8362-15d4-0a00.twshared1806.04.prn5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52322490011100150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Tue Oct  6 18:41:10 PDT 2026
@@ -9843,7 +9843,7 @@
 - name: q2_52322490011900150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52322490011900150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/2629-6c59-1599-0a00.twshared11432.04.hil5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52322490011900150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Thu Oct  8 18:58:32 PDT 2026
@@ -9857,7 +9857,7 @@
 - name: q2_52322490015900150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52322490015900150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/aa51-0d69-15bf-0a00.twshared20157.19.odn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52322490015900150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Sun Oct 18 18:47:31 PDT 2026
@@ -9871,7 +9871,7 @@
 - name: q2_52322490017100150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52322490017100150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/53a7-426c-1548-0a00.twshared0997.40.uco1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52322490017100150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Wed Oct 21 19:01:49 PDT 2026
@@ -9885,7 +9885,7 @@
 - name: q2_52322490019200150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52322490019200150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/9b19-2570-158c-0a00.twshared32948.05.prn6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52322490019200150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Tue Oct 27 01:02:05 PDT 2026
@@ -9899,7 +9899,7 @@
 - name: q2_52322490019800150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52322490019800150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/50f7-8170-1537-0a00.twshared13588.31.atn1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52322490019800150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Wed Oct 28 12:51:01 PDT 2026
@@ -9913,7 +9913,7 @@
 - name: q2_52322490022300150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52322490022300150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/3c64-a274-15de-0a00.twshared10220.29.lla2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52322490022300150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Tue Nov  3 18:45:11 PST 2026
@@ -9927,7 +9927,7 @@
 - name: q3_52345320022000520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52345320022000520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/9358-184c-0004-0000.twshared34645.03.ncg5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52345320022000520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon Jul  6 16:51:59 PDT 2026
@@ -9941,7 +9941,7 @@
 - name: q3_52345320026300520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52345320026300520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/5845-0a4e-0004-0000.twshared71277.16.prn3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52345320026300520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Sun Jul 12 16:33:16 PDT 2026
@@ -9955,7 +9955,7 @@
 - name: q3_52345320027600520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52345320027600520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/92c7-8854-0004-0000.twshared59858.06.vll3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52345320027600520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Tue Jul 14 16:46:50 PDT 2026
@@ -9969,7 +9969,7 @@
 - name: q3_52345320031000520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52345320031000520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/c57d-9240-0004-0000.twshared52754.05.vll3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52345320031000520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Sun Jul 19 16:46:05 PDT 2026
@@ -9983,7 +9983,7 @@
 - name: q3_52345320031600520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52345320031600520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/240c-749b-0004-0000.twshared50535.02.odn3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52345320031600520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon Jul 20 16:50:22 PDT 2026
@@ -9997,7 +9997,7 @@
 - name: q3_52345320035400520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52345320035400520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/79f4-7084-0004-0000.twshared48218.03.rva3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52345320035400520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Sun Jul 26 16:42:33 PDT 2026
@@ -10011,7 +10011,7 @@
 - name: q3_52345320040100520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52345320040100520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/d407-499e-0004-0000.twshared2647.35.ttx1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52345320040100520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Tue Aug  4 18:58:20 PDT 2026
@@ -10025,7 +10025,7 @@
 - name: q2_52371960008900150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52371960008900150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/e364-a274-15ba-0a00.twshared0222.66.knd1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52371960008900150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Wed Nov  4 18:32:12 PST 2026
@@ -10039,7 +10039,7 @@
 - name: q2_52371960011100150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52371960011100150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/a855-2079-15d3-0a00.twshared23774.04.snb2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52371960011100150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Tue Nov 10 00:42:44 PST 2026
@@ -10053,7 +10053,7 @@
 - name: q2_52371960011800150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52371960011800150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/d20d-5179-15c9-0a00.twshared0513.29.lla2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52371960011800150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Wed Nov 11 18:40:30 PST 2026
@@ -10067,7 +10067,7 @@
 - name: q2_52371960014100150
   OS_Version: UP1A.231005.007.A1
   Incremental: '52371960014100150'
-  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/d004-727d-1502-0a00.twshared106967.03.odn1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/hollywood/hollywood:14/UP1A.231005.007.A1/52371960014100150:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 2
   Codename: hollywood
   Build_Date: Mon Nov 16 22:03:48 PST 2026
@@ -10081,7 +10081,7 @@
 - name: q3_52433670017700520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52433670017700520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/35f9-f814-0004-0000.twshared32766.01.dkl3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52433670017700520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Wed Jul 29 16:44:15 PDT 2026
@@ -10095,7 +10095,7 @@
 - name: q3_52433670023300520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52433670023300520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/4138-29fe-0004-0000.twshared11977.05.maz6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52433670023300520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Tue Aug  4 12:47:17 PDT 2026
@@ -10109,7 +10109,7 @@
 - name: q3_52433670026500520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52433670026500520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/08e3-e41b-0004-0000.twshared34589.29.prn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52433670026500520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon Aug 10 12:41:58 PDT 2026
@@ -10123,7 +10123,7 @@
 - name: q3_52433670028200520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52433670028200520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/c174-724d-0004-0000.twshared43949.02.pnb5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52433670028200520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Wed Aug 12 21:14:32 PDT 2026
@@ -10137,7 +10137,7 @@
 - name: q3_52433670030600520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52433670030600520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/f0bf-37a4-0004-0000.twshared25441.04.hil3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52433670030600520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Sun Aug 16 18:41:21 PDT 2026
@@ -10151,7 +10151,7 @@
 - name: q3_52433670032200520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52433670032200520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/433e-ef0a-0004-0000.twshared31165.18.odn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52433670032200520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Wed Aug 19 18:27:40 PDT 2026
@@ -10165,7 +10165,7 @@
 - name: q3_52433670035200520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52433670035200520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/d2de-0e31-0004-0000.twshared17642.02.odn3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52433670035200520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon Aug 24 18:43:30 PDT 2026
@@ -10179,7 +10179,7 @@
 - name: q3_52433670036000520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52433670036000520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/b14d-6e89-0004-0000.twshared0714.21.atg1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52433670036000520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Wed Aug 26 18:36:45 PDT 2026
@@ -10193,7 +10193,7 @@
 - name: q3_52433670048800520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52433670048800520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/ed05-1356-1552-0a00.twshared30123.07.vll2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52433670048800520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Thu Sep 24 06:51:37 PDT 2026
@@ -10207,7 +10207,7 @@
 - name: q3_52641960013400520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52641960013400520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/7686-9d5b-1559-0a00.twshared13163.04.rcd1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52641960013400520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Sun Sep 27 18:36:14 PDT 2026
@@ -10221,7 +10221,7 @@
 - name: q3_52641960018200520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52641960018200520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/9974-1060-1571-0a00.twshared33680.04.vll2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52641960018200520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Sun Oct  4 19:01:36 PDT 2026
@@ -10235,7 +10235,7 @@
 - name: q3_52641960020000520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52641960020000520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/e5b8-9b61-1512-0a00.twshared31910.14.vll2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52641960020000520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Tue Oct  6 19:06:05 PDT 2026
@@ -10249,7 +10249,7 @@
 - name: q3_52641960021500520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52641960021500520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/03f9-fc63-15ba-0a00.twshared0467.16.ftw3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52641960021500520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Thu Oct  8 18:58:15 PDT 2026
@@ -10263,7 +10263,7 @@
 - name: q3_52641960026500520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52641960026500520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/f319-8868-15d2-0a00.twshared36951.02.atn6.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52641960026500520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Sun Oct 18 18:56:28 PDT 2026
@@ -10277,7 +10277,7 @@
 - name: q3_52641960028000520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52641960028000520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/d07f-e369-159a-0a00.twshared21995.14.cln1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52641960028000520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Wed Oct 21 12:59:58 PDT 2026
@@ -10291,7 +10291,7 @@
 - name: q3_52641960030600520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52641960030600520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/8cf9-2670-15d5-0a00.twshared11162.04.vcn2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52641960030600520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Tue Oct 27 00:27:13 PDT 2026
@@ -10305,7 +10305,7 @@
 - name: q3_52641960031600520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52641960031600520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/ac64-8870-15c3-0a00.twshared14924.52.prn1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52641960031600520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Wed Oct 28 19:50:58 PDT 2026
@@ -10319,7 +10319,7 @@
 - name: q3_52641960034500520
   OS_Version: UP1A.231005.007.A1
   Incremental: '52641960034500520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/fbac-5073-15b3-0a00.twshared117343.16.frc2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/52641960034500520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Tue Nov  3 18:46:02 PST 2026
@@ -10333,7 +10333,7 @@
 - name: q3_53145330016600520
   OS_Version: UP1A.231005.007.A1
   Incremental: '53145330016600520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/8509-0776-159a-0a00.twshared10524.13.ftw3.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/53145330016600520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Thu Nov  5 02:45:27 PST 2026
@@ -10347,7 +10347,7 @@
 - name: q3_53145330020900520
   OS_Version: UP1A.231005.007.A1
   Incremental: '53145330020900520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/9956-3077-1557-0a00.twshared10288.29.lla2.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/53145330020900520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon Nov  9 18:47:05 PST 2026
@@ -10361,7 +10361,7 @@
 - name: q3_53145330022100520
   OS_Version: UP1A.231005.007.A1
   Incremental: '53145330022100520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/48a0-c179-15da-0a00.twshared16186.03.dkl5.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/53145330022100520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Wed Nov 11 17:49:22 PST 2026
@@ -10375,7 +10375,7 @@
 - name: q3_53145330025800520
   OS_Version: UP1A.231005.007.A1
   Incremental: '53145330025800520'
-  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/4cbc-607d-1579-0a00.twshared0986.40.knd1.tw.fbinfra.net:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
+  Fingerprint: oculus/eureka/eureka:14/UP1A.231005.007.A1/53145330025800520:user/abl_signing_keys:release,amss_signing_keys:release,release-keys
   Model: Quest 3
   Codename: eureka
   Build_Date: Mon Nov 16 21:44:38 PST 2026
