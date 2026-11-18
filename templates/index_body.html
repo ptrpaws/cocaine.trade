@@ -1,9 +1,30 @@
 <h1><span class="link-white">Welcome to </span><span class='link-red'>Cocaine</span><span class='link-blue'>.Trade</span></h1>
 <p class="author-notice"><span class="link-white">by </span><a href="https://twitter.com/ptrpaws" class='link link-gold'>ellie :3</a></p>
 <h3>Firmware Archives</h3>
-<details open><summary>Meta Devices</summary>
-  {{ meta_links | safe }}
+{% if quest_models %}
+<details open><summary>Meta Quest</summary>
+  <div class="device-links">
+    {% for model in quest_models %}
+    <a href="{{ model | replace(from=" ", to="_") }}_firmware" class="link link-white">
+      {% if model == xbox_model %}<strong>3S</strong> Xbox Edition
+      {% elif model == "Quest" %}Quest
+      {% else %}Quest <strong>{{ model | trim_start_matches(pat="Quest ") }}</strong>
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
 </details>
+{% endif %}
+{% if glasses_links %}
+<details open><summary>Glasses</summary>
+  {{ glasses_links | safe }}
+</details>
+{% endif %}
+{% if other_meta_links %}
+<details open><summary>Other Meta Devices</summary>
+  <div class="device-links">{{ other_meta_links | safe }}</div>
+</details>
+{% endif %}
 <details><summary>Kindle Devices</summary>
   {{ kindle_links | safe }}
 </details>

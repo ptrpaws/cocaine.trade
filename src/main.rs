@@ -279,11 +279,25 @@ fn generate_core_pages(
   let link_mapper = |m: &String| {
     format!("<a href='{}_firmware' class='link link-white'>{}</a>", m.replace(' ', "_"), m)
   };
-  let meta_links: String = models.iter().map(link_mapper).collect::<Vec<_>>().join("\n");
+  let mut quest_models = Vec::new();
+  let mut glasses_links = Vec::new();
+  let mut other_meta_links = Vec::new();
+  for model in models {
+    if model == "Quest" || model.starts_with("Quest ") {
+      quest_models.push(model);
+    } else if model == "Ray-Ban Display" {
+      glasses_links.push(link_mapper(model));
+    } else {
+      other_meta_links.push(link_mapper(model));
+    }
+  }
   let kindle_links: String = kindle_models.iter().map(link_mapper).collect::<Vec<_>>().join("\n");
 
   let mut main_context = Context::new();
-  main_context.insert("meta_links", &meta_links);
+  main_context.insert("quest_models", &quest_models);
+  main_context.insert("xbox_model", XBOX_MODEL);
+  main_context.insert("glasses_links", &glasses_links.join("\n"));
+  main_context.insert("other_meta_links", &other_meta_links.join("\n"));
   main_context.insert("kindle_links", &kindle_links);
 
   let main_page_body = tera.render("index_body.html", &main_context)?;

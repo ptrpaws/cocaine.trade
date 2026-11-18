@@ -131,6 +131,13 @@ details {
   margin-bottom: 5px;
 }
 
+.device-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.15em 1em;
+}
+
 .column-toggle input[type="checkbox"] {
   margin-left: 0.5em;
   margin-right: 0.5em;
