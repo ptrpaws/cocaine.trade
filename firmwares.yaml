@@ -131,6 +131,20 @@
   VrShell_Version: 203.0.0.428.432.949708223
   SystemUtilities_Version: 102.0.0.27.557.739401183
   sha256: 6c895e74cafd5e8921ba9464df58b31a945ed8e847ee19e194b8dde1345cc207
+- name: q3s_xse_772360026801570
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '772360026801570'
+  Fingerprint: oculus/xse_panther/panther:14/UP1A.231005.007.A1/772360026801570:user/release-keys
+  Model: Quest 3S Xbox Edition
+  Codename: panther
+  Build_Date: Mon May 25 17:11:48 PDT 2026
+  Build_Date_UTC: '1779754308'
+  VROS_Build_Version: '204'
+  HZOS_Display_Name: '2.4'
+  SystemUX_Version: 204.0.0.144.1183.979667119
+  VrShell_Version: 204.0.0.491.431.979666620
+  SystemUtilities_Version: 105.0.0.27.1352.739702144
+  sha256: 9c93210a11e6e846dba187e36269a27b077df40abcfc82a824b3ab1311b2ed01
 - name: q3s_xse_772360028001570
   OS_Version: UP1A.231005.007.A1
   Incremental: '772360028001570'
@@ -419,6 +433,34 @@
   VrShell_Version: 209.0.0.568.433.1106998721
   SystemUtilities_Version: 116.0.0.27.669.740803502
   sha256: 1ebb3e29d3c1329f133e5d54832bde10a9b6cffa1456f99f51bcc15d75fb0845
+- name: q3s_xse_905200014401570
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '905200014401570'
+  Fingerprint: oculus/xse_panther/panther:14/UP1A.231005.007.A1/905200014401570:user/release-keys
+  Model: Quest 3S Xbox Edition
+  Codename: panther
+  Build_Date: Mon Nov 16 21:59:23 PST 2026
+  Build_Date_UTC: '1794895163'
+  VROS_Build_Version: '210'
+  HZOS_Display_Name: 2.10.0
+  SystemUX_Version: 210.0.0.134.904.1116963574
+  VrShell_Version: 210.0.0.364.539.1116984675
+  SystemUtilities_Version: 118.0.0.19.661.741003517
+  sha256: 3feb7ad4cbd1ba49ca97a9258339e02afbc962dc59b504a54c7c4023b35ad654
+- name: q3s_xse_905200014901570
+  OS_Version: UP1A.231005.007.A1
+  Incremental: '905200014901570'
+  Fingerprint: oculus/xse_panther/panther:14/UP1A.231005.007.A1/905200014901570:user/release-keys
+  Model: Quest 3S Xbox Edition
+  Codename: panther
+  Build_Date: Tue Nov 17 19:13:17 PST 2026
+  Build_Date_UTC: '1794971597'
+  VROS_Build_Version: '210'
+  HZOS_Display_Name: 2.10.0
+  SystemUX_Version: 210.0.0.136.904.1117463653
+  VrShell_Version: 210.0.0.374.539.1117771032
+  SystemUtilities_Version: 118.0.0.19.661.741003517
+  sha256: 75188ebbe4518b6e9e4a1aa436f843ed8ec63085e243e86fb52a78bc4ce993ae
 - name: q3s_975580053900610
   Codename: panther
   Model: Quest 3S
