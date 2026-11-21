@@ -2450,3 +2450,31 @@
   Model: KS
   name: update_kindle_scribe_5.20.1
   sha256: b90fa0b0cdf027375c35f52e8cb45dfe50511ba1c7e8d8357c943e2eceb1c4fe
+- Incremental: 4954900004
+  Model: KS
+  name: update_kindle_scribe_5.20.2.0.1
+  sha256: 4a4da09241ae1dd8877ba83c11f146486f489158f04641ff20e1750711d1aa54
+- Incremental: 4954910004
+  Model: KS3
+  name: update_kindle_scribe_3rd_generation_5.20.2.0.1
+  sha256: 27a66927ab0fe5f7b542fb14f2a2046c6374b9dbb5475ea5e6b120f6ddec2270
+- Incremental: 4954920004
+  Model: KSC
+  name: update_kindle_scribe_colorsoft_1st_generation_5.20.2.0.1
+  sha256: 357ce1eb457d007a74e854d2eed0a15c79f099ca06c542f35f92b878c121c798
+- Incremental: 4954930004
+  Model: KS2
+  name: update_kindle_scribe_2024_5.20.2.0.1
+  sha256: 132e56a93737a6db5cad7942cd615c8d4f6f861a43cd5edf3906fef2b76f0d13
+- Incremental: 4954970004
+  Model: PW6
+  name: update_kindle_all_new_paperwhite_12th_5.20.2.0.1
+  sha256: 14dd54690a4762f31f35d5d5f2c25282e1c92bd347aa458191c4a0a8828747d7
+- Incremental: 4954980004
+  Model: CS
+  name: update_kindle_colorsoft_5.20.2.0.1
+  sha256: 44d4c52aa307f1a4df02bc7c725d7fc5b3818e1c8845e44f5144770342f93001
+- Incremental: 4954990004
+  Model: KT6
+  name: update_kindle_11th_2024_5.20.2.0.1
+  sha256: 42d27fbd7a4d0c114feb12274886c4831d63af2265c73c25934aa4401d724532
